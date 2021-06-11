@@ -1,0 +1,253 @@
+{
+    "total":8,
+    "items":[
+        {
+            "item_number":"8001143",
+            "name":"Grilled Spiced Vegetables, Family Style",
+            "object_type":"TRUCK_ITEM",
+            "wonder_info":{
+                "recipe_version_id":"800114301",
+                "ingredient_id":null,
+                "name":"Grilled Vegetables, Family Style"
+            },
+            "related_wonder_infos":[
+
+            ],
+            "status":"BOM_CREATED",
+            "restaurants":[
+                {
+                    "id":"38b07107-087f-4f31-b856-14e400fd0f8a",
+                    "name":"XM Test Sushi Co"
+                },
+                {
+                    "id":"60d96c30-a5c3-4703-a3da-aaaf8984a503",
+                    "name":"XM Test  Regression QA"
+                },
+                {
+                    "id":"9785b603-aa15-4c78-823d-797e74670ec0",
+                    "name":"FS Mexican (COR Training)"
+                },
+                {
+                    "id":"30d1b765-7ecc-4d93-951c-c4db642ef74f",
+                    "name":"Taqueria del Día"
+                }
+            ],
+            "has_customization":true
+        },
+        {
+            "item_number":"8001152",
+            "name":"XM Test RE-XM0302",
+            "object_type":"TRUCK_ITEM",
+            "wonder_info":{
+                "recipe_version_id":"800115201",
+                "ingredient_id":null,
+                "name":"RE-XM0302"
+            },
+            "related_wonder_infos":[
+
+            ],
+            "status":"BOM_CREATED",
+            "restaurants":[
+                {
+                    "id":"0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad",
+                    "name":"XM Test Automation Use ONLY"
+                },
+                {
+                    "id":"38b07107-087f-4f31-b856-14e400fd0f8a",
+                    "name":"XM Test Sushi Co"
+                },
+                {
+                    "id":"0f0dd5a4-ce3d-4f7e-a039-326c34bf95e8",
+                    "name":"XM Test Utopia Bagels"
+                }
+            ],
+            "has_customization":true
+        },
+        {
+            "item_number":"8001269",
+            "name":"XM test xRe20",
+            "object_type":"TRUCK_ITEM",
+            "wonder_info":{
+                "recipe_version_id":"800126901",
+                "ingredient_id":null,
+                "name":"xRe20"
+            },
+            "related_wonder_infos":[
+
+            ],
+            "status":"BOM_CREATED",
+            "restaurants":[
+                {
+                    "id":"0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad",
+                    "name":"XM Test Automation Use ONLY"
+                },
+                {
+                    "id":"38b07107-087f-4f31-b856-14e400fd0f8a",
+                    "name":"XM Test Sushi Co"
+                },
+                {
+                    "id":"0f0dd5a4-ce3d-4f7e-a039-326c34bf95e8",
+                    "name":"XM Test Utopia Bagels"
+                }
+            ],
+            "has_customization":false
+        },
+        {
+            "item_number":"8801251",
+            "name":"XM Test xRe20[kit]",
+            "object_type":"PARTIAL_KIT_ITEM",
+            "wonder_info":{
+                "recipe_version_id":"800126901",
+                "ingredient_id":null,
+                "name":"xRe20"
+            },
+            "related_wonder_infos":[
+
+            ],
+            "status":"NEW",
+            "restaurants":[
+                {
+                    "id":"0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad",
+                    "name":"XM Test Automation Use ONLY"
+                },
+                {
+                    "id":"38b07107-087f-4f31-b856-14e400fd0f8a",
+                    "name":"XM Test Sushi Co"
+                },
+                {
+                    "id":"0f0dd5a4-ce3d-4f7e-a039-326c34bf95e8",
+                    "name":"XM Test Utopia Bagels"
+                }
+            ],
+            "has_customization":false
+        },
+        {
+            "item_number":"8001150",
+            "name":"COM-XM0301",
+            "object_type":"COMMISSARY_OR_BULK_ITEM",
+            "wonder_info":{
+                "recipe_version_id":"800115001",
+                "ingredient_id":null,
+                "name":"COM-XM0301"
+            },
+            "related_wonder_infos":[
+
+            ],
+            "status":"NEW",
+            "restaurants":[
+                {
+                    "id":"0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad",
+                    "name":"XM Test Automation Use ONLY"
+                },
+                {
+                    "id":"60d96c30-a5c3-4703-a3da-aaaf8984a503",
+                    "name":"XM Test  Regression QA"
+                },
+                {
+                    "id":"38b07107-087f-4f31-b856-14e400fd0f8a",
+                    "name":"XM Test Sushi Co"
+                },
+                {
+                    "id":"0f0dd5a4-ce3d-4f7e-a039-326c34bf95e8",
+                    "name":"XM Test Utopia Bagels"
+                }
+            ],
+            "has_customization":false
+        },
+        {
+            "item_number":"8001259",
+            "name":"XM Test ReD(xm)",
+            "object_type":"TRUCK_ITEM",
+            "wonder_info":{
+                "recipe_version_id":"800125901",
+                "ingredient_id":null,
+                "name":"ReD(xm)"
+            },
+            "related_wonder_infos":[
+
+            ],
+            "status":"BOM_CREATED",
+            "restaurants":[
+                {
+                    "id":"60d96c30-a5c3-4703-a3da-aaaf8984a503",
+                    "name":"XM Test  Regression QA"
+                },
+                {
+                    "id":"0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad",
+                    "name":"XM Test Automation Use ONLY"
+                },
+                {
+                    "id":"38b07107-087f-4f31-b856-14e400fd0f8a",
+                    "name":"XM Test Sushi Co"
+                },
+                {
+                    "id":"0f0dd5a4-ce3d-4f7e-a039-326c34bf95e8",
+                    "name":"XM Test Utopia Bagels"
+                }
+            ],
+            "has_customization":false
+        },
+        {
+            "item_number":"8001267",
+            "name":"XM Test ReH(xm)",
+            "object_type":"TRUCK_ITEM",
+            "wonder_info":{
+                "recipe_version_id":"800126701",
+                "ingredient_id":null,
+                "name":"ReH(xm)"
+            },
+            "related_wonder_infos":[
+
+            ],
+            "status":"BOM_CREATED",
+            "restaurants":[
+                {
+                    "id":"60d96c30-a5c3-4703-a3da-aaaf8984a503",
+                    "name":"XM Test  Regression QA"
+                },
+                {
+                    "id":"0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad",
+                    "name":"XM Test Automation Use ONLY"
+                },
+                {
+                    "id":"38b07107-087f-4f31-b856-14e400fd0f8a",
+                    "name":"XM Test Sushi Co"
+                },
+                {
+                    "id":"0f0dd5a4-ce3d-4f7e-a039-326c34bf95e8",
+                    "name":"XM Test Utopia Bagels"
+                }
+            ],
+            "has_customization":false
+        },
+        {
+            "item_number":"8001265",
+            "name":"XM Test ReG(xm)",
+            "object_type":"TRUCK_ITEM",
+            "wonder_info":{
+                "recipe_version_id":"800126501",
+                "ingredient_id":null,
+                "name":"ReG(xm)"
+            },
+            "related_wonder_infos":[
+
+            ],
+            "status":"BOM_CREATED",
+            "restaurants":[
+                {
+                    "id":"0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad",
+                    "name":"XM Test Automation Use ONLY"
+                },
+                {
+                    "id":"38b07107-087f-4f31-b856-14e400fd0f8a",
+                    "name":"XM Test Sushi Co"
+                },
+                {
+                    "id":"0f0dd5a4-ce3d-4f7e-a039-326c34bf95e8",
+                    "name":"XM Test Utopia Bagels"
+                }
+            ],
+            "has_customization":false
+        }
+    ]
+}

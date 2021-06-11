@@ -1,0 +1,55 @@
+{
+    "name":"XM Test Sushi Co",
+    "name_line1":null,
+    "name_line2":null,
+    "nickname":null,
+    "large_hero_image":{
+        "image_key":"restaurant/8698eaa6-31d9-4256-bfb0-414b5a3e33a8.png",
+        "original_file_name":"Sushi Co-large.png"
+    },
+    "carousel_menu_item_images":[
+
+    ],
+    "rdp_carousel_menu_item_images":[
+
+    ],
+    "cover_images":[
+        {
+            "image_key":"restaurant/56420d45-421f-4d02-a529-e873b1ec195a.jpeg",
+            "original_file_name":"Sushi Co-small.jpeg"
+        }
+    ],
+    "short_description":"there is a limit",
+    "long_description":"there is a limit",
+    "long_description_line1":null,
+    "long_description_line2":null,
+    "long_description_line3":null,
+    "font_color":"#ffffff",
+    "RLP_flag":null,
+    "cuisine_code":"BAGELS",
+    "cuisine_type":"Bagels",
+    "price_rating":2,
+    "tags":null,
+    "recommendation":"We scoured the country for the best bagel and found it in Queens.",
+    "recommended_by":"Wonder Culinary Team",
+    "about_restaurant":"Some of the richest diner food in town can be found at Brendan Sodikoff’s West Loop hang known for creative, earth shatteringly good takes on homestyle comfort food.",
+    "about_images":[
+        {
+            "image_key":"restaurant/068c6112-5980-4100-92ff-0a8dc6b6215d.jpg",
+            "original_file_name":"Sushi Co-about-1.jpg"
+        },
+        {
+            "image_key":"restaurant/3e854054-6c59-4a25-9f92-99d8615739a2.jpg",
+            "original_file_name":"Sushi Co-about-2.jpg"
+        },
+        {
+            "image_key":"restaurant/ede7d517-3e6b-42ac-8296-51783f6cadba.jpg",
+            "original_file_name":"Sushi Co-about-3.jpg"
+        }
+    ],
+    "publish_status":"PUBLISHED",
+    "has_about_page":false,
+    "diets":[
+        "GLUTEN_FREE"
+    ]
+}
