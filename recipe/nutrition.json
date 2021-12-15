@@ -1,0 +1,71 @@
+{
+    "ingredients":[
+        {
+            "name":"Raw steak (Test)"
+        },
+        {
+            "name":"Egg"
+        },
+        {
+            "name":"Broccolini"
+        },
+        {
+            "name":"Olives"
+        },
+        {
+            "name":"Salad"
+        },
+        {
+            "name":"Black Pepper"
+        },
+        {
+            "name":"Fine Sea Salt"
+        },
+        {
+            "name":"Russet Potatoes"
+        },
+        {
+            "name":"Yellow Corn"
+        }
+    ],
+    "allergens":[
+        "Wheat",
+        "Eggs",
+        "Fish"
+    ],
+    "diets":[
+        {
+            "code":"GLUTEN_FREE",
+            "name":"Gluten-Free",
+            "short_name":"GF"
+        }
+    ],
+    "calories":null,
+    "nutritional_fact":{
+        "original_calories_k_cal":"70.0",
+        "round_calories_text":"70kCal",
+        "original_total_fat_g":"0.0",
+        "round_total_fat_text":"0g",
+        "original_saturated_fat_g":"0.0",
+        "round_saturated_fat_text":"0g",
+        "original_trans_fat_g":"0.0",
+        "round_trans_fat_text":"0g",
+        "original_cholesterol_mg":"0.0",
+        "round_cholesterol_text":"0mg",
+        "original_sodium_mg":"510.0",
+        "round_sodium_text":"510mg",
+        "original_carbs_g":"14.0",
+        "round_carbs_text":"14g",
+        "original_fiber_g":"0.0",
+        "round_fiber_text":"0g",
+        "original_sugar_g":"14.0",
+        "round_sugar_text":"14g",
+        "original_protein_g":"0.0",
+        "round_protein_text":"0g",
+        "quantity":"100.0",
+        "unit":"g",
+        "servings_size_quantity":"100",
+        "servings_size_unit":"g",
+        "servings_per_dish":"0"
+    }
+}

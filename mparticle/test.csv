@@ -1,0 +1,936 @@
+﻿CN_TIME,PLATFORM,APPNAME,APPVERSION,EMAIL,EVENTID,EVENTNAME,EVENTATTRIBUTES,DEVICEUDID,DEVICENAME,CUSTOMERID
+2021-06-09 11:27:28.762,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-5580309786714834284,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:27:28.610,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",8876757937446190285,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:27:28.610,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",2437474897815300222,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:27:28.436,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",1463464429378704972,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:27:27.306,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",8213222717348929409,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:12:12.465,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",7491572147718344302,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:12:12.452,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",4212916139219796554,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:12:12.134,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-5696960717201919717,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:12:12.127,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-7396224363651896180,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:12:11.908,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-6745798476665751599,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:12:10.401,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",8871030244992045563,""session-start"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:10:52.500,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",1220367559854156767,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:10:22.091,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-6950178369527695727,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:10:20.879,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-6207159916989448716,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:10:20.871,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",6994326946131200548,""session-end"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:09:59.531,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",8549814176970158043,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:09:57.984,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",4059587061833740776,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:09:51.662,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",4948449143714455719,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:09:51.662,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-7062957705584300719,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-09 11:09:48.429,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-1579638817024357679,""session-start"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:12:41.417,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",428458179220477625,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:12:41.417,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",7650901322649460805,""session-end"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:12:11.068,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-3669800318832860338,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:12:10.957,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-5246654308092733540,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:12:10.858,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",458755152224363889,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:12:10.858,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-2419534794286724150,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:12:10.110,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",896073518788532946,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:12:09.391,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-8923255983763611231,""session-start"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:08:43.140,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",963712483135357079,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:08:21.428,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-8684701989908248543,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:08:21.421,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-5046056075335277106,""session-end"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:44.430,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-8297007660142143819,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:44.297,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",2739589469746751832,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""38b07107-087f-4f31-b856-14e400fd0f8a"",
+  ""Restaurant_Name"": ""XM Test Sushi Co"",
+  ""Restaurant_Open"": ""false"",
+  ""Restaurant_Status"": ""Dinner Rush""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:43.595,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",2029173997240322500,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Primary_Cuisine"": ""American"",
+  ""Restaurant_ID"": ""0f0dd5a4-ce3d-4f7e-a039-326c34bf95e8"",
+  ""Restaurant_Name"": ""XM Test Utopia Bagels"",
+  ""Restaurant_Open"": ""false"",
+  ""Restaurant_Status"": ""Opening Soon""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:42.587,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-2657344370511823644,""eCommerce - RemoveFromCart"","{
+  ""Total Amount"": ""33"",
+  ""Transaction Id"": ""0b5a8766-1326-491b-87a9-804732a18c77""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:38.400,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-42457399154703233,""Cart_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Item_Quantity"": ""1"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Total_Amount"": ""35.19""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:36.160,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",955895626789106428,""Account_Drawer_Viewed"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:35.772,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",7948772204794651552,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Primary_Cuisine"": ""American"",
+  ""Restaurant_ID"": ""0f0dd5a4-ce3d-4f7e-a039-326c34bf95e8"",
+  ""Restaurant_Name"": ""XM Test Utopia Bagels"",
+  ""Restaurant_Open"": ""false"",
+  ""Restaurant_Status"": ""Opening Soon""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:34.932,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",5803188266311574833,""Cart_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Item_Quantity"": ""1"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Total_Amount"": ""35.19""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:34.105,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",4453901250123852298,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Primary_Cuisine"": ""American"",
+  ""Restaurant_ID"": ""0f0dd5a4-ce3d-4f7e-a039-326c34bf95e8"",
+  ""Restaurant_Name"": ""XM Test Utopia Bagels"",
+  ""Restaurant_Open"": ""false"",
+  ""Restaurant_Status"": ""Opening Soon""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:32.922,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-1783361568056475421,""Cart_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Item_Quantity"": ""1"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Total_Amount"": ""35.19""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:25.531,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",3351396236841792829,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Primary_Cuisine"": ""American"",
+  ""Restaurant_ID"": ""0f0dd5a4-ce3d-4f7e-a039-326c34bf95e8"",
+  ""Restaurant_Name"": ""XM Test Utopia Bagels"",
+  ""Restaurant_Open"": ""false"",
+  ""Restaurant_Status"": ""Opening Soon""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:24.033,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-7963632167138416191,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:22.894,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-4764906125208981969,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""38b07107-087f-4f31-b856-14e400fd0f8a"",
+  ""Restaurant_Name"": ""XM Test Sushi Co"",
+  ""Restaurant_Open"": ""false"",
+  ""Restaurant_Status"": ""Dinner Rush""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:22.258,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-6768321885550120290,""Cart_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Item_Quantity"": ""1"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Total_Amount"": ""35.19""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:19.565,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",2580585137876306499,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""38b07107-087f-4f31-b856-14e400fd0f8a"",
+  ""Restaurant_Name"": ""XM Test Sushi Co"",
+  ""Restaurant_Open"": ""false"",
+  ""Restaurant_Status"": ""Dinner Rush""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:19.356,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-3144790843283065276,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:18.528,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",1263499103685083577,""Cart_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Item_Quantity"": ""1"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Total_Amount"": ""35.19""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:17.513,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-1499827477340726019,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:17.201,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",6726884469757734552,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:16.578,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",6142521690927883161,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:15.178,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",7041566099398934622,""Cart_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Item_Quantity"": ""1"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Total_Amount"": ""35.19""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:13.061,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",1078350741835460221,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:13.061,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-9158155880681630858,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:12.691,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",2696341030226328123,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:12.689,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",331454781740008673,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 18:07:10.701,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-8215711838512571673,""session-start"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:24:22.437,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-3887132114102175128,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:24:22.104,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",3906520682862516849,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:24:21.047,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-3111767056439513469,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:24:21.047,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",2190568794855442575,""session-end"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:24:20.307,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-7858437581852558817,""session-start"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:14:52.155,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-6630270956614628893,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:14:52.150,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-614427230042135956,""session-end"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:14:23.693,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",119336352251240685,""Restaurant_Reserved"","{
+  ""Drive_Time_Estimate"": ""9"",
+  ""Reservation_Hold_Time"": ""6"",
+  ""Reservation_ID"": ""09e0715d-0df0-42f6-9eea-920c1cec9f6c"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Source"": ""HOP_UP""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:14:20.820,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",7109580221031587941,""eCommerce - AddToCart"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Source"": ""Category"",
+  ""Total Amount"": ""33"",
+  ""Transaction Id"": ""0b5a8766-1326-491b-87a9-804732a18c77""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:14:16.154,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",142313063875291309,""eCommerce - ViewDetail"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Total Amount"": ""33"",
+  ""Transaction Id"": ""7ecc7df5-320d-4094-b501-a4224f97386a""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:14:16.107,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",3433274826502956541,""eCommerce - Click"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Total Amount"": ""33"",
+  ""Transaction Id"": ""7ecc7df5-320d-4094-b501-a4224f97386a""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:14:04.057,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-5491558282807569268,""Restaurant_Detail_Page_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Number_Menu_Item"": ""7"",
+  ""Out_Of_Stock_Item_Count"": ""1"",
+  ""Out_Of_Stock_Menu_Item_IDs"": ""e8f38423-f22e-47f7-803c-77633a5af87a"",
+  ""Out_Of_Stock_Menu_Item_Names"": ""XM Test Out Of Stock"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:14:02.963,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-5403326360836786416,""Restaurant_Card_Tapped"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""RLP_Number_Browse_Results"": ""1"",
+  ""Restaurant_Browse_Ranking"": ""1"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Status"": ""Open"",
+  ""Restaurant_Time_Ranking"": ""1"",
+  ""Source_Of_Tap"": ""all nearby""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:13:59.461,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-4779065608307776189,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:13:59.461,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-8711122298870496845,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:13:59.438,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",5384350862544867059,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:13:59.280,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-5175470097195958771,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:13:57.340,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",7469277465279583517,""session-start"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:12:36.942,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",2565996385013460683,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:12:36.933,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-2379611115730045280,""session-end"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:12:07.827,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",7134709438618569552,""Restaurant_Detail_Page_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Number_Menu_Item"": ""7"",
+  ""Out_Of_Stock_Item_Count"": ""1"",
+  ""Out_Of_Stock_Menu_Item_IDs"": ""e8f38423-f22e-47f7-803c-77633a5af87a"",
+  ""Out_Of_Stock_Menu_Item_Names"": ""XM Test Out Of Stock"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:12:06.742,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-4573617344082585062,""Restaurant_Card_Tapped"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""RLP_Number_Browse_Results"": ""1"",
+  ""Restaurant_Browse_Ranking"": ""1"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Status"": ""Open"",
+  ""Restaurant_Time_Ranking"": ""1"",
+  ""Source_Of_Tap"": ""all nearby""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:12:01.232,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",4828117955645880734,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:11:53.626,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",306830460574405757,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:11:41.871,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",3466188123269788568,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:11:29.890,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",1267611730857594428,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:11:27.802,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-5367913527666713774,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:11:27.802,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-6932843492037999717,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:11:26.448,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",4845291853530925137,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:10:53.121,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",5818659638409832032,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:10:49.789,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-1490648833501200109,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:10:44.442,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",7671507759818680517,""Restaurant_Detail_Page_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Number_Menu_Item"": ""7"",
+  ""Out_Of_Stock_Item_Count"": ""1"",
+  ""Out_Of_Stock_Menu_Item_IDs"": ""e8f38423-f22e-47f7-803c-77633a5af87a"",
+  ""Out_Of_Stock_Menu_Item_Names"": ""XM Test Out Of Stock"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:10:43.270,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-5278646282292377660,""Restaurant_Card_Tapped"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""RLP_Number_Browse_Results"": ""1"",
+  ""Restaurant_Browse_Ranking"": ""1"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Status"": ""Open"",
+  ""Restaurant_Time_Ranking"": ""1"",
+  ""Source_Of_Tap"": ""all nearby""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:10:31.343,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",6839103954378287631,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:10:31.194,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",8929792721247097751,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:10:31.194,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",374067987044935803,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:10:30.639,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",4285546114128266576,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:07:40.476,""iOS"",""Wonder"",""1.39.0"",""yannilan001@chancetop.com"",3384590584183244287,""Application State Transition"",,,""iPhone 11"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:07:38.660,""iOS"",""Wonder"",""1.39.0"",""yannilan001@chancetop.com"",3273822929175178895,""Application State Transition"",,,""iPhone 11"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:07:37.337,""iOS"",""Wonder"",""1.39.0"",""yannilan001@chancetop.com"",-3633895243062805841,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""660 Edgewater Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""iPhone 11"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:07:37.011,""iOS"",""Wonder"",""1.39.0"",""yannilan001@chancetop.com"",4001458219219144644,""Force_Upgrade_Viewed"",,,""iPhone 11"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:07:36.977,""iOS"",""Wonder"",""1.39.0"",""yannilan001@chancetop.com"",5867849646547021072,""Force_Upgrade"","{
+  ""CurrentVersion"": ""1.39.0"",
+  ""TargetVersion"": ""1.40.0""
+}",,""iPhone 11"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:07:36.880,""iOS"",""Wonder"",""1.39.0"",""yannilan001@chancetop.com"",-6598978190034096533,""Application State Transition"",,,""iPhone 11"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:07:33.880,""iOS"",""Wonder"",""1.39.0"",""yannilan001@chancetop.com"",470027844028375990,""session-start"",,,""iPhone 11"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:07:26.488,""iOS"",""Wonder"",""1.39.0"",""yannilan001@chancetop.com"",-9058011633900171301,""session-end"",,,""iPhone 11"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:07:26.488,""iOS"",""Wonder"",""1.39.0"",""yannilan001@chancetop.com"",-7598750823477578874,""Application State Transition"",,,""iPhone 11"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:07:20.033,""iOS"",""Wonder"",""1.39.0"",""yannilan001@chancetop.com"",199126182184888371,""Application State Transition"",,,""iPhone 11"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:07:09.971,""iOS"",""Wonder"",""1.39.0"",""yannilan001@chancetop.com"",6389432656930631707,""Application State Transition"",,,""iPhone 11"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:06:56.057,""iOS"",""Wonder"",""1.39.0"",""yannilan001@chancetop.com"",-3715127772791918955,""Application State Transition"",,,""iPhone 11"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 16:06:51.182,""iOS"",""Wonder"",""1.39.0"",""yannilan001@chancetop.com"",1019019614249911874,""session-start"",,,""iPhone 11"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:59:41.879,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-6359401745222671782,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:59:41.874,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-4131515505258316180,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:59:41.864,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-6536303070533051464,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:59:41.862,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",1947473684788059383,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:59:41.735,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-8344568502224893400,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:59:40.247,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",7451975536192392565,""session-start"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:54:46.019,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-8992095469135801141,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:54:20.437,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-8178420334391458354,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:54:20.425,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",1108239267887188078,""session-end"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:53:50.504,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-1796444663079224742,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:53:49.747,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-2224709602039334361,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:53:48.871,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",2121892036058676068,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:53:48.590,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",1969236187444070964,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:53:48.501,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",5729871163544319147,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:53:48.500,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",9139675431643775874,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""38b07107-087f-4f31-b856-14e400fd0f8a"",
+  ""Restaurant_Name"": ""XM Test Sushi Co"",
+  ""Restaurant_Open"": ""false"",
+  ""Restaurant_Status"": ""Dinner Rush""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:53:47.704,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",1043184543003422104,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:53:46.388,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",2729240317827135847,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Primary_Cuisine"": ""American"",
+  ""Restaurant_ID"": ""0f0dd5a4-ce3d-4f7e-a039-326c34bf95e8"",
+  ""Restaurant_Name"": ""XM Test Utopia Bagels"",
+  ""Restaurant_Open"": ""false"",
+  ""Restaurant_Status"": ""Opening Soon""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:53:46.225,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-7731791326942460322,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""38b07107-087f-4f31-b856-14e400fd0f8a"",
+  ""Restaurant_Name"": ""XM Test Sushi Co"",
+  ""Restaurant_Open"": ""false"",
+  ""Restaurant_Status"": ""Dinner Rush""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:53:45.707,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",4524996891494375108,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:53:45.707,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-4447796998054467370,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:53:45.671,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",7998570531323635265,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:53:45.526,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",3154207870652974893,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:53:44.101,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-2308708983227444571,""session-start"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:53:09.472,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",4543347691811623563,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:52:39.917,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-3278552589483015908,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:52:39.911,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-7010761698884149602,""session-end"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:52:09.178,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-5866937877181007782,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:52:09.178,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",509622675705381194,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:52:09.017,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-5313487346288581099,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:52:08.573,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",2601922176035344352,""Account_Drawer_Viewed"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:52:08.318,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-6857920990363323012,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:39:14.211,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",120869165727319001,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:39:14.114,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-280637602140388399,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:39:13.390,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",3679682847706637840,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:39:13.382,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-2455772978140463798,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:39:13.226,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",2152744926383168592,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:39:13.226,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-5366052794711060328,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:39:13.208,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-5242572134956681425,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:39:13.208,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-6602036904247067261,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:39:13.023,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",7278462470971559008,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:39:11.699,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",426428686928266715,""session-start"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:34:14.940,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",468134955834463370,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:34:08.763,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-732363087262541762,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:34:08.747,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-6467961130142340900,""session-end"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:33:44.443,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",7177747533601249357,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:33:44.442,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",6446832110404117595,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:33:26.159,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",5770814943443477035,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:33:25.985,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",3020428294669801038,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:33:25.985,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-891481667741711471,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:33:25.965,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-3158223499803319703,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:33:25.423,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",4347735338088748751,""Account_Drawer_Viewed"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:33:24.314,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",5334365823545986912,""session-start"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:30:36.215,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-4289900120538818837,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:30:05.838,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",151579914975636238,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:30:04.515,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",233860148179984471,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:30:04.510,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",3771250131245768264,""session-end"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:29:36.150,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",1558736102650893950,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:29:35.409,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",5442364782376909014,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:29:35.227,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",5311298989188164143,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:29:35.227,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",7567543084007116392,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:29:34.603,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",3148905194089133522,""session-start"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:28:31.088,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",-3248515187110511584,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:28:23.865,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",9183411292460207238,""Application State Transition"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:28:23.860,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",2721995571042644887,""session-end"",,,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:28:00.561,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",9003344584162358670,""Restaurant_Listing_Viewed"","{
+  ""Address"": ""530 Oakdene Ave,Ridgefield,NJ,07657"",
+  ""Business_Line"": ""Core Wonder"",
+  ""Restaurant_Opening_Soon_Count"": ""1"",
+  ""Restaurants_Closed_For_Tonight_Count"": ""0"",
+  ""Restaurants_Dinner_Rush_Count"": ""1"",
+  ""Restaurants_Open_Count"": ""1""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""
+2021-06-08 15:28:00.561,""iOS"",""Wonder"",""1.41.0"",""yannilan001@chancetop.com"",1896520899592461423,""Restaurant_Card_Viewed"","{
+  ""Business_Line"": ""Core Wonder"",
+  ""Delivery_Time_Estimate"": ""8"",
+  ""Primary_Cuisine"": ""Bagels"",
+  ""Restaurant_ID"": ""0bebb8ce-9dbc-49eb-bbc4-aacc7d699cad"",
+  ""Restaurant_Name"": ""XM Test Automation Use ONLY"",
+  ""Restaurant_Open"": ""true"",
+  ""Restaurant_Status"": ""Open""
+}",,""兰杨能的iPhone"",""76c031e6-87bc-4492-b238-15fa8268d824""

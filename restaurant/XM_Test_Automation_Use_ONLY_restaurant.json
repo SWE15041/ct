@@ -1,0 +1,60 @@
+{
+    "name":"XM Test Automation Use ONLY",
+    "name_line1":"XM Test Automation Use",
+    "name_line2":"ONLY",
+    "nickname":null,
+    "large_hero_image":{
+        "image_key":"restaurant/fb28dea0-1fab-487c-bc6c-71a98b1e4575.jpg",
+        "original_file_name":"AutomationUseOnly-large.jpg"
+    },
+    "carousel_menu_item_images":[
+
+    ],
+    "rdp_carousel_menu_item_images":[
+
+    ],
+    "cover_images":[
+        {
+            "image_key":"restaurant/7fab8e09-e3b9-4465-8c4b-1ff1a5c98903.jpg",
+            "original_file_name":"AutomationUseOnly-cover.jpg"
+        }
+    ],
+    "short_description":"XM Test Automation Use ONLY",
+    "long_description":"Automation Use ONLY, it's so delious!!!",
+    "long_description_line1":null,
+    "long_description_line2":null,
+    "long_description_line3":null,
+    "font_color":"#ffffff",
+    "RLP_flag":null,
+    "cuisine_code":"BAGELS",
+    "cuisine_type":"Bagels",
+    "price_rating":2,
+    "tags":null,
+    "recommendation":"We scoured the country for the best bagel and found it in Queens.",
+    "recommended_by":"Wonder Culinary Team",
+    "about_restaurant":"Some of the richest diner food in town can be found at Brendan Sodikoff’s West Loop hang known for creative, earth shatteringly good takes on homestyle comfort food.",
+    "about_images":[
+        {
+            "image_key":"restaurant/e387ea75-ff35-49e1-8e47-6481d8e46bad.jpg",
+            "original_file_name":"AutomationUseOnly-about-1.jpg"
+        },
+        {
+            "image_key":"restaurant/e608a905-9c00-4c0b-990c-282b48f95750.png",
+            "original_file_name":"AutomationUseOnly-about-2.png"
+        },
+        {
+            "image_key":"restaurant/caf1acca-15d0-4ae0-979c-07956fe33562.jpg",
+            "original_file_name":"AutomationUseOnly-about-3.jpg"
+        },
+        {
+            "image_key":"restaurant/3512ba4d-4a8c-4997-b393-c80e1587481d.jpg",
+            "original_file_name":"AutomationUseOnly-about-4.jpg"
+        }
+    ],
+    "publish_status":"PUBLISHED",
+    "has_about_page":false,
+    "diets":[
+        "GLUTEN_FREE",
+        "VEGAN"
+    ]
+}

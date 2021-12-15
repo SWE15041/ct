@@ -1,0 +1,55 @@
+{
+    "name":"XM Test Utopia Bagels",
+    "name_line1":null,
+    "name_line2":null,
+    "nickname":null,
+    "large_hero_image":{
+        "image_key":"restaurant/e0b64877-64ca-4271-8b96-f6bcaa4fd8a8.jpg",
+        "original_file_name":"Utopia Bagels-large.jpg"
+    },
+    "carousel_menu_item_images":[
+
+    ],
+    "rdp_carousel_menu_item_images":[
+
+    ],
+    "cover_images":[
+        {
+            "image_key":"restaurant/3abd8172-366a-49c2-9bc2-4f4c22af8965.jpg",
+            "original_file_name":"Utopia Bagels-cover.jpg"
+        }
+    ],
+    "short_description":"All kinds of piza",
+    "long_description":"All kinds of piza",
+    "long_description_line1":null,
+    "long_description_line2":null,
+    "long_description_line3":null,
+    "font_color":"#ffffff",
+    "RLP_flag":null,
+    "cuisine_code":"AMERICAN",
+    "cuisine_type":"American",
+    "price_rating":2,
+    "tags":null,
+    "recommendation":"Welcome those who love sweet food",
+    "recommended_by":"Jake",
+    "about_restaurant":"Use fresh ingredients，healthy life",
+    "about_images":[
+        {
+            "image_key":"restaurant/d85e147e-2995-431f-a44f-1d6581e44a44.jpg",
+            "original_file_name":"Utopia Bagels-about-1.jpg"
+        },
+        {
+            "image_key":"restaurant/f8cc969f-2863-423f-b2e7-2820892dc342.jpg",
+            "original_file_name":"Utopia Bagels-about-2.jpg"
+        },
+        {
+            "image_key":"restaurant/8d440be3-727b-4f57-b178-aab08d9eb010.jpg",
+            "original_file_name":"Utopia Bagels-about-3.jpg"
+        }
+    ],
+    "publish_status":"PUBLISHED",
+    "has_about_page":false,
+    "diets":[
+
+    ]
+}
