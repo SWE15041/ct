@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T04:01:44.139Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="eoF2zDCRn8e4aJqWTY3W" version="15.7.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-12-15T03:39:51.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="VW_BZlXLGN4hyMuVmcJ7" version="15.9.6" type="github" pages="11">
   <diagram id="WcOczfvRfabkbM_W5sL2" name=" order&#39;s lifecycle">
-    <mxGraphModel dx="2493" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="f7zC2vXdOP68ZBCwv-6j-0" />
         <mxCell id="f7zC2vXdOP68ZBCwv-6j-1" parent="f7zC2vXdOP68ZBCwv-6j-0" />
@@ -2466,6 +2466,14 @@
         <mxCell id="SF9HQIQwTNZJOnF1bEvB-54" value="&lt;b&gt;allure storage directory :&lt;br&gt;&lt;/b&gt;temp directory&lt;br&gt;- appVersion&lt;br&gt;-- deviceName&lt;br&gt;--- testSessionId&lt;br&gt;---- zip&lt;br&gt;---- allure_results&lt;br&gt;---- allure_reports&lt;br&gt;&lt;br&gt;&lt;b&gt;generate report step:&lt;br&gt;&lt;/b&gt;1. download allure result form Azure Storage, save it to zip directory&lt;br&gt;2. unzip zip directory to allure_results directory&lt;br&gt;3. generate allure report to allure_reports directory. (command: allure generate allure_results --clean -o allure_reports)&lt;br&gt;&lt;br&gt;&lt;b&gt;access allure report:&amp;nbsp;&lt;br&gt;&lt;/b&gt;ip/report/appVersion/deviceName/testSessionId/allure_reports/index.html&lt;br&gt;eg: &lt;br&gt;https://test-report.foodtruck-qa.com/report/1.54.0/AndroidEmulator_10.0/ef803478afdb4d96ac9e6af70b89beae/allure-reports/index.html" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="SF9HQIQwTNZJOnF1bEvB-1">
           <mxGeometry x="587" y="1169" width="730" height="280" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Gxx0mRui8fhMSFHjxGoB" name="envoy">
+    <mxGraphModel dx="1426" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-0" />
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-1" parent="L0yGiH1M1xfFOtp_Ax34-0" />
       </root>
     </mxGraphModel>
   </diagram>
