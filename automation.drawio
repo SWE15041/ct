@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T03:39:51.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="VW_BZlXLGN4hyMuVmcJ7" version="15.9.6" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-12-15T03:43:42.103Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="B3x8vDhRHi50RNaWQjkF" version="15.9.6" type="github" pages="11">
   <diagram id="WcOczfvRfabkbM_W5sL2" name=" order&#39;s lifecycle">
     <mxGraphModel dx="2253" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2474,6 +2474,9 @@
       <root>
         <mxCell id="L0yGiH1M1xfFOtp_Ax34-0" />
         <mxCell id="L0yGiH1M1xfFOtp_Ax34-1" parent="L0yGiH1M1xfFOtp_Ax34-0" />
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-2" value="Note" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="L0yGiH1M1xfFOtp_Ax34-1">
+          <mxGeometry x="80" y="80" width="230" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
