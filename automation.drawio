@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T07:25:39.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="fysXVCoNG4Tvxu4xxE_9" version="15.9.6" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-12-15T09:20:06.035Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="MFG8YVqO0SvMTJXin4vS" version="15.9.6" type="github" pages="11">
   <diagram id="WcOczfvRfabkbM_W5sL2" name=" order&#39;s lifecycle">
     <mxGraphModel dx="2253" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2470,7 +2470,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Gxx0mRui8fhMSFHjxGoB" name="envoy">
-    <mxGraphModel dx="946" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3169" dy="1520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="L0yGiH1M1xfFOtp_Ax34-0" />
         <mxCell id="L0yGiH1M1xfFOtp_Ax34-1" parent="L0yGiH1M1xfFOtp_Ax34-0" />
@@ -2589,8 +2589,72 @@
         <mxCell id="L0yGiH1M1xfFOtp_Ax34-35" value="&lt;p class=&quot;md-end-block md-p&quot; style=&quot;box-sizing: border-box; line-height: inherit; margin: 0.8em 0px; position: relative; color: rgb(51, 51, 51); font-family: &amp;quot;open sans&amp;quot;, &amp;quot;clear sans&amp;quot;, &amp;quot;helvetica neue&amp;quot;, helvetica, arial, &amp;quot;segoe ui emoji&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); text-decoration: none;&quot;&gt;&lt;span class=&quot;md-pair-s&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;strong style=&quot;box-sizing: border-box&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;Dining Option: pickup&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;figure class=&quot;md-table-fig&quot; style=&quot;box-sizing: border-box; margin: 1.2em 0px; overflow-x: auto; padding: 0px; cursor: default; color: rgb(51, 51, 51); font-family: &amp;quot;open sans&amp;quot;, &amp;quot;clear sans&amp;quot;, &amp;quot;helvetica neue&amp;quot;, helvetica, arial, &amp;quot;segoe ui emoji&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); text-decoration: none;&quot;&gt;&lt;table class=&quot;md-table&quot; style=&quot;box-sizing: border-box; border-collapse: collapse; border-spacing: 0px; width: 1140px; overflow: auto; text-align: left; cursor: text; margin: 0px; padding: 0px;&quot;&gt;&lt;thead style=&quot;box-sizing: border-box ; display: table-header-group ; background-color: rgb(248 , 248 , 248)&quot;&gt;&lt;tr class=&quot;md-end-block&quot; style=&quot;box-sizing: border-box ; border: 1px solid rgb(223 , 226 , 229) ; margin: 0px ; padding: 0px&quot;&gt;&lt;th style=&quot;box-sizing: border-box ; padding: 6px 13px ; font-weight: bold ; border-width: 1px 1px 0px ; border-top-style: solid ; border-right-style: solid ; border-left-style: solid ; border-top-color: rgb(223 , 226 , 229) ; border-right-color: rgb(223 , 226 , 229) ; border-left-color: rgb(223 , 226 , 229) ; margin: 0px&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box ; display: inline-block ; min-width: 1ch ; width: 133.375px ; min-height: 10px&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;App&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;&lt;th style=&quot;box-sizing: border-box ; padding: 6px 13px ; font-weight: bold ; border-width: 1px 1px 0px ; border-top-style: solid ; border-right-style: solid ; border-left-style: solid ; border-top-color: rgb(223 , 226 , 229) ; border-right-color: rgb(223 , 226 , 229) ; border-left-color: rgb(223 , 226 , 229) ; margin: 0px&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box ; display: inline-block ; min-width: 1ch ; width: 184.796875px ; min-height: 10px&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;ORDER_RECEIVED&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;&lt;th style=&quot;box-sizing: border-box ; padding: 6px 13px ; font-weight: bold ; border-width: 1px 1px 0px ; border-top-style: solid ; border-right-style: solid ; border-left-style: solid ; border-top-color: rgb(223 , 226 , 229) ; border-right-color: rgb(223 , 226 , 229) ; border-left-color: rgb(223 , 226 , 229) ; margin: 0px ; text-align: right&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box ; display: inline-block ; min-width: 1ch ; width: 259.109375px ; min-height: 10px&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;PREPARING_YOUR_MEAL&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;&lt;th style=&quot;box-sizing: border-box ; padding: 6px 13px ; font-weight: bold ; border-width: 1px 1px 0px ; border-top-style: solid ; border-right-style: solid ; border-left-style: solid ; border-top-color: rgb(223 , 226 , 229) ; border-right-color: rgb(223 , 226 , 229) ; border-left-color: rgb(223 , 226 , 229) ; margin: 0px&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box ; display: inline-block ; min-width: 1ch ; width: 210.09375px ; min-height: 10px&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;READY_FOR_PICKUP&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;&lt;th style=&quot;box-sizing: border-box ; padding: 6px 13px ; font-weight: bold ; border-width: 1px 1px 0px ; border-top-style: solid ; border-right-style: solid ; border-left-style: solid ; border-top-color: rgb(223 , 226 , 229) ; border-right-color: rgb(223 , 226 , 229) ; border-left-color: rgb(223 , 226 , 229) ; margin: 0px&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box ; display: inline-block ; min-width: 1ch ; width: 216.671875px ; min-height: 10px&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;PICKUP_COMPLETED&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;box-sizing: border-box&quot;&gt;&lt;tr class=&quot;md-end-block&quot; style=&quot;box-sizing: border-box ; border: 1px solid rgb(223 , 226 , 229) ; margin: 0px ; padding: 0px&quot;&gt;&lt;td style=&quot;box-sizing: border-box ; padding: 6px 13px ; border: 1px solid rgb(223 , 226 , 229) ; margin: 0px ; min-width: 32px&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box ; display: inline-block ; min-width: 1ch ; width: 133.375px ; min-height: 10px&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;BO&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box ; padding: 6px 13px ; border: 1px solid rgb(223 , 226 , 229) ; margin: 0px ; min-width: 32px&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box ; display: inline-block ; min-width: 1ch ; width: 184.796875px ; min-height: 10px&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;New&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box ; padding: 6px 13px ; border: 1px solid rgb(223 , 226 , 229) ; margin: 0px ; min-width: 32px ; text-align: right&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box ; display: inline-block ; min-width: 1ch ; width: 259.109375px ; min-height: 10px&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;In Progess&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box ; padding: 6px 13px ; border: 1px solid rgb(223 , 226 , 229) ; margin: 0px ; min-width: 32px&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box ; display: inline-block ; min-width: 1ch ; width: 210.09375px ; min-height: 10px&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;Ready For Pickup&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box ; padding: 6px 13px ; border: 1px solid rgb(223 , 226 , 229) ; margin: 0px ; min-width: 32px&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box ; display: inline-block ; min-width: 1ch ; width: 216.671875px ; min-height: 10px&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;Complete&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;md-end-block&quot; style=&quot;box-sizing: border-box ; border: 1px solid rgb(223 , 226 , 229) ; margin: 0px ; padding: 0px ; background-color: rgb(248 , 248 , 248)&quot;&gt;&lt;td style=&quot;box-sizing: border-box ; padding: 6px 13px ; border: 1px solid rgb(223 , 226 , 229) ; margin: 0px ; min-width: 32px&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box ; display: inline-block ; min-width: 1ch ; width: 133.375px ; min-height: 10px&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;Actual Status&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box ; padding: 6px 13px ; border: 1px solid rgb(223 , 226 , 229) ; margin: 0px ; min-width: 32px&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box ; display: inline-block ; min-width: 1ch ; width: 184.796875px ; min-height: 10px&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;PAID&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box ; padding: 6px 13px ; border: 1px solid rgb(223 , 226 , 229) ; margin: 0px ; min-width: 32px ; text-align: right&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box ; display: inline-block ; min-width: 1ch ; width: 259.109375px ; min-height: 10px&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;IN_PROGRESS&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box ; padding: 6px 13px ; border: 1px solid rgb(223 , 226 , 229) ; margin: 0px ; min-width: 32px&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box ; display: inline-block ; min-width: 1ch ; width: 210.09375px ; min-height: 10px&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;READY_FOR_PICKUP&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box ; padding: 6px 13px ; border: 1px solid rgb(223 , 226 , 229) ; margin: 0px ; min-width: 32px&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box ; display: inline-block ; min-width: 1ch ; width: 216.671875px ; min-height: 10px&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;COMPLETE&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;" style="text;whiteSpace=wrap;html=1;fontSize=22;fontColor=#000000;" vertex="1" parent="L0yGiH1M1xfFOtp_Ax34-1">
           <mxGeometry x="1360" y="760" width="550" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="L0yGiH1M1xfFOtp_Ax34-36" value="Cancel Order" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="L0yGiH1M1xfFOtp_Ax34-1">
-          <mxGeometry x="80" y="800" width="280" height="80" as="geometry" />
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-36" value="Cancel Envoy Order" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="L0yGiH1M1xfFOtp_Ax34-1">
+          <mxGeometry x="120" y="1240" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;fontColor=#000000;startArrow=none;" edge="1" parent="L0yGiH1M1xfFOtp_Ax34-1" source="L0yGiH1M1xfFOtp_Ax34-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-38" value="Appium Junit" style="html=1;fontSize=22;fontColor=#000000;" vertex="1" parent="L0yGiH1M1xfFOtp_Ax34-1">
+          <mxGeometry x="435" y="1323" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;fontColor=#000000;" edge="1" parent="L0yGiH1M1xfFOtp_Ax34-1" source="L0yGiH1M1xfFOtp_Ax34-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1185" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-40" value="test-agent-site" style="html=1;fontSize=22;fontColor=#000000;" vertex="1" parent="L0yGiH1M1xfFOtp_Ax34-1">
+          <mxGeometry x="1085" y="1323" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=22;fontColor=#000000;" vertex="1" parent="L0yGiH1M1xfFOtp_Ax34-1">
+          <mxGeometry x="1180" y="1483" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-45" value="OrderWebService.bulkCancelForEnvoy(orderIds)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=22;fontColor=#000000;exitX=0.8;exitY=0.013;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="L0yGiH1M1xfFOtp_Ax34-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="537.9999999999995" y="1517.0400000000004" as="sourcePoint" />
+            <mxPoint x="1180" y="1516.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=22;fontColor=#000000;" vertex="1" parent="L0yGiH1M1xfFOtp_Ax34-1">
+          <mxGeometry x="530" y="1483" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;fontColor=#000000;endArrow=none;" edge="1" parent="L0yGiH1M1xfFOtp_Ax34-1" source="L0yGiH1M1xfFOtp_Ax34-38" target="L0yGiH1M1xfFOtp_Ax34-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="1853" as="targetPoint" />
+            <mxPoint x="535" y="1403" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;fontColor=#000000;" edge="1" parent="L0yGiH1M1xfFOtp_Ax34-1" source="L0yGiH1M1xfFOtp_Ax34-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1835" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-49" value="test-agent-site" style="html=1;fontSize=22;fontColor=#000000;" vertex="1" parent="L0yGiH1M1xfFOtp_Ax34-1">
+          <mxGeometry x="1735" y="1323" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=22;fontColor=#000000;" vertex="1" parent="L0yGiH1M1xfFOtp_Ax34-1">
+          <mxGeometry x="1831" y="1483" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-53" value="EnvoyOrderService.updateOrderStatus(orderId,request)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=22;fontColor=#000000;exitX=1.2;exitY=0.525;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="L0yGiH1M1xfFOtp_Ax34-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1202" y="1535" as="sourcePoint" />
+            <mxPoint x="1825" y="1535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=22;fontColor=#000000;" vertex="1" parent="L0yGiH1M1xfFOtp_Ax34-1">
+          <mxGeometry x="1190" y="1503" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L0yGiH1M1xfFOtp_Ax34-56" value="Loop&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp;orderId:&lt;/span&gt;orderIds" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=22;fontColor=#000000;exitX=1.1;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="L0yGiH1M1xfFOtp_Ax34-55" parent="L0yGiH1M1xfFOtp_Ax34-1" source="L0yGiH1M1xfFOtp_Ax34-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1195" y="1483" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1191" y="1483" />
+              <mxPoint x="1225" y="1483" />
+              <mxPoint x="1225" y="1503" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
