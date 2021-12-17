@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T06:01:40.676Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="Ej7Doffzh33oi6MOcK_K" version="15.9.6" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-12-17T06:29:08.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="zrToizHzC_Ftd1OUhYlM" version="15.9.6" type="github" pages="12">
   <diagram id="WcOczfvRfabkbM_W5sL2" name=" order&#39;s lifecycle">
     <mxGraphModel dx="2253" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2735,7 +2735,7 @@
             <mxPoint x="400" y="1800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ASnRpuYPedbZ4F81n7G-4" value="test-agent-interface" style="html=1;" vertex="1" parent="4ASnRpuYPedbZ4F81n7G-1">
+        <mxCell id="4ASnRpuYPedbZ4F81n7G-4" value="test-agent-site" style="html=1;" vertex="1" parent="4ASnRpuYPedbZ4F81n7G-1">
           <mxGeometry x="320" y="168" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4ASnRpuYPedbZ4F81n7G-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;startArrow=none;" edge="1" parent="4ASnRpuYPedbZ4F81n7G-1" source="4ASnRpuYPedbZ4F81n7G-76">
