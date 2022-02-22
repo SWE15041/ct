@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T07:54:44.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="AZ-5MNNNIul9xKwV2ieK" version="15.9.6" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-02-22T06:59:38.175Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="HAg7v8dAX_IiyuA2CEDD" version="16.6.1" type="github" pages="13">
   <diagram id="WcOczfvRfabkbM_W5sL2" name=" order&#39;s lifecycle">
-    <mxGraphModel dx="2253" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="f7zC2vXdOP68ZBCwv-6j-0" />
         <mxCell id="f7zC2vXdOP68ZBCwv-6j-1" parent="f7zC2vXdOP68ZBCwv-6j-0" />
@@ -3100,6 +3100,14 @@
         <mxCell id="J2TWHgFP8sOO_t32vKBV-42" value="bulk set truck session to&amp;nbsp; offDuty" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="4ASnRpuYPedbZ4F81n7G-1">
           <mxGeometry x="80" y="2000" width="240" height="40" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TkRQvQIWvIDpC7oL193a" name="alcohol">
+    <mxGraphModel dx="946" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="e7X3eDldOtw5Buc0bU2J-0" />
+        <mxCell id="e7X3eDldOtw5Buc0bU2J-1" parent="e7X3eDldOtw5Buc0bU2J-0" />
       </root>
     </mxGraphModel>
   </diagram>
