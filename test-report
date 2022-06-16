@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T07:52:21.669Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="cu6w24EyPzerkTAlsns2" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-16T07:54:35.938Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="pgEllBBJ_cWIlLsCZo0h" version="20.0.1" type="github" pages="2">
   <diagram id="2xT4d-9DfNUbj6BQgd1j" name="DB design">
     <mxGraphModel dx="1426" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -590,7 +590,7 @@
         <mxCell id="oX_x7Y3_vEiultK1iWR8-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-18" target="oX_x7Y3_vEiultK1iWR8-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-30" value="test_session_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oX_x7Y3_vEiultK1iWR8-29">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-30" value="stat&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;appiumEvent&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oX_x7Y3_vEiultK1iWR8-29">
           <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -599,6 +599,14 @@
           <mxGeometry x="50" y="680" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oX_x7Y3_vEiultK1iWR8-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-19" target="oX_x7Y3_vEiultK1iWR8-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-35" value="stat&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;snowflakeEvent&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oX_x7Y3_vEiultK1iWR8-26">
+          <mxGeometry x="-0.125" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-19" target="oX_x7Y3_vEiultK1iWR8-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oX_x7Y3_vEiultK1iWR8-19" value="take appiumEvent from mongo DB by test_session_id,&lt;br&gt;appiumEventMap(eventName,triggerCount)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
