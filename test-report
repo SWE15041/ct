@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T06:26:58.242Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="JVFhIOKydMutL9zXy3mb" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-16T06:33:14.146Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="jgcn1A9M1MltCrLJs6ak" version="20.0.1" type="github" pages="2">
   <diagram id="2xT4d-9DfNUbj6BQgd1j" name="DB design">
     <mxGraphModel dx="1426" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -545,7 +545,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oX_x7Y3_vEiultK1iWR8-2" value="Consume&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt; APP" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="240" width="110" height="50" as="geometry" />
+          <mxGeometry x="90" y="240" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oX_x7Y3_vEiultK1iWR8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-3" target="oX_x7Y3_vEiultK1iWR8-4">
           <mxGeometry relative="1" as="geometry" />
@@ -556,7 +556,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oX_x7Y3_vEiultK1iWR8-3" value="Service Side" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="320" width="110" height="50" as="geometry" />
+          <mxGeometry x="90" y="320" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oX_x7Y3_vEiultK1iWR8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-4" target="oX_x7Y3_vEiultK1iWR8-6">
           <mxGeometry relative="1" as="geometry" />
@@ -573,10 +573,10 @@
           <mxGeometry x="320" y="280" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oX_x7Y3_vEiultK1iWR8-6" value="Amplitude" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="240" width="110" height="50" as="geometry" />
+          <mxGeometry x="560" y="240" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oX_x7Y3_vEiultK1iWR8-7" value="Snowflake DB" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="320" width="110" height="50" as="geometry" />
+          <mxGeometry x="560" y="320" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
