@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T08:07:48.570Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="6QPTjyFaqgJl5hEi2bMh" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-16T08:10:14.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="zQ-EH7i-WihVcXzrVRQC" version="20.0.1" type="github" pages="2">
   <diagram id="2xT4d-9DfNUbj6BQgd1j" name="DB design">
     <mxGraphModel dx="1426" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -671,7 +671,7 @@
         <mxCell id="oX_x7Y3_vEiultK1iWR8-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-46" target="oX_x7Y3_vEiultK1iWR8-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-46" value="log event by trigger condition on test case" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-46" value="log event in test case" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oX_x7Y3_vEiultK1iWR8-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-48" target="oX_x7Y3_vEiultK1iWR8-50">
