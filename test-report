@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T07:54:35.938Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="pgEllBBJ_cWIlLsCZo0h" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-16T08:01:29.890Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="puLOTOHu9QFgWBfgTCAq" version="20.0.1" type="github" pages="2">
   <diagram id="2xT4d-9DfNUbj6BQgd1j" name="DB design">
     <mxGraphModel dx="1426" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -584,6 +584,9 @@
         <mxCell id="oX_x7Y3_vEiultK1iWR8-16" value="Test" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="480" width="110" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-17" target="oX_x7Y3_vEiultK1iWR8-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oX_x7Y3_vEiultK1iWR8-17" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="560" width="120" height="80" as="geometry" />
         </mxCell>
@@ -641,8 +644,14 @@
         <mxCell id="oX_x7Y3_vEiultK1iWR8-25" value="snowflakeEvents = snowflakeClientEvents +&amp;nbsp;snowflakeServerEvents&lt;br&gt;snowflakeEventMap(eventName,triggerCount)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="970" width="320" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-31" target="oX_x7Y3_vEiultK1iWR8-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oX_x7Y3_vEiultK1iWR8-31" value="compare appiumEventMap and snowflakeEventMap&lt;br&gt;generate result list,&lt;br&gt;include column:Event Name,&lt;span style=&quot;background-color: initial;&quot;&gt;Appium Trigger &lt;br&gt;Count,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Snowflake Trigger Count,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Is Equal)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="1120" width="321" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-36" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150.5" y="1275" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
