@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T07:36:49.571Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="7joR1a_aQH0hC8Reb3Z2" version="20.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-05T07:37:32.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="YeBGIozJ9tg2l59CC0L0" version="20.0.4" type="github" pages="6">
   <diagram id="2xT4d-9DfNUbj6BQgd1j" name="DB design">
     <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -748,7 +748,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NZ_ScXg5PFyDIn4RQn47" name="summary">
-    <mxGraphModel dx="1426" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -756,163 +756,179 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uVqMMmp_PpCvDDWYX1Sb" name="Mparticle">
-    <mxGraphModel dx="1426" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-2" target="oX_x7Y3_vEiultK1iWR8-4">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oX_x7Y3_vEiultK1iWR8-2" target="oX_x7Y3_vEiultK1iWR8-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-2" value="Consume&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt; APP" style="html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-2" value="Consume&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt; APP" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="240" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-3" target="oX_x7Y3_vEiultK1iWR8-4">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oX_x7Y3_vEiultK1iWR8-3" target="oX_x7Y3_vEiultK1iWR8-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-13" value="upload" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oX_x7Y3_vEiultK1iWR8-9">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-13" value="upload" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oX_x7Y3_vEiultK1iWR8-9" vertex="1" connectable="0">
           <mxGeometry x="0.4824" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-3" value="Service Side" style="html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-3" value="Service Side" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="320" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-4" target="oX_x7Y3_vEiultK1iWR8-6">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oX_x7Y3_vEiultK1iWR8-4" target="oX_x7Y3_vEiultK1iWR8-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-4" target="oX_x7Y3_vEiultK1iWR8-7">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oX_x7Y3_vEiultK1iWR8-4" target="oX_x7Y3_vEiultK1iWR8-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-14" value="sync" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oX_x7Y3_vEiultK1iWR8-11">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-14" value="sync" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oX_x7Y3_vEiultK1iWR8-11" vertex="1" connectable="0">
           <mxGeometry x="-0.6" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-4" value="MParticle" style="html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-4" value="MParticle" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="280" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-6" value="Amplitude" style="html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-6" value="Amplitude" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="240" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-7" value="Snowflake DB" style="html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-7" value="Snowflake DB" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="320" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-17" target="oX_x7Y3_vEiultK1iWR8-18">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oX_x7Y3_vEiultK1iWR8-17" target="oX_x7Y3_vEiultK1iWR8-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-17" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-17" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="1310" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-18" target="oX_x7Y3_vEiultK1iWR8-19">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oX_x7Y3_vEiultK1iWR8-18" target="oX_x7Y3_vEiultK1iWR8-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-30" value="stat&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;appiumEvent&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oX_x7Y3_vEiultK1iWR8-29">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-30" value="stat&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;appiumEvent&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oX_x7Y3_vEiultK1iWR8-29" vertex="1" connectable="0">
           <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-18" value="click &quot;generate mparticle report&quot; button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-18" value="click &quot;generate mparticle report&quot; button" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="1430" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-19" target="oX_x7Y3_vEiultK1iWR8-25">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oX_x7Y3_vEiultK1iWR8-19" target="oX_x7Y3_vEiultK1iWR8-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-35" value="stat&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;snowflakeEvent&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oX_x7Y3_vEiultK1iWR8-26">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-35" value="stat&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;snowflakeEvent&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oX_x7Y3_vEiultK1iWR8-26" vertex="1" connectable="0">
           <mxGeometry x="-0.125" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-19" target="oX_x7Y3_vEiultK1iWR8-18">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oX_x7Y3_vEiultK1iWR8-19" target="oX_x7Y3_vEiultK1iWR8-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-19" value="take appiumEvent from mongo DB by test_session_id,&lt;br&gt;appiumEventMap(eventName,triggerCount)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-19" value="take appiumEvent from mongo DB by test_session_id,&lt;br&gt;appiumEventMap(eventName,triggerCount)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="1570" width="320" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-20" target="oX_x7Y3_vEiultK1iWR8-19">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oX_x7Y3_vEiultK1iWR8-20" target="oX_x7Y3_vEiultK1iWR8-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-20" value="appium Junit Project upload event" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-20" value="appium Junit Project upload event" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="1570" width="320" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-22" target="oX_x7Y3_vEiultK1iWR8-25">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oX_x7Y3_vEiultK1iWR8-22" target="oX_x7Y3_vEiultK1iWR8-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-22" value="take snowflakeClientEvents from snowflake DB by device_id and&amp;nbsp; test_start_time and test_end_time;&lt;br&gt;ps (device_id: &lt;br&gt;For iOS, use column VENDERIDENTIFIER&lt;br&gt;For Android, use column DEVICEUDID)&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-22" value="take snowflakeClientEvents from snowflake DB by device_id and&amp;nbsp; test_start_time and test_end_time;&lt;br&gt;ps (device_id: &lt;br&gt;For iOS, use column VENDERIDENTIFIER&lt;br&gt;For Android, use column DEVICEUDID)&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="1710" width="340" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-23" target="oX_x7Y3_vEiultK1iWR8-25">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oX_x7Y3_vEiultK1iWR8-23" target="oX_x7Y3_vEiultK1iWR8-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-23" value="take snowflakeServerEvents from snowflake DB by platform and&amp;nbsp; test_start_time and test_end_time and eventnames;&lt;br&gt;&lt;br&gt;= map(eventName,triggerCount)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-23" value="take snowflakeServerEvents from snowflake DB by platform and&amp;nbsp; test_start_time and test_end_time and eventnames;&lt;br&gt;&lt;br&gt;= map(eventName,triggerCount)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="1910" width="340" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-25" target="oX_x7Y3_vEiultK1iWR8-31">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oX_x7Y3_vEiultK1iWR8-25" target="oX_x7Y3_vEiultK1iWR8-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-33" value="compare" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oX_x7Y3_vEiultK1iWR8-32">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-33" value="compare" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oX_x7Y3_vEiultK1iWR8-32" vertex="1" connectable="0">
           <mxGeometry x="-0.15" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-25" value="snowflakeEvents = snowflakeClientEvents +&amp;nbsp;snowflakeServerEvents&lt;br&gt;snowflakeEventMap(eventName,triggerCount)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-25" value="snowflakeEvents = snowflakeClientEvents +&amp;nbsp;snowflakeServerEvents&lt;br&gt;snowflakeEventMap(eventName,triggerCount)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="1720" width="320" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-31" target="oX_x7Y3_vEiultK1iWR8-36">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oX_x7Y3_vEiultK1iWR8-31" target="oX_x7Y3_vEiultK1iWR8-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-31" value="compare appiumEventMap and snowflakeEventMap&lt;br&gt;generate result list,&lt;br&gt;include column:Event Name,&lt;span style=&quot;background-color: initial;&quot;&gt;Appium Trigger &lt;br&gt;Count,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Snowflake Trigger Count,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Is Equal)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-31" value="compare appiumEventMap and snowflakeEventMap&lt;br&gt;generate result list,&lt;br&gt;include column:Event Name,&lt;span style=&quot;background-color: initial;&quot;&gt;Appium Trigger &lt;br&gt;Count,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Snowflake Trigger Count,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Is Equal)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="1870" width="321" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-36" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-36" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="230.5" y="2025" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-40" value="generate MParticle Report&amp;nbsp; flow" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-40" value="generate MParticle Report&amp;nbsp; flow" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
           <mxGeometry x="110" y="1200" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-41" value="Background" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-41" value="Background" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-42" value="upload appium log event" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-42" value="upload appium log event" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
           <mxGeometry x="80" y="440" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-43" target="oX_x7Y3_vEiultK1iWR8-44">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oX_x7Y3_vEiultK1iWR8-43" target="oX_x7Y3_vEiultK1iWR8-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-43" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-43" value="start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="560" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-44" target="oX_x7Y3_vEiultK1iWR8-46">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oX_x7Y3_vEiultK1iWR8-44" target="oX_x7Y3_vEiultK1iWR8-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-44" value="take deviceId from Welcome Page" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-44" value="take deviceId from Welcome Page" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-46" target="oX_x7Y3_vEiultK1iWR8-48">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oX_x7Y3_vEiultK1iWR8-46" target="oX_x7Y3_vEiultK1iWR8-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-46" value="log event in test case" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-46" value="log event in test case" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oX_x7Y3_vEiultK1iWR8-48" target="oX_x7Y3_vEiultK1iWR8-50">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oX_x7Y3_vEiultK1iWR8-48" target="oX_x7Y3_vEiultK1iWR8-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-48" value="upload event to test-report-site" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-48" value="upload event to test-report-site" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170.5" y="880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oX_x7Y3_vEiultK1iWR8-50" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oX_x7Y3_vEiultK1iWR8-50" value="end" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="980" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Aq9z5W-9K3Lb9dcrOrck" name="UI-Diff-Report">
-    <mxGraphModel dx="1426" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ylIgyV6LBomJfKJlTq39-2" value="Load standard screenshot" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+        <mxCell id="ylIgyV6LBomJfKJlTq39-2" value="Load standard screenshot" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="360" height="80" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mHd5ES-OXVcwjBl8K7B0" name="Allure">
+    <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3o0lUFtIKjhYhrW2nc_S" name="Web Allure">
+    <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
