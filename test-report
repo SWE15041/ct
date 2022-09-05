@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T08:18:44.330Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="UUdLjFdiZLKDJpvzpywL" version="20.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-09-05T08:21:38.060Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="rE54k-xE-13cJ5bTZUKf" version="20.0.4" type="github" pages="6">
   <diagram id="2xT4d-9DfNUbj6BQgd1j" name="DB design">
     <mxGraphModel dx="946" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1045,7 +1045,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3o0lUFtIKjhYhrW2nc_S" name="Web Allure">
-    <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1100,7 +1100,7 @@
             <mxPoint x="772" y="130" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xcleo3ajsHWoeD7ZKq3T-16" value="upload file&lt;br&gt;(*.zip)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+        <mxCell id="xcleo3ajsHWoeD7ZKq3T-16" value="&amp;nbsp;upload file&lt;br&gt;(testSessionId.zip)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="210" y="230" as="sourcePoint" />
             <mxPoint x="400" y="230" as="targetPoint" />
@@ -1130,7 +1130,7 @@
             <mxPoint x="455" y="280" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xcleo3ajsHWoeD7ZKq3T-22" value="upload test session info" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+        <mxCell id="xcleo3ajsHWoeD7ZKq3T-22" value="upload test session detail" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="240" y="399.5" as="sourcePoint" />
             <mxPoint x="320" y="399.5" as="targetPoint" />
