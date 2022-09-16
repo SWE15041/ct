@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T09:07:26.331Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="yC7rOjy1DHzZKIPusC1y" version="20.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-16T09:08:59.852Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="2XUz5xedVZVn9Mk402Vm" version="20.3.0" type="github" pages="3">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1584" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -216,7 +216,7 @@
         <mxCell id="zMQkxW-Mn7rXlpTucG1k-32" value="Test Project" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="440" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zMQkxW-Mn7rXlpTucG1k-48" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Mac mini&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="zMQkxW-Mn7rXlpTucG1k-48" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Mac mini&lt;br&gt;Window|&amp;nbsp;&lt;br&gt;&amp;nbsp;Linux&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="680" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wfiBIFp_lzGInXtwK_B9-1" value="测试环境&lt;br&gt;以Mac Mini 为服务器，在服务器上面安装docker，在docker上安装包含MAC OS的镜像&lt;br&gt;&lt;br&gt;测试的时候，把测试流程分配到容器中去进行测试；&lt;br&gt;&lt;br&gt;问题&lt;br&gt;&lt;br&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" vertex="1" parent="1">
