@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T07:19:46.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="1E1TGZahCepUuVwI6ee_" version="20.3.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-26T07:20:25.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="eW3__L5JvGe9m3YU8bTk" version="20.3.6" type="github" pages="3">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="946" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -437,6 +437,9 @@
         </mxCell>
         <mxCell id="wfiBIFp_lzGInXtwK_B9-1" value="测试环境&lt;br&gt;以Mac Mini 为服务器，在服务器上面安装docker，在docker上安装包含MAC OS的镜像&lt;br&gt;&lt;br&gt;测试的时候，把测试流程分配到容器中去进行测试；&lt;br&gt;&lt;br&gt;问题&lt;br&gt;如何制作镜像？&lt;br&gt;如何把指令发送给相应的容器？&lt;br&gt;容器主动拉取任务&lt;br&gt;拉？推？" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" parent="1" vertex="1">
           <mxGeometry x="60" y="40" width="460" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="3n-adF4VM6ztri2DSgNe-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="490" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
