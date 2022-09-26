@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T07:30:38.324Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="tWKYX_5bdJBy2lo3cjEQ" version="20.3.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-26T07:44:28.215Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="AUd_GDxCPA_2bEZKN2yH" version="20.3.6" type="github" pages="3">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
-    <mxGraphModel dx="946" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -360,7 +360,7 @@
         <mxCell id="zMQkxW-Mn7rXlpTucG1k-1" value="MAC OS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="520" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zMQkxW-Mn7rXlpTucG1k-2" value="Appium Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="zMQkxW-Mn7rXlpTucG1k-2" value="&lt;span style=&quot;&quot;&gt;test-execute-service&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="480" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zMQkxW-Mn7rXlpTucG1k-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zMQkxW-Mn7rXlpTucG1k-4" target="zMQkxW-Mn7rXlpTucG1k-5" edge="1">
@@ -390,7 +390,7 @@
         <mxCell id="zMQkxW-Mn7rXlpTucG1k-17" value="Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="570" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zMQkxW-Mn7rXlpTucG1k-19" value="Test Project" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="zMQkxW-Mn7rXlpTucG1k-19" value="Test Project&lt;br&gt;Remote Appium Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="440" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zMQkxW-Mn7rXlpTucG1k-20" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
@@ -399,7 +399,7 @@
         <mxCell id="zMQkxW-Mn7rXlpTucG1k-21" value="MAC OS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="520" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zMQkxW-Mn7rXlpTucG1k-22" value="Appium Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="zMQkxW-Mn7rXlpTucG1k-22" value="&lt;span style=&quot;&quot;&gt;test-execute-service&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="480" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zMQkxW-Mn7rXlpTucG1k-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zMQkxW-Mn7rXlpTucG1k-27" target="zMQkxW-Mn7rXlpTucG1k-28" edge="1">
@@ -429,7 +429,7 @@
         <mxCell id="zMQkxW-Mn7rXlpTucG1k-31" value="Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="550" y="570" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zMQkxW-Mn7rXlpTucG1k-32" value="Test Project" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="zMQkxW-Mn7rXlpTucG1k-32" value="Test Project&lt;br&gt;Remote Appium Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="440" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zMQkxW-Mn7rXlpTucG1k-48" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;strike&gt;Mac mini&lt;br&gt;Window&lt;/strike&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;Linux&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
@@ -439,7 +439,7 @@
           <mxGeometry x="60" y="40" width="460" height="180" as="geometry" />
         </mxCell>
         <mxCell id="3n-adF4VM6ztri2DSgNe-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="20" width="490" height="210" as="geometry" />
+          <mxGeometry x="45" y="25" width="490" height="210" as="geometry" />
         </mxCell>
         <mxCell id="0F2aFnOd_VR5hQqWLrgI-2" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="37.5" y="960" width="265" height="190" as="geometry" />
@@ -449,6 +449,12 @@
         </mxCell>
         <mxCell id="0F2aFnOd_VR5hQqWLrgI-4" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;Linux&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="132.5" y="1110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hHM_zHw0rdAXr5di9JpS-1" value="Remote Appium Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="940" width="162" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hHM_zHw0rdAXr5di9JpS-2" value="测试环境&lt;br&gt;在服务器上面安装docker，在docker上安装包含MAC OS的镜像&lt;br&gt;&lt;br&gt;在容器中安装test-execute-service, 该服务去task列表获取测试任务，&lt;br&gt;并执行测试&lt;br&gt;&lt;br&gt;问题&lt;br&gt;&amp;gt;&amp;nbsp;&lt;br&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="870" y="280" width="460" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
