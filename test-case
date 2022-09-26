@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T07:44:28.215Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="AUd_GDxCPA_2bEZKN2yH" version="20.3.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-26T07:49:03.065Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4NIv0n-A2J9OlajPpY5x" version="20.3.6" type="github" pages="3">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -453,7 +453,7 @@
         <mxCell id="hHM_zHw0rdAXr5di9JpS-1" value="Remote Appium Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="37.5" y="940" width="162" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="hHM_zHw0rdAXr5di9JpS-2" value="测试环境&lt;br&gt;在服务器上面安装docker，在docker上安装包含MAC OS的镜像&lt;br&gt;&lt;br&gt;在容器中安装test-execute-service, 该服务去task列表获取测试任务，&lt;br&gt;并执行测试&lt;br&gt;&lt;br&gt;问题&lt;br&gt;&amp;gt;&amp;nbsp;&lt;br&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" vertex="1" parent="1">
+        <mxCell id="hHM_zHw0rdAXr5di9JpS-2" value="测试环境&lt;br&gt;在服务器上面安装docker，在docker上安装包含MAC OS的镜像&lt;br&gt;&lt;br&gt;在容器中安装test-execute-service, 该服务去task列表获取测试任务，&lt;br&gt;并执行测试&lt;br&gt;&lt;br&gt;问题&lt;br&gt;&amp;gt; 本质是安装虚拟机，安装占用磁盘存储空间大&amp;nbsp;&lt;br&gt;对于iOS，需要安装Xcode等 大概要30G&lt;br&gt;对于Android，待评估" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="870" y="280" width="460" height="180" as="geometry" />
         </mxCell>
       </root>
