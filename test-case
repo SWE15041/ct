@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-09-30T08:35:03.412Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="YaQ_ymw9hYu56FOSFS-t" version="20.3.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-30T09:32:41.453Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="j-4Niviry1MBVyQ34R-V" version="20.3.6" type="github" pages="3">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
-    <mxGraphModel dx="943" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1257" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Nd7puuoFRLl8TGdxwmaG-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="M4l2YeAVTZsgCdvFWimX-2" target="Nd7puuoFRLl8TGdxwmaG-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="3060" as="targetPoint" />
+            <mxPoint x="455" y="2610" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vsWs9f-kvWmdcRjEYb6--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vsWs9f-kvWmdcRjEYb6--3" target="vsWs9f-kvWmdcRjEYb6--4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -143,13 +149,13 @@
         <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-2" value="test-platform" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="2560" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" parent="1" source="f2Wy_Sx5WOq-tLeM9ywc-25" edge="1">
+        <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" parent="1" source="Nd7puuoFRLl8TGdxwmaG-23" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="606" y="2880" as="targetPoint" />
+            <mxPoint x="756" y="2930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-3" value="DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="576" y="2560" width="60" height="60" as="geometry" />
+        <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-3" value="Kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="726" y="2560" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="250" y="2680" width="10" height="80" as="geometry" />
@@ -185,49 +191,49 @@
         </mxCell>
         <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="f2Wy_Sx5WOq-tLeM9ywc-17" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="801" y="2890" as="targetPoint" />
+            <mxPoint x="951" y="3120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-17" value="test-execute-service" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="746" y="2560" width="110" height="50" as="geometry" />
+          <mxGeometry x="896" y="2560" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="f2Wy_Sx5WOq-tLeM9ywc-21" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="616" y="2700" as="targetPoint" />
+            <mxPoint x="766" y="2806.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="626" y="2700" />
+              <mxPoint x="776" y="2806.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-27" value="获取任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="f2Wy_Sx5WOq-tLeM9ywc-23" vertex="1" connectable="0">
+        <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-27" value="取子任务&lt;br&gt;出队" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="f2Wy_Sx5WOq-tLeM9ywc-23" vertex="1" connectable="0">
           <mxGeometry x="0.2111" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="796" y="2700" width="10" height="40" as="geometry" />
+          <mxGeometry x="946" y="2806.5" width="10" height="203.5" as="geometry" />
         </mxCell>
         <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-22" value="job: 获取测试任务" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" target="f2Wy_Sx5WOq-tLeM9ywc-21" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="801" y="2680" as="sourcePoint" />
+            <mxPoint x="951" y="2786.5" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="831" y="2680" />
+              <mxPoint x="981" y="2786.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-24" value="return 任务" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="626" y="2740" as="sourcePoint" />
-            <mxPoint x="776" y="2740" as="targetPoint" />
+            <mxPoint x="776" y="2870" as="sourcePoint" />
+            <mxPoint x="926" y="2870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="601" y="2680" width="10" height="80" as="geometry" />
+          <mxGeometry x="751" y="2680" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="f2Wy_Sx5WOq-tLeM9ywc-3" target="f2Wy_Sx5WOq-tLeM9ywc-25" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="606" y="2880" as="targetPoint" />
-            <mxPoint x="606" y="2620" as="sourcePoint" />
+            <mxPoint x="756" y="2880" as="targetPoint" />
+            <mxPoint x="756" y="2620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-28" value="tasks" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
@@ -343,22 +349,82 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M4l2YeAVTZsgCdvFWimX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M4l2YeAVTZsgCdvFWimX-2">
+        <mxCell id="M4l2YeAVTZsgCdvFWimX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="Nd7puuoFRLl8TGdxwmaG-28">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="455" y="2880" as="targetPoint" />
+            <mxPoint x="455" y="3060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="M4l2YeAVTZsgCdvFWimX-2" value="test-case-service" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="2560" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="M4l2YeAVTZsgCdvFWimX-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="450" y="2680" width="10" height="80" as="geometry" />
+          <mxGeometry x="450" y="2680" width="10" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="M4l2YeAVTZsgCdvFWimX-4" value="新增测试任务" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+        <mxCell id="M4l2YeAVTZsgCdvFWimX-4" value="保存测试任务" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="480" y="2720" as="sourcePoint" />
             <mxPoint x="560" y="2720" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Nd7puuoFRLl8TGdxwmaG-1" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic" vertex="1" parent="1">
+          <mxGeometry x="575" y="2840" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd7puuoFRLl8TGdxwmaG-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="461" y="2797" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd7puuoFRLl8TGdxwmaG-14" value="拆解任务&lt;br&gt;生成子任务" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;shadow=1;exitX=1.25;exitY=0.666;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="Nd7puuoFRLl8TGdxwmaG-13" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="462.5" y="2778.56" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="463" y="2777" />
+              <mxPoint x="496" y="2777" />
+              <mxPoint x="496" y="2797" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nd7puuoFRLl8TGdxwmaG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="Nd7puuoFRLl8TGdxwmaG-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="2770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nd7puuoFRLl8TGdxwmaG-17" value="Mongo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="585" y="2560" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd7puuoFRLl8TGdxwmaG-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="610" y="2680" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd7puuoFRLl8TGdxwmaG-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="Nd7puuoFRLl8TGdxwmaG-17" target="Nd7puuoFRLl8TGdxwmaG-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="2880" as="targetPoint" />
+            <mxPoint x="615" y="2620" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nd7puuoFRLl8TGdxwmaG-20" value="存子任务&lt;br&gt;入队" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="520" y="2830" as="sourcePoint" />
+            <mxPoint x="680" y="2830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nd7puuoFRLl8TGdxwmaG-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="751" y="2790" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd7puuoFRLl8TGdxwmaG-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="1" source="f2Wy_Sx5WOq-tLeM9ywc-25" target="Nd7puuoFRLl8TGdxwmaG-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="756" y="2930" as="targetPoint" />
+            <mxPoint x="756" y="2760" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nd7puuoFRLl8TGdxwmaG-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="936" y="2923" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd7puuoFRLl8TGdxwmaG-27" value="更新任务进度" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="820" y="2980" as="sourcePoint" />
+            <mxPoint x="600" y="2980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nd7puuoFRLl8TGdxwmaG-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2923" width="10" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
