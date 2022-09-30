@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-30T09:47:21.704Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Kn_2-Q7Lq81kLScXHEw3" version="20.3.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-30T10:00:40.891Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="byULHJ2J6W0WNT3ExlAp" version="20.3.6" type="github" pages="3">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
-    <mxGraphModel dx="898" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1257" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -146,7 +146,7 @@
             <mxPoint x="255" y="2880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-2" value="test-platform" style="html=1;" parent="1" vertex="1">
+        <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-2" value="test--site" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="2560" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" parent="1" source="Nd7puuoFRLl8TGdxwmaG-23" edge="1">
@@ -422,6 +422,34 @@
         </mxCell>
         <mxCell id="Nd7puuoFRLl8TGdxwmaG-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="450" y="2923" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9Oc0P-Tf2YCJwLihewm9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Oc0P-Tf2YCJwLihewm9-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="3400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Oc0P-Tf2YCJwLihewm9-2" value="test-case-service" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="3080" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9Oc0P-Tf2YCJwLihewm9-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="250" y="3200" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9Oc0P-Tf2YCJwLihewm9-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Oc0P-Tf2YCJwLihewm9-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="3400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Oc0P-Tf2YCJwLihewm9-5" value="test-case-service" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="3080" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9Oc0P-Tf2YCJwLihewm9-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="530" y="3200" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9Oc0P-Tf2YCJwLihewm9-7" value="新增测试任务" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="340" y="3250" as="sourcePoint" />
+            <mxPoint x="420" y="3250" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
