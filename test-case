@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T01:21:08.084Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="sOqIisc7jDght5d-p3o3" version="20.3.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-08T01:23:06.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="I-huDlYuYPSWVqtUo3iJ" version="20.3.7" type="github" pages="3">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1426" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -205,7 +205,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-27" value="取子任务&lt;br&gt;出队" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="f2Wy_Sx5WOq-tLeM9ywc-23" vertex="1" connectable="0">
+        <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-27" value="subscribe 子任务&lt;br&gt;出队" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="f2Wy_Sx5WOq-tLeM9ywc-23" vertex="1" connectable="0">
           <mxGeometry x="0.2111" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -396,7 +396,7 @@
             <mxPoint x="615" y="2620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nd7puuoFRLl8TGdxwmaG-20" value="存子任务&lt;br&gt;入队" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+        <mxCell id="Nd7puuoFRLl8TGdxwmaG-20" value="publish子任务&lt;br&gt;入队" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="520" y="2830" as="sourcePoint" />
             <mxPoint x="680" y="2830" as="targetPoint" />
