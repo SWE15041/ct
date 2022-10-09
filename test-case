@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T02:19:23.917Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="aPX5JSJU1CCsF89aQSTQ" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-09T02:29:24.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="BCi-TWijZlTEzBrgA1W-" version="20.4.0" type="github" pages="3">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="996" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -467,7 +467,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="utjLVnu9hfeSAqlh20Dp-4" value="&amp;gt; 设备状态有哪些？&lt;br&gt;- IDLE : 空闲&lt;br&gt;- ACTIVE：忙碌&lt;br&gt;-&amp;nbsp;&lt;br&gt;&amp;gt; 如何获取设备状态？&lt;br&gt;- IDLE：设备关机，设备开机&amp;amp;无后台程序运行&lt;br&gt;&amp;nbsp;&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;align=left;" vertex="1" parent="1">
+        <mxCell id="utjLVnu9hfeSAqlh20Dp-4" value="&amp;gt; 设备状态有哪些？&lt;br&gt;- IDLE : 空闲&lt;br&gt;- ACTIVE：忙碌&lt;br&gt;-&amp;nbsp;&lt;br&gt;&amp;gt; 如何获取设备状态？&lt;br&gt;1 扫描系统上所有的设备&lt;br&gt;2 遍历每台设备的状态&lt;br&gt;&amp;nbsp;IDLE：设备关机，设备开机&amp;amp;无后台程序运行&lt;br&gt;&amp;nbsp;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;align=left;" vertex="1" parent="1">
           <mxGeometry x="836" y="3200" width="284" height="140" as="geometry" />
         </mxCell>
       </root>
