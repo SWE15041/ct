@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T06:54:16.866Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="VREndDoHdYd1EOU9IRM_" version="20.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-10T07:03:55.749Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="I_Q9TlX1e64t_Juzhflx" version="20.4.0" type="github" pages="4">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="3153" dy="1883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -552,7 +552,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R6v5i-2aTJhThkP6GxHA" name="device manage">
-    <mxGraphModel dx="901" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="996" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -624,7 +624,7 @@
         <mxCell id="gF71pHAwRQYNlHbhdXnA-15" value="iPhone 11" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="1360" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-18" value="？如何定义设备状态&lt;br&gt;空闲：IDLE 可以用来执行测试任务&lt;br&gt;忙碌：ACTIVE 正在执行测试任务&lt;br&gt;&lt;br&gt;&lt;br&gt;？如何把设备状态 上报到测试平台&lt;br&gt;&amp;nbsp;- 由设备主动去推送状态&lt;br&gt;&lt;br&gt;？如何定义设备状态为“空闲”&lt;br&gt;&amp;nbsp;- 设备关机&lt;br&gt;&amp;nbsp;- 设备开机 + 没有正在执行的测试任务&lt;br&gt;&lt;br&gt;？如何判断机器有无正在执行的测试任务&lt;br&gt;- 设备主动&lt;font color=&quot;#ff0000&quot;&gt;拉&lt;/font&gt;任务：&lt;br&gt;- 测试任务列表 &lt;font color=&quot;#ff0000&quot;&gt;推&lt;/font&gt;送任务 给设备：" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-18" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;设备主动拉任务 需要考虑的问题&lt;br&gt;&lt;/font&gt;&lt;br&gt;？如何把设备状态 上报到测试平台&lt;br&gt;&amp;nbsp;- 由设备主动去推送状态&lt;br&gt;&lt;br&gt;？如何定义设备状态为“空闲”&lt;br&gt;&amp;nbsp;- 设备关机&lt;br&gt;&amp;nbsp;- 设备开机 + 没有正在执行的测试任务&lt;br&gt;&lt;br&gt;？如何判断机器有无正在执行的测试任务&lt;br&gt;- 设备主动&lt;font color=&quot;#ff0000&quot;&gt;拉&lt;/font&gt;任务：&lt;br&gt;- 测试任务列表 &lt;font color=&quot;#ff0000&quot;&gt;推&lt;/font&gt;送任务 给设备：" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
           <mxGeometry x="560" y="360" width="410" height="250" as="geometry" />
         </mxCell>
         <mxCell id="gF71pHAwRQYNlHbhdXnA-19" value="Device管理 （推）" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" vertex="1" parent="1">
@@ -635,6 +635,12 @@
         </mxCell>
         <mxCell id="gF71pHAwRQYNlHbhdXnA-28" value="upload device status" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="315" y="320" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s5fP45iDmXV0Skhw3mqN-1" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;基本定义：&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;？如何定义设备状态&lt;br&gt;空闲：IDLE 可以用来执行测试任务&lt;br&gt;忙碌：ACTIVE 正在执行测试任务&lt;br&gt;&lt;br&gt;？如何定义设备状态为“空闲”&lt;br&gt;&amp;nbsp;- 设备关机&lt;br&gt;&amp;nbsp;- 设备开机 + 没有正在执行的测试任务&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="410" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="s5fP45iDmXV0Skhw3mqN-2" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;设备主动拉任务 需要考虑的问题&lt;br&gt;&lt;/font&gt;&lt;br&gt;？如何把设备状态 上报到测试平台&lt;br&gt;&amp;nbsp;- 由设备主动去推送状态&lt;br&gt;&lt;br&gt;？如何定义设备状态为“空闲”&lt;br&gt;&amp;nbsp;- 设备关机&lt;br&gt;&amp;nbsp;- 设备开机 + 没有正在执行的测试任务&lt;br&gt;&lt;br&gt;？如何判断机器有无正在执行的测试任务&lt;br&gt;- 设备主动&lt;font color=&quot;#ff0000&quot;&gt;拉&lt;/font&gt;任务：&lt;br&gt;- 测试任务列表 &lt;font color=&quot;#ff0000&quot;&gt;推&lt;/font&gt;送任务 给设备：" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1360" width="410" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
