@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T02:59:23.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_UW1fdIHId6ic8t0U1hm" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-10T06:23:17.272Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Q5rNNSMXvfYf8vqEMrQl" version="20.4.0" type="github" pages="3">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
-    <mxGraphModel dx="996" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -468,7 +468,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="utjLVnu9hfeSAqlh20Dp-4" value="&amp;gt; 设备状态有哪些？&lt;br&gt;- IDLE : 空闲&lt;br&gt;- ACTIVE：忙碌&lt;br&gt;-&amp;nbsp;&lt;br&gt;&amp;gt; 如何获取设备状态？&lt;br&gt;1 扫描系统上所有的设备&lt;br&gt;2 遍历每台设备的状态&lt;br&gt;&amp;gt; 怎么定义设备状态为空闲（IDLE）？&lt;br&gt;-&amp;nbsp; IDLE：设备关机，设备开机&amp;amp;无后台程序运行&lt;br&gt;-&amp;nbsp;&lt;br&gt;&amp;nbsp;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;align=left;" vertex="1" parent="1">
-          <mxGeometry x="836" y="3200" width="284" height="140" as="geometry" />
+          <mxGeometry x="836" y="3200" width="294" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -664,16 +664,62 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="R6v5i-2aTJhThkP6GxHA" name="Case manage">
-    <mxGraphModel dx="946" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="R6v5i-2aTJhThkP6GxHA" name="device manage">
+    <mxGraphModel dx="1426" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ALo7UZMxGwcZqnUbiFrl-2" value="Note Line 1&#xa;Note Line 2&#xa;Note Line 3" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" parent="1" vertex="1">
-          <mxGeometry x="70" y="70" width="200" height="200" as="geometry" />
+        <mxCell id="ALo7UZMxGwcZqnUbiFrl-3" value="Device管理 （拉）" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="490" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ALo7UZMxGwcZqnUbiFrl-3" value="Case管理&lt;br&gt;Case" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="80" y="320" width="490" height="130" as="geometry" />
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-1" value="测试任务列表&lt;br&gt;（case+device）" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="560" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gF71pHAwRQYNlHbhdXnA-2" target="gF71pHAwRQYNlHbhdXnA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-2" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-3" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gF71pHAwRQYNlHbhdXnA-4" target="gF71pHAwRQYNlHbhdXnA-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-4" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-8" value="iPhone 11" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gF71pHAwRQYNlHbhdXnA-9" target="gF71pHAwRQYNlHbhdXnA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gF71pHAwRQYNlHbhdXnA-9" target="gF71pHAwRQYNlHbhdXnA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-9" value="测试任务列表&lt;br&gt;（case+device）" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1040" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-11" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="840" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-12" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="840" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-14" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="840" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-15" value="iPhone 11" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-18" value="Note" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="410" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
