@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T06:24:55.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="BSR57mcMl9m5hJwLsmn_" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-10T06:27:36.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="j9FXRjPql3j9m1DoUy3s" version="20.4.0" type="github" pages="3">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1426" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -721,7 +721,7 @@
         <mxCell id="gF71pHAwRQYNlHbhdXnA-18" value="Note" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
           <mxGeometry x="560" y="360" width="410" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-19" value="Device管理 （拉）" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" vertex="1" parent="1">
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-19" value="Device管理 （推）" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="120" y="1240" width="240" height="70" as="geometry" />
         </mxCell>
       </root>
