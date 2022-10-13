@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T06:34:24.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="YZ5H9XnmAiTUzmS8ZR-p" version="20.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-13T06:41:49.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="-eR8E7HTSccvj7LmV49I" version="20.4.0" type="github" pages="4">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -552,7 +552,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R6v5i-2aTJhThkP6GxHA" name="device manage">
-    <mxGraphModel dx="631" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="996" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -624,7 +624,7 @@
         <mxCell id="gF71pHAwRQYNlHbhdXnA-15" value="iPhone 11" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="1360" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-18" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;设备主动拉任务流程&lt;/font&gt;&lt;br&gt;判断设备状态 is 空闲？&lt;br&gt;- yes, 下一步&lt;br&gt;- no，结束&lt;br&gt;主动从队列中获取测试任务&lt;br&gt;上报设备状态：忙碌&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度：完成&lt;br&gt;上报设备状态：空闲&lt;br&gt;结束&lt;br&gt;&lt;br&gt;问题：&lt;br&gt;？ 设备异常卡住，无法终止设备进程等情况&lt;br&gt;？任务列表的队头任务所需设备处于忙碌状态，后面的任务无法出队？&lt;br&gt;&lt;br&gt;&lt;br&gt;优点&amp;nbsp;&lt;br&gt;避免并发抢占设备？&lt;br&gt;可以随时新增测试服务器，测试设备。" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-18" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;设备主动拉任务流程&lt;/font&gt;&lt;br&gt;判断设备状态 is 空闲？&lt;br&gt;- yes, 下一步&lt;br&gt;- no，结束&lt;br&gt;主动从队列中获取测试任务&lt;br&gt;上报设备状态：忙碌&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度：完成&lt;br&gt;上报设备状态：空闲&lt;br&gt;结束&lt;br&gt;&lt;br&gt;问题：&lt;br&gt;？ 设备异常卡住，无法终止设备进程等情况&lt;br&gt;？ 空闲的设备如何拉取任务，100台设备就有100个请求去获取任务&lt;br&gt;？任务列表的队头任务所需设备都处于忙碌状态，后面的任务无法出队（其他设备空闲）；&lt;br&gt;? 某个类型的设备A都处于忙碌状态时，任务列表的队头任务刚好需要设备A，会导致后续任务被阻塞&lt;br&gt;？应该如何管理任务列表&lt;br&gt;- 队列？有序&lt;br&gt;- 表？无序&lt;br&gt;&lt;br&gt;优点&amp;nbsp;&lt;br&gt;避免并发抢占设备？&lt;br&gt;可以随时新增测试服务器，测试设备。" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
           <mxGeometry x="540" y="495" width="410" height="305" as="geometry" />
         </mxCell>
         <mxCell id="gF71pHAwRQYNlHbhdXnA-19" value="Device管理 （推）" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" parent="1" vertex="1">
@@ -639,7 +639,7 @@
         <mxCell id="s5fP45iDmXV0Skhw3mqN-1" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;设备状态基本定义：&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;？如何定义设备状态&lt;br&gt;空闲：IDLE 可以用来执行测试任务&lt;br&gt;忙碌：ACTIVE 正在执行测试任务&lt;br&gt;&lt;br&gt;？如何定义设备状态为“空闲”&lt;br&gt;&amp;nbsp;- 设备关机&lt;br&gt;&amp;nbsp;- 设备开机 + 没有正在执行的测试任务&lt;br&gt;&lt;br&gt;？如何把设备状态上报到测试平台&lt;br&gt;- 由设备主动去推送&lt;br&gt;- 测试平台扫描获取&lt;br&gt;&lt;br&gt;？如何判断机器有无正在执行的测试任务&lt;br&gt;- 设备主动&lt;font color=&quot;#ff0000&quot;&gt;拉&lt;/font&gt;任务：&lt;br&gt;- 测试任务列表&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;推&lt;/font&gt;送任务 给设备：&lt;br&gt;&lt;br&gt;？设备可能存在一些不可控的情况&lt;br&gt;&lt;br&gt;？如何处理不可控的情况" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
           <mxGeometry x="540" y="70" width="500" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="s5fP45iDmXV0Skhw3mqN-2" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;任务列表主动推送任务给设备流程&lt;br&gt;&lt;/font&gt;获取一个任务，&lt;br&gt;获取任务需要的空闲设备，&lt;br&gt;锁住设备使用权限，更新设备状态：忙碌&lt;br&gt;将任务分配到空闲设备上去运行，&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度：完成&lt;br&gt;释放设备使用权限，更新设备状态：空闲&lt;br&gt;&lt;br&gt;&lt;br&gt;问题：&lt;br&gt;？可能存在并发问题，导致同一个设备被分配多个任务；&lt;br&gt;- 在分配任务的地方，把设备使用权限锁住&lt;br&gt;&lt;br&gt;优点：&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
+        <mxCell id="s5fP45iDmXV0Skhw3mqN-2" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;任务列表主动推送任务给设备流程&lt;br&gt;&lt;/font&gt;获取一个任务，&lt;br&gt;获取任务需要的空闲设备，&lt;br&gt;锁住设备使用权限，更新设备状态：忙碌&lt;br&gt;将任务分配到空闲设备上去运行，&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度：完成&lt;br&gt;释放设备使用权限，更新设备状态：空闲&lt;br&gt;&lt;br&gt;&lt;br&gt;问题：&lt;br&gt;？可能存在并发问题，导致同一个设备被分配多个任务；&lt;br&gt;- 在分配任务的地方，把设备使用权限锁住&lt;br&gt;？任务列表如何分配任务到指定设备&lt;br&gt;&lt;br&gt;&lt;br&gt;优点：" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
           <mxGeometry x="560" y="1360" width="410" height="250" as="geometry" />
         </mxCell>
       </root>
