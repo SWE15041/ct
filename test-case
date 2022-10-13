@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T03:57:42.903Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Pb8-kfWPZgO4OoBObD9O" version="20.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-13T05:48:35.805Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="hma_0ApuV-2hJqkKMXQh" version="20.4.0" type="github" pages="4">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -552,7 +552,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R6v5i-2aTJhThkP6GxHA" name="device manage">
-    <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -624,7 +624,7 @@
         <mxCell id="gF71pHAwRQYNlHbhdXnA-15" value="iPhone 11" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="1360" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-18" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;设备主动拉任务流程&lt;/font&gt;&lt;br&gt;判断设备状态 is 空闲？&lt;br&gt;- yes, 下一步&lt;br&gt;- 否，结束&lt;br&gt;主动从队列中获取测试任务&lt;br&gt;上报设备状态：忙碌&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度&lt;br&gt;上报设备状态：空闲&lt;br&gt;&lt;br&gt;可能存在的异常场景：&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-18" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;设备主动拉任务流程&lt;/font&gt;&lt;br&gt;判断设备状态 is 空闲？&lt;br&gt;- yes, 下一步&lt;br&gt;- 否，结束&lt;br&gt;主动从队列中获取测试任务&lt;br&gt;上报设备状态：忙碌&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度&lt;br&gt;上报设备状态：空闲&lt;br&gt;结束&lt;br&gt;&lt;br&gt;可能存在的异常场景：&lt;br&gt;- 设备异常卡住&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
           <mxGeometry x="540" y="495" width="410" height="250" as="geometry" />
         </mxCell>
         <mxCell id="gF71pHAwRQYNlHbhdXnA-19" value="Device管理 （推）" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" parent="1" vertex="1">
