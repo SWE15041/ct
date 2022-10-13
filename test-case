@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T06:55:14.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="m1TKvIs0XAJT12WQ-8E8" version="20.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-13T07:13:21.623Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="DqECDiCcTh7Ib3GecScx" version="20.4.0" type="github" pages="4">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -552,7 +552,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R6v5i-2aTJhThkP6GxHA" name="device manage">
-    <mxGraphModel dx="788" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3784" dy="2268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -642,8 +642,14 @@
         <mxCell id="s5fP45iDmXV0Skhw3mqN-2" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;任务列表主动推送任务给设备流程&lt;br&gt;&lt;/font&gt;获取一个任务，&lt;br&gt;获取任务需要的空闲设备，&lt;br&gt;锁住设备使用权限，更新设备状态：忙碌&lt;br&gt;将任务分配到空闲设备上去运行，&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度：完成&lt;br&gt;释放设备使用权限，更新设备状态：空闲&lt;br&gt;&lt;br&gt;&lt;br&gt;问题：&lt;br&gt;？可能存在并发问题，导致同一个设备被分配多个任务；&lt;br&gt;- 在分配任务的地方，把设备使用权限锁住&lt;br&gt;？任务列表如何分配任务到指定设备&lt;br&gt;&lt;br&gt;&lt;br&gt;优点：" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
           <mxGeometry x="560" y="1360" width="410" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="ffNSEzcIwv1AeKsIqba8-2" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;网站上如何进行设备管理？&lt;br&gt;&lt;/font&gt;设备来源：&lt;br&gt;启动VM,&lt;br&gt;启动service，&lt;br&gt;开启job: 遍历服务器上的设备（ios,android）&lt;br&gt;向测试平台上报设备信息、状态。&lt;br&gt;&lt;br&gt;？VM关机时&lt;br&gt;- 一般不会出现&lt;br&gt;&lt;br&gt;？服务器挂掉时&lt;br&gt;- 一般不会出现&lt;br&gt;&lt;br&gt;？设备进行os版本更新时&lt;br&gt;- 更新完毕后，job会把设备信息上报&lt;br&gt;&lt;br&gt;？服务器上新增设备的时候&lt;br&gt;- 新增完毕后，job会把设备信息上报&lt;br&gt;&lt;br&gt;？需要UI界面新增一个操作，用来手动触发job，上报设备信息。&lt;br&gt;- 需要&lt;br&gt;&lt;br&gt;？设备移除？&lt;br&gt;&lt;br&gt;？需要上报哪些设备的信息，由谁来决定&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+        <mxCell id="ffNSEzcIwv1AeKsIqba8-2" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;网站上如何进行设备管理？&lt;br&gt;&lt;/font&gt;设备来源：&lt;br&gt;启动VM,&lt;br&gt;启动service，&lt;br&gt;开启job: 遍历服务器上的设备（ios,android）&lt;br&gt;向测试平台上报设备信息、状态。&lt;br&gt;&lt;br&gt;？VM关机时&lt;br&gt;- 一般不会出现&lt;br&gt;&lt;br&gt;？服务器挂掉时&lt;br&gt;- 一般不会出现&lt;br&gt;&lt;br&gt;？设备进行os版本更新时&lt;br&gt;- 更新完毕后，job会把设备信息上报&lt;br&gt;&lt;br&gt;？服务器上新增设备的时候&lt;br&gt;- 新增完毕后，job会把设备信息上报&lt;br&gt;&lt;br&gt;？需要UI界面新增一个操作，用来手动触发job，上报设备信息。&lt;br&gt;- 需要&lt;br&gt;&lt;br&gt;？设备移除？&lt;br&gt;&lt;br&gt;？需要上报哪些设备，由谁来决定&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
           <mxGeometry x="1280" y="495" width="600" height="435" as="geometry" />
+        </mxCell>
+        <mxCell id="ffNSEzcIwv1AeKsIqba8-3" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;ios&amp;nbsp;&lt;br&gt;simulator&lt;br&gt;&lt;/font&gt;设备新增：&lt;br&gt;设备移除：&lt;br&gt;&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="495" width="600" height="435" as="geometry" />
+        </mxCell>
+        <mxCell id="ffNSEzcIwv1AeKsIqba8-4" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;android&amp;nbsp;&lt;br&gt;emulator&lt;br&gt;&lt;/font&gt;设备新增&lt;br&gt;&lt;br&gt;设备移除&amp;nbsp;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="495" width="600" height="435" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
