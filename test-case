@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T07:35:39.700Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Cx69SREav1Kt4-Xpxy4M" version="20.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-13T07:56:26.784Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="-Q8dzM13-RquzplNR9q9" version="20.4.0" type="github" pages="4">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -552,7 +552,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R6v5i-2aTJhThkP6GxHA" name="device manage">
-    <mxGraphModel dx="988" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1318" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -651,7 +651,7 @@
         <mxCell id="ffNSEzcIwv1AeKsIqba8-4" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;android&amp;nbsp;&lt;br&gt;emulator&lt;br&gt;&lt;/font&gt;设备新增&lt;br&gt;&lt;br&gt;设备移除&amp;nbsp;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
           <mxGeometry x="2720" y="495" width="600" height="435" as="geometry" />
         </mxCell>
-        <mxCell id="ffNSEzcIwv1AeKsIqba8-5" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;总结：&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;模拟器&lt;br&gt;&lt;br&gt;真机" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+        <mxCell id="ffNSEzcIwv1AeKsIqba8-5" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;总结：&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;需要用到哪些设备由用户决定，在网页上定义&lt;br&gt;设备信息需要包含（设备版本 OS版本 ID 来自哪台服务器（IP））&lt;br&gt;&lt;br&gt;模拟器&lt;br&gt;&lt;br&gt;真机" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
           <mxGeometry x="1280" y="70" width="500" height="370" as="geometry" />
         </mxCell>
       </root>
