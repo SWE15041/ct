@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T04:02:42.074Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="YOlEFnl6Q-GJl_EF1Qek" version="17.4.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-17T06:16:48.996Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xtpCjbWUOMa9YIVtxs2D" version="17.4.3" type="github" pages="4">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1426" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -360,8 +360,8 @@
         <mxCell id="PZwy2JjQMuTtV6-qHmp5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PZwy2JjQMuTtV6-qHmp5-1" target="f2Wy_Sx5WOq-tLeM9ywc-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PZwy2JjQMuTtV6-qHmp5-1" value="队列：&lt;br&gt;&lt;br&gt;plan 1: kafka （不选用）&lt;br&gt;原因：core-ng框架不支持设备并行订阅队列消息&lt;br&gt;&lt;br&gt;plan 2: Redis （选用）&lt;br&gt;原因：支持消息队列，支持&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="2290" width="294" height="220" as="geometry" />
+        <mxCell id="PZwy2JjQMuTtV6-qHmp5-1" value="队列：&lt;br&gt;&lt;br&gt;plan 1: kafka （不选用）&lt;br&gt;原因：&lt;br&gt;&lt;ul&gt;&lt;li&gt;core-ng框架不支持设备并行订阅队列消息&lt;/li&gt;&lt;li&gt;自动订阅，导致忙碌的设备会把任务取出来，需要重新push到对列中&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;plan 2: Redis （选用）&lt;br&gt;原因：&lt;br&gt;&lt;ul&gt;&lt;li&gt;支持消息队列，支持&lt;/li&gt;&lt;li&gt;只需要在设备不忙碌的状态下取任务执行&lt;/li&gt;&lt;/ul&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="2290" width="440" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
