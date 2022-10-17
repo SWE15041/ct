@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T06:25:22.043Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9G9YSi6tkIecv9drETRm" version="17.4.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-17T06:41:48.826Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="VUUjwdJdcWfnEJ1vrU-c" version="17.4.3" type="github" pages="4">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1426" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -780,13 +780,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0TV8CRH1gS-Lk-qkKf0z-1" value="push" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0eyEHUdNO3XxG6_NUFco-81" vertex="1" connectable="0">
+        <mxCell id="0TV8CRH1gS-Lk-qkKf0z-1" value="push subTask" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0eyEHUdNO3XxG6_NUFco-81" vertex="1" connectable="0">
           <mxGeometry x="-0.4968" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0eyEHUdNO3XxG6_NUFco-75" value="test-case-service" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="175.69" y="2490" width="176" height="80" as="geometry" />
+        <mxCell id="0eyEHUdNO3XxG6_NUFco-75" value="test-case-service&lt;br&gt;&lt;br&gt;(key: device_name+os_version |&amp;nbsp;value: sub_task_id)" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="121.53" y="2384" width="284.31" height="129.23" as="geometry" />
         </mxCell>
         <mxCell id="0eyEHUdNO3XxG6_NUFco-76" value="Server 001" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="1720" width="90" height="30" as="geometry" />
@@ -794,11 +794,22 @@
         <mxCell id="0eyEHUdNO3XxG6_NUFco-77" value="Server 002" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="523" y="1720" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="EUXZk-7Wsv-os1AoLJkw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EUXZk-7Wsv-os1AoLJkw-1" target="0eyEHUdNO3XxG6_NUFco-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EUXZk-7Wsv-os1AoLJkw-4" value="new test tasks" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EUXZk-7Wsv-os1AoLJkw-3">
+          <mxGeometry x="0.025" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUXZk-7Wsv-os1AoLJkw-1" value="test-site" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="175.69" y="2574" width="176" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="R6v5i-2aTJhThkP6GxHA" name="device manage">
-    <mxGraphModel dx="1186" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -888,16 +899,16 @@
         <mxCell id="s5fP45iDmXV0Skhw3mqN-2" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;任务列表主动推送任务给设备流程&lt;br&gt;&lt;/font&gt;获取一个任务，&lt;br&gt;获取任务需要的空闲设备，&lt;br&gt;锁住设备使用权限，更新设备状态：忙碌&lt;br&gt;将任务分配到空闲设备上去运行，&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度：完成&lt;br&gt;释放设备使用权限，更新设备状态：空闲&lt;br&gt;&lt;br&gt;&lt;br&gt;问题：&lt;br&gt;？可能存在并发问题，导致同一个设备被分配多个任务；&lt;br&gt;- 在分配任务的地方，把设备使用权限锁住&lt;br&gt;？任务列表如何分配任务到指定设备&lt;br&gt;&lt;br&gt;&lt;br&gt;优点：" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
           <mxGeometry x="560" y="1360" width="410" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="ffNSEzcIwv1AeKsIqba8-2" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;网站上如何进行设备管理？&lt;br&gt;&lt;/font&gt;设备来源：&lt;br&gt;启动VM,&lt;br&gt;启动service，&lt;br&gt;开启job: 遍历服务器上的设备（ios,android）&lt;br&gt;向测试平台上报设备信息、状态。&lt;br&gt;&lt;br&gt;？VM关机时&lt;br&gt;- 一般不会出现&lt;br&gt;&lt;br&gt;？服务器挂掉时&lt;br&gt;- 一般不会出现&lt;br&gt;&lt;br&gt;？设备进行os版本更新时&lt;br&gt;- 更新完毕后，job会把设备信息上报&lt;br&gt;&lt;br&gt;？服务器上新增设备的时候&lt;br&gt;- 新增完毕后，job会把设备信息上报&lt;br&gt;&lt;br&gt;？需要UI界面新增一个操作，用来手动触发job，上报设备信息。&lt;br&gt;- 需要&lt;br&gt;&lt;br&gt;？需要上报哪些设备，由谁来决定&lt;br&gt;- 网页上放置“设备新增”按钮，用来新增需要关注的设备，并在每台服务器上安装该设备&lt;br&gt;&lt;br&gt;？设备移除？&lt;br&gt;-&amp;nbsp; 从每台服务器上卸载改设备&lt;br&gt;&lt;br&gt;？真机&lt;br&gt;- 如果真机通过usb已经连接在服务器上，job 识别并把真机信息上报到平台&lt;br&gt;- 如果真机断开usb连接，job将这台服务器没有真机的情况上报上次。&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+        <mxCell id="ffNSEzcIwv1AeKsIqba8-2" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;网站上如何进行设备管理？&lt;br&gt;&lt;/font&gt;设备来源：&lt;br&gt;启动VM,&lt;br&gt;启动service，&lt;br&gt;开启job: 遍历服务器上的设备（ios,android）&lt;br&gt;向测试平台上报设备信息、状态。&lt;br&gt;&lt;br&gt;？VM关机时&lt;br&gt;- 一般不会出现&lt;br&gt;&lt;br&gt;？服务器挂掉时&lt;br&gt;- 一般不会出现&lt;br&gt;&lt;br&gt;？设备进行os版本更新时&lt;br&gt;- 更新完毕后，job会把设备信息上报&lt;br&gt;&lt;br&gt;？服务器上新增设备的时候&lt;br&gt;- 新增完毕后，job会把设备信息上报&lt;br&gt;&lt;br&gt;？需要UI界面新增一个操作，用来手动触发job，上报设备信息。&lt;br&gt;- 需要&lt;br&gt;&lt;br&gt;？需要上报哪些设备，由谁来决定&lt;br&gt;- 网页上放置“设备新增”按钮，用来新增需要关注的设备，并在每台服务器上安装该设备&lt;br&gt;&lt;br&gt;？设备移除？&lt;br&gt;-&amp;nbsp; 从每台服务器上卸载改设备&lt;br&gt;&lt;br&gt;？真机&lt;br&gt;- 如果真机通过usb已经连接在服务器上，job 识别并把真机信息上报到平台&lt;br&gt;- 如果真机断开usb连接，job将这台服务器没有真机的情况上报上次。&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
           <mxGeometry x="1280" y="495" width="600" height="505" as="geometry" />
         </mxCell>
-        <mxCell id="ffNSEzcIwv1AeKsIqba8-3" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;ios&amp;nbsp;&lt;br&gt;simulator&lt;br&gt;环境&lt;br&gt;&lt;/font&gt;MAC OS&lt;br&gt;XCode&lt;br&gt;XCode command line tool&lt;br&gt;&lt;br&gt;设备新增：&lt;br&gt;设备移除：&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+        <mxCell id="ffNSEzcIwv1AeKsIqba8-3" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;ios&amp;nbsp;&lt;br&gt;simulator&lt;br&gt;环境&lt;br&gt;&lt;/font&gt;MAC OS&lt;br&gt;XCode&lt;br&gt;XCode command line tool&lt;br&gt;&lt;br&gt;设备新增：&lt;br&gt;设备移除：&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
           <mxGeometry x="2000" y="495" width="600" height="435" as="geometry" />
         </mxCell>
-        <mxCell id="ffNSEzcIwv1AeKsIqba8-4" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;android&amp;nbsp;&lt;br&gt;emulator&lt;br&gt;&lt;/font&gt;设备新增&lt;br&gt;&lt;br&gt;设备移除&amp;nbsp;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+        <mxCell id="ffNSEzcIwv1AeKsIqba8-4" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;android&amp;nbsp;&lt;br&gt;emulator&lt;br&gt;&lt;/font&gt;设备新增&lt;br&gt;&lt;br&gt;设备移除&amp;nbsp;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
           <mxGeometry x="2720" y="495" width="600" height="435" as="geometry" />
         </mxCell>
-        <mxCell id="ffNSEzcIwv1AeKsIqba8-5" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;总结：&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;需要用到哪些设备由用户决定，在网页上定义&lt;br&gt;设备信息需要包含（设备版本 OS版本 ID 来自哪台服务器（IP））&lt;br&gt;&lt;br&gt;模拟器&lt;br&gt;&lt;br&gt;真机" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+        <mxCell id="ffNSEzcIwv1AeKsIqba8-5" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;总结：&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;需要用到哪些设备由用户决定，在网页上定义&lt;br&gt;设备信息需要包含（设备版本 OS版本 ID 来自哪台服务器（IP））&lt;br&gt;&lt;br&gt;模拟器&lt;br&gt;&lt;br&gt;真机" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
           <mxGeometry x="1280" y="70" width="500" height="370" as="geometry" />
         </mxCell>
       </root>
