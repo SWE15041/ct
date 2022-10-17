@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T07:46:12.430Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="psnsDBXOKlNKqG5Qb9nK" version="17.4.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-17T08:15:07.194Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="BiXmtuNwbAe0h0kVa6eB" version="17.4.3" type="github" pages="4">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1426" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -760,11 +760,16 @@
         <mxCell id="ALo7UZMxGwcZqnUbiFrl-3" value="Device管理 （拉任务）" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" parent="1" vertex="1">
           <mxGeometry x="120" y="80" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-1" value="测试任务队列&lt;br&gt;（case+device）" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="245" y="640" width="110" height="50" as="geometry" />
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-1" value="test-case+service" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="640" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gF71pHAwRQYNlHbhdXnA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gF71pHAwRQYNlHbhdXnA-2" target="gF71pHAwRQYNlHbhdXnA-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GwjMITN2IZlLDSrzbvyH-5" value="pull task" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="gF71pHAwRQYNlHbhdXnA-5">
+          <mxGeometry x="-0.6381" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="gF71pHAwRQYNlHbhdXnA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="gF71pHAwRQYNlHbhdXnA-2" target="gF71pHAwRQYNlHbhdXnA-21" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -790,6 +795,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="GwjMITN2IZlLDSrzbvyH-4" value="pull task" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="gF71pHAwRQYNlHbhdXnA-20">
+          <mxGeometry x="-0.4531" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="gF71pHAwRQYNlHbhdXnA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="gF71pHAwRQYNlHbhdXnA-4" target="gF71pHAwRQYNlHbhdXnA-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -798,11 +808,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="GwjMITN2IZlLDSrzbvyH-6" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;upload device status&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="gF71pHAwRQYNlHbhdXnA-25">
+          <mxGeometry x="0.6393" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="gF71pHAwRQYNlHbhdXnA-4" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" parent="1" vertex="1">
           <mxGeometry x="440" y="440" width="40" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-8" value="iPhone 11" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="465" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gF71pHAwRQYNlHbhdXnA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gF71pHAwRQYNlHbhdXnA-9" target="gF71pHAwRQYNlHbhdXnA-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -831,17 +843,14 @@
         <mxCell id="gF71pHAwRQYNlHbhdXnA-19" value="Device管理 （推任务）" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" parent="1" vertex="1">
           <mxGeometry x="120" y="1240" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-21" value="测试平台" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="240" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-28" value="upload device status" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="315" y="320" width="135" height="20" as="geometry" />
+        <mxCell id="gF71pHAwRQYNlHbhdXnA-21" value="test-site" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="210" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s5fP45iDmXV0Skhw3mqN-1" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;设备状态基本定义：&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;？如何定义设备状态&lt;br&gt;空闲：IDLE 可以用来执行测试任务&lt;br&gt;忙碌：ACTIVE 正在执行测试任务&lt;br&gt;&lt;br&gt;？如何定义设备状态为“空闲”&lt;br&gt;&amp;nbsp;- 设备关机&lt;br&gt;&amp;nbsp;- 设备开机 + 没有正在执行的测试任务&lt;br&gt;&lt;br&gt;？如何把设备状态上报到测试平台&lt;br&gt;- 由设备主动去推送&lt;br&gt;- 测试平台扫描获取&lt;br&gt;&lt;br&gt;？如何判断机器有无正在执行的测试任务&lt;br&gt;- 设备主动&lt;font color=&quot;#ff0000&quot;&gt;拉&lt;/font&gt;任务：&lt;br&gt;- 测试任务列表&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;推&lt;/font&gt;送任务 给设备：&lt;br&gt;&lt;br&gt;？设备可能存在一些不可控的情况&lt;br&gt;&lt;br&gt;？如何处理不可控的情况" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
           <mxGeometry x="540" y="70" width="500" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="s5fP45iDmXV0Skhw3mqN-2" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;任务列表主动推送任务给设备流程&lt;br&gt;&lt;/font&gt;开启一个job: 用来分配测试任务给设备&lt;br&gt;获取一个子任务&lt;br&gt;获取子任务需要的设备&lt;br&gt;扫描各个服务器上的该设备状态，&lt;br&gt;- 有空闲，则返回device_id，下一步&lt;br&gt;- 都忙碌，则执行下一个任务&lt;br&gt;锁住设备使用权限，更新设备状态：忙碌&lt;br&gt;将任务分配到空闲设备上去运行，&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度：完成&lt;br&gt;释放设备使用权限，更新设备状态：空闲&lt;br&gt;&lt;br&gt;&lt;br&gt;问题：&lt;br&gt;？任务列表用什么存放&lt;br&gt;- redis队列&lt;br&gt;&lt;br&gt;？可能存在并发问题，导致同一个设备被分配多个任务；&lt;br&gt;- 在分配任务的地方，把设备使用权限锁住&lt;br&gt;&lt;br&gt;？任务列表如何分配任务到指定设备&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;？需要向界面展示，设备正在执行哪个任务吗？&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;优点：" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
-          <mxGeometry x="560" y="1320" width="410" height="440" as="geometry" />
+        <mxCell id="s5fP45iDmXV0Skhw3mqN-2" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;任务列表主动推送任务给设备流程&lt;br&gt;&lt;/font&gt;开启一个job: 用来分配测试任务给设备&lt;br&gt;开始&lt;br&gt;获取一个任务&lt;br&gt;获取任务需要的设备&lt;br&gt;扫描各个服务器上该设备的状态，&lt;br&gt;- 有空闲，则返回device_id，下一步&lt;br&gt;- 都忙碌，测试任务重新入队列，结束；&lt;br&gt;锁住设备使用权限，更新设备状态：忙碌&lt;br&gt;将任务分配到空闲设备上去运行，&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度：完成&lt;br&gt;释放设备使用权限，更新设备状态：空闲&lt;br&gt;结束&lt;br&gt;&lt;br&gt;&lt;br&gt;问题：&lt;br&gt;？任务列表用什么存放&lt;br&gt;- redis队列&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;？可能存在并发问题，导致同一个设备被分配多个任务；&lt;br&gt;- 在分配任务的地方，把设备使用权限锁住&lt;br&gt;&lt;br&gt;？任务列表如何分配任务到指定设备&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;？需要向界面展示，设备正在执行哪个任务吗？&lt;br&gt;- 要，进度从表内获取就好&lt;br&gt;&lt;br&gt;优点：&lt;br&gt;缺点：" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
+          <mxGeometry x="560" y="1320" width="410" height="480" as="geometry" />
         </mxCell>
         <mxCell id="ffNSEzcIwv1AeKsIqba8-2" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;网站上如何进行设备管理？&lt;br&gt;&lt;/font&gt;设备来源：&lt;br&gt;启动VM,&lt;br&gt;启动service，&lt;br&gt;开启job: 遍历服务器上的设备（ios,android）&lt;br&gt;向测试平台上报设备信息、状态。&lt;br&gt;&lt;br&gt;？VM关机时&lt;br&gt;- 一般不会出现&lt;br&gt;&lt;br&gt;？服务器挂掉时&lt;br&gt;- 一般不会出现&lt;br&gt;&lt;br&gt;？设备进行os版本更新时&lt;br&gt;- 更新完毕后，job会把设备信息上报&lt;br&gt;&lt;br&gt;？服务器上新增设备的时候&lt;br&gt;- 新增完毕后，job会把设备信息上报&lt;br&gt;&lt;br&gt;？需要UI界面新增一个操作，用来手动触发job，上报设备信息。&lt;br&gt;- 需要&lt;br&gt;&lt;br&gt;？需要上报哪些设备，由谁来决定&lt;br&gt;- 网页上放置“设备新增”按钮，用来新增需要关注的设备，并在每台服务器上安装该设备&lt;br&gt;&lt;br&gt;？设备移除？&lt;br&gt;-&amp;nbsp; 从每台服务器上卸载改设备&lt;br&gt;&lt;br&gt;？真机&lt;br&gt;- 如果真机通过usb已经连接在服务器上，job 识别并把真机信息上报到平台&lt;br&gt;- 如果真机断开usb连接，job将这台服务器没有真机的情况上报上次。&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
           <mxGeometry x="1280" y="495" width="600" height="505" as="geometry" />
@@ -854,6 +863,18 @@
         </mxCell>
         <mxCell id="ffNSEzcIwv1AeKsIqba8-5" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;总结：&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;需要用到哪些设备由用户决定，在网页上定义&lt;br&gt;设备信息需要包含（设备版本 OS版本 ID 来自哪台服务器（IP））&lt;br&gt;&lt;br&gt;模拟器&lt;br&gt;&lt;br&gt;真机" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
           <mxGeometry x="1280" y="70" width="500" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="g58QlPJOT-uhk9yPjI06-1" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;任务列表主动推送任务给设备流程&lt;br&gt;&lt;/font&gt;开启一个job: 用来分配测试任务给设备&lt;br&gt;开始&lt;br&gt;扫描各个服务上空闲的设备；&lt;br&gt;获取匹配空闲设备的一个任务；&lt;br&gt;- 无任务，结束；&lt;br&gt;- 有任务，下一步；&lt;br&gt;锁住设备使用权限，更新设备状态：忙碌&lt;br&gt;将任务分配到空闲设备上去运行；&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度：完成&lt;br&gt;释放设备使用权限，更新设备状态：空闲&lt;br&gt;结束&lt;br&gt;&lt;br&gt;&lt;br&gt;问题：&lt;br&gt;？任务列表用什么存放&lt;br&gt;- redis队列&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;？可能存在并发问题，导致同一个设备被分配多个任务；&lt;br&gt;- 在分配任务的地方，把设备使用权限锁住&lt;br&gt;&lt;br&gt;？任务列表如何分配任务到指定设备&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;？需要向界面展示，设备正在执行哪个任务吗？&lt;br&gt;- 要，进度从表内获取就好&lt;br&gt;&lt;br&gt;优点：&lt;br&gt;缺点：" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1320" width="410" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="GwjMITN2IZlLDSrzbvyH-1" value="iPhone 11&amp;nbsp;&lt;br&gt;忙碌" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="190" y="465" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GwjMITN2IZlLDSrzbvyH-2" value="iPhone 12&lt;br&gt;空闲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="350" y="460" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GwjMITN2IZlLDSrzbvyH-3" value="iPhone 11&amp;nbsp;&lt;br&gt;空闲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="20" y="465" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
