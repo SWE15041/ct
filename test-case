@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T03:53:01.798Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="d1w_Qq7nOIUDNEk7a1tA" version="17.4.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-17T04:02:42.074Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="YOlEFnl6Q-GJl_EF1Qek" version="17.4.3" type="github" pages="4">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
-    <mxGraphModel dx="1426" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,7 +154,7 @@
             <mxPoint x="756" y="2930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-3" value="Kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-3" value="Redis" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="726" y="2560" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
@@ -205,7 +205,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-27" value="subscribe 子任务&lt;br&gt;出队" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="f2Wy_Sx5WOq-tLeM9ywc-23" vertex="1" connectable="0">
+        <mxCell id="f2Wy_Sx5WOq-tLeM9ywc-27" value="pop 子任务&lt;br&gt;出队" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="f2Wy_Sx5WOq-tLeM9ywc-23" vertex="1" connectable="0">
           <mxGeometry x="0.2111" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -283,7 +283,7 @@
             <mxPoint x="615" y="2620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nd7puuoFRLl8TGdxwmaG-20" value="publish子任务&lt;br&gt;入队" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+        <mxCell id="Nd7puuoFRLl8TGdxwmaG-20" value="push子任务&lt;br&gt;入队" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="520" y="2830" as="sourcePoint" />
             <mxPoint x="680" y="2830" as="targetPoint" />
@@ -357,11 +357,17 @@
         <mxCell id="utjLVnu9hfeSAqlh20Dp-4" value="&amp;gt; 设备状态有哪些？&lt;br&gt;- IDLE : 空闲&lt;br&gt;- ACTIVE：忙碌&lt;br&gt;-&amp;nbsp;&lt;br&gt;&amp;gt; 如何获取设备状态？&lt;br&gt;1 扫描系统上所有的设备&lt;br&gt;2 遍历每台设备的状态&lt;br&gt;&amp;gt; 怎么定义设备状态为空闲（IDLE）？&lt;br&gt;-&amp;nbsp; IDLE：设备关机，设备开机&amp;amp;无后台程序运行&lt;br&gt;-&amp;nbsp;&lt;br&gt;&amp;nbsp;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;align=left;" parent="1" vertex="1">
           <mxGeometry x="836" y="3175" width="294" height="220" as="geometry" />
         </mxCell>
+        <mxCell id="PZwy2JjQMuTtV6-qHmp5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PZwy2JjQMuTtV6-qHmp5-1" target="f2Wy_Sx5WOq-tLeM9ywc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PZwy2JjQMuTtV6-qHmp5-1" value="队列：&lt;br&gt;&lt;br&gt;plan 1: kafka （不选用）&lt;br&gt;原因：core-ng框架不支持设备并行订阅队列消息&lt;br&gt;&lt;br&gt;plan 2: Redis （选用）&lt;br&gt;原因：支持消息队列，支持&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="2290" width="294" height="220" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="hDLYsz69nRmBFShnZY5y" name="并行测试">
-    <mxGraphModel dx="1141" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -774,7 +780,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0TV8CRH1gS-Lk-qkKf0z-1" value="push" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0eyEHUdNO3XxG6_NUFco-81">
+        <mxCell id="0TV8CRH1gS-Lk-qkKf0z-1" value="push" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0eyEHUdNO3XxG6_NUFco-81" vertex="1" connectable="0">
           <mxGeometry x="-0.4968" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
