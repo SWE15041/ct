@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T06:02:34.256Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="01aFGe5ZL7x8yU5H7kU0" version="20.5.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-25T06:05:00.999Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="b9wT0LaXoIFDccaTCQp-" version="20.5.3" type="github" pages="5">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
-    <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2593" dy="1456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -320,7 +320,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hDLYsz69nRmBFShnZY5y" name="并行测试">
-    <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2037" dy="1144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -749,286 +749,278 @@
         <mxCell id="ZwUq5EsjU6UeRGtxCqYF-2" value="&lt;span style=&quot;font-size: 30px&quot;&gt;设备拉取测试任务&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="79.18000000000006" y="2360" width="400" height="90" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="R6v5i-2aTJhThkP6GxHA" name="device manage">
-    <mxGraphModel dx="1901" dy="1068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="ALo7UZMxGwcZqnUbiFrl-3" value="Device管理 （拉任务）" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="120" y="80" width="240" height="70" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-14" value="Device管理 （拉任务）" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="258.65999999999997" y="3690" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-1" value="任务列表" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="640" width="110" height="50" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-15" value="任务列表" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="388.65999999999997" y="4250" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gF71pHAwRQYNlHbhdXnA-2" target="gF71pHAwRQYNlHbhdXnA-1" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tkbUwJTZy012x-cdv4MR-19" target="tkbUwJTZy012x-cdv4MR-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GwjMITN2IZlLDSrzbvyH-5" value="pull task" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="gF71pHAwRQYNlHbhdXnA-5" vertex="1" connectable="0">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-17" value="pull task" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="tkbUwJTZy012x-cdv4MR-16">
           <mxGeometry x="-0.6381" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="gF71pHAwRQYNlHbhdXnA-2" target="gF71pHAwRQYNlHbhdXnA-21" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tkbUwJTZy012x-cdv4MR-19" target="tkbUwJTZy012x-cdv4MR-35">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="140" y="370" />
-              <mxPoint x="305" y="370" />
+              <mxPoint x="278.65999999999997" y="3980" />
+              <mxPoint x="443.65999999999997" y="3980" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-2" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="440" width="40" height="80" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-19" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="258.65999999999997" y="4050" width="40" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="gF71pHAwRQYNlHbhdXnA-3" target="gF71pHAwRQYNlHbhdXnA-21" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tkbUwJTZy012x-cdv4MR-21" target="tkbUwJTZy012x-cdv4MR-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-3" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" parent="1" vertex="1">
-          <mxGeometry x="285" y="440" width="40" height="80" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-21" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="423.65999999999997" y="4050" width="40" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gF71pHAwRQYNlHbhdXnA-4" target="gF71pHAwRQYNlHbhdXnA-1" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tkbUwJTZy012x-cdv4MR-26" target="tkbUwJTZy012x-cdv4MR-15">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="460" y="665" />
+              <mxPoint x="598.66" y="4275" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GwjMITN2IZlLDSrzbvyH-4" value="pull task" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="gF71pHAwRQYNlHbhdXnA-20" vertex="1" connectable="0">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-23" value="pull task" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="tkbUwJTZy012x-cdv4MR-22">
           <mxGeometry x="-0.4531" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="gF71pHAwRQYNlHbhdXnA-4" target="gF71pHAwRQYNlHbhdXnA-21" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tkbUwJTZy012x-cdv4MR-26" target="tkbUwJTZy012x-cdv4MR-35">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="460" y="370" />
-              <mxPoint x="305" y="370" />
+              <mxPoint x="598.66" y="3980" />
+              <mxPoint x="443.65999999999997" y="3980" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GwjMITN2IZlLDSrzbvyH-6" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;upload device status&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="gF71pHAwRQYNlHbhdXnA-25" vertex="1" connectable="0">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-25" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;upload device status&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="tkbUwJTZy012x-cdv4MR-24">
           <mxGeometry x="0.6393" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-4" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" parent="1" vertex="1">
-          <mxGeometry x="440" y="440" width="40" height="80" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-26" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="578.66" y="4050" width="40" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gF71pHAwRQYNlHbhdXnA-9" target="gF71pHAwRQYNlHbhdXnA-14" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tkbUwJTZy012x-cdv4MR-29" target="tkbUwJTZy012x-cdv4MR-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gF71pHAwRQYNlHbhdXnA-9" target="gF71pHAwRQYNlHbhdXnA-11" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tkbUwJTZy012x-cdv4MR-29" target="tkbUwJTZy012x-cdv4MR-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-9" value="测试任务列表&lt;br&gt;（case+device）" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="205" y="1600" width="110" height="50" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-29" value="测试任务列表&lt;br&gt;（case+device）" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="343.65999999999997" y="5210" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-11" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="1400" width="40" height="80" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-30" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="258.65999999999997" y="5010" width="40" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-12" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="1400" width="40" height="80" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-31" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="378.65999999999997" y="5010" width="40" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-14" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" parent="1" vertex="1">
-          <mxGeometry x="360" y="1400" width="40" height="80" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-32" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="498.65999999999997" y="5010" width="40" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-18" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;设备主动拉任务流程&lt;br&gt;&lt;/font&gt;job: 遍历服务本地空闲的设备&lt;br&gt;判断设备状态 is 空闲？&lt;br&gt;- yes, 下一步&lt;br&gt;- no，结束&lt;br&gt;主动从队列中获取测试任务&lt;br&gt;上报设备状态：忙碌&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度：完成&lt;br&gt;上报设备状态：空闲&lt;br&gt;结束&lt;br&gt;&lt;br&gt;问题：&lt;br&gt;？ 设备异常卡住，无法终止设备进程等情况&lt;br&gt;- 搞一个设置负载、CPU监控界面，关注设备状态&lt;br&gt;&lt;br&gt;？ 空闲的设备如何拉取任务，100台设备就有100个请求去获取任务&lt;br&gt;- 只选用用户关注的设备，并发执行任务，并发数：？&lt;br&gt;&lt;br&gt;？kafka: 任务列表的队头任务所需设备都处于忙碌状态，后面的任务无法出队（其他设备空闲）&lt;br&gt;- 选用redis队列&lt;br&gt;- 一个设备+os版本划分队列，在设备空闲的的时候再去获取任务&lt;br&gt;&lt;br&gt;? 某个类型的设备A都处于忙碌状态时，任务列表的队头任务刚好需要设备A，会导致后续任务被阻塞&lt;br&gt;- 选用redis，解决此类问题&lt;br&gt;&lt;br&gt;？应该如何管理任务列表&lt;br&gt;- Kafka队列，动态发布、订阅 （不选用）&lt;br&gt;- Redis队列 （选用）&lt;br&gt;&lt;br&gt;优点&amp;nbsp;&lt;br&gt;避免并发抢占设备？&lt;br&gt;可以随时新增测试服务器，测试设备。" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
-          <mxGeometry x="540" y="495" width="600" height="485" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-33" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;设备主动拉任务流程&lt;br&gt;&lt;/font&gt;job: 遍历服务本地空闲的设备&lt;br&gt;判断设备状态 is 空闲？&lt;br&gt;- yes, 下一步&lt;br&gt;- no，结束&lt;br&gt;主动从队列中获取测试任务&lt;br&gt;上报设备状态：忙碌&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度：完成&lt;br&gt;上报设备状态：空闲&lt;br&gt;结束&lt;br&gt;&lt;br&gt;问题：&lt;br&gt;？ 设备异常卡住，无法终止设备进程等情况&lt;br&gt;- 搞一个设置负载、CPU监控界面，关注设备状态&lt;br&gt;&lt;br&gt;？ 空闲的设备如何拉取任务，100台设备就有100个请求去获取任务&lt;br&gt;- 只选用用户关注的设备，并发执行任务，并发数：？&lt;br&gt;&lt;br&gt;？kafka: 任务列表的队头任务所需设备都处于忙碌状态，后面的任务无法出队（其他设备空闲）&lt;br&gt;- 选用redis队列&lt;br&gt;- 一个设备+os版本划分队列，在设备空闲的的时候再去获取任务&lt;br&gt;&lt;br&gt;? 某个类型的设备A都处于忙碌状态时，任务列表的队头任务刚好需要设备A，会导致后续任务被阻塞&lt;br&gt;- 选用redis，解决此类问题&lt;br&gt;&lt;br&gt;？应该如何管理任务列表&lt;br&gt;- Kafka队列，动态发布、订阅 （不选用）&lt;br&gt;- Redis队列 （选用）&lt;br&gt;&lt;br&gt;优点&amp;nbsp;&lt;br&gt;避免并发抢占设备？&lt;br&gt;可以随时新增测试服务器，测试设备。" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="678.66" y="4105" width="600" height="485" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-19" value="Device管理 （推任务）" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="120" y="1240" width="240" height="70" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-34" value="Device管理 （推任务）" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="258.65999999999997" y="4850" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="gF71pHAwRQYNlHbhdXnA-21" value="test-site" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="210" width="110" height="50" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-35" value="test-site" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="388.65999999999997" y="3820" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="s5fP45iDmXV0Skhw3mqN-1" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;设备状态基本定义：&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;？如何定义设备状态&lt;br&gt;空闲：IDLE 可以用来执行测试任务&lt;br&gt;忙碌：ACTIVE 正在执行测试任务&lt;br&gt;&lt;br&gt;？如何定义设备状态为“空闲”&lt;br&gt;&amp;nbsp;- 设备关机&lt;br&gt;&amp;nbsp;- 设备开机 + 没有正在执行的测试任务&lt;br&gt;&lt;br&gt;？如何把设备状态上报到测试平台&lt;br&gt;- 由设备主动去推送&lt;br&gt;- 测试平台扫描获取&lt;br&gt;&lt;br&gt;？如何判断机器有无正在执行的测试任务&lt;br&gt;- 设备主动&lt;font color=&quot;#ff0000&quot;&gt;拉&lt;/font&gt;任务：&lt;br&gt;- 测试任务列表&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;推&lt;/font&gt;送任务 给设备：&lt;br&gt;&lt;br&gt;？设备可能存在一些不可控的情况&lt;br&gt;&lt;br&gt;？如何处理不可控的情况" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
-          <mxGeometry x="540" y="70" width="500" height="370" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-36" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;设备状态基本定义：&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;？如何定义设备状态&lt;br&gt;空闲：IDLE 可以用来执行测试任务&lt;br&gt;忙碌：ACTIVE 正在执行测试任务&lt;br&gt;&lt;br&gt;？如何定义设备状态为“空闲”&lt;br&gt;&amp;nbsp;- 设备关机&lt;br&gt;&amp;nbsp;- 设备开机 + 没有正在执行的测试任务&lt;br&gt;&lt;br&gt;？如何把设备状态上报到测试平台&lt;br&gt;- 由设备主动去推送&lt;br&gt;- 测试平台扫描获取&lt;br&gt;&lt;br&gt;？如何判断机器有无正在执行的测试任务&lt;br&gt;- 设备主动&lt;font color=&quot;#ff0000&quot;&gt;拉&lt;/font&gt;任务：&lt;br&gt;- 测试任务列表&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;推&lt;/font&gt;送任务 给设备：&lt;br&gt;&lt;br&gt;？设备可能存在一些不可控的情况&lt;br&gt;&lt;br&gt;？如何处理不可控的情况" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="678.66" y="3680" width="500" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="s5fP45iDmXV0Skhw3mqN-2" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;任务列表主动推送任务给设备流程&lt;br&gt;&lt;/font&gt;开启一个job: 用来分配测试任务给设备&lt;br&gt;开始&lt;br&gt;获取一个任务&lt;br&gt;获取任务需要的设备&lt;br&gt;扫描各个服务器上该设备的状态，&lt;br&gt;- 有空闲，则返回device_id，下一步&lt;br&gt;- 都忙碌，测试任务重新入队列，结束；&lt;br&gt;锁住设备使用权限，更新设备状态：忙碌&lt;br&gt;将任务分配到空闲设备上去运行，&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度：完成&lt;br&gt;释放设备使用权限，更新设备状态：空闲&lt;br&gt;结束&lt;br&gt;&lt;br&gt;&lt;br&gt;问题：&lt;br&gt;？任务列表用什么存放&lt;br&gt;- redis队列&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;？可能存在并发问题，导致同一个设备被分配多个任务；&lt;br&gt;- 在分配任务的地方，把设备使用权限锁住&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;？任务列表如何分配任务到指定设备&lt;br&gt;&lt;/font&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;？需要向界面展示，设备正在执行哪个任务吗？&lt;br&gt;- 要，进度从表内获取就好&lt;br&gt;&lt;br&gt;优点：&lt;br&gt;缺点：" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
-          <mxGeometry x="560" y="1320" width="410" height="480" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-37" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;任务列表主动推送任务给设备流程&lt;br&gt;&lt;/font&gt;开启一个job: 用来分配测试任务给设备&lt;br&gt;开始&lt;br&gt;获取一个任务&lt;br&gt;获取任务需要的设备&lt;br&gt;扫描各个服务器上该设备的状态，&lt;br&gt;- 有空闲，则返回device_id，下一步&lt;br&gt;- 都忙碌，测试任务重新入队列，结束；&lt;br&gt;锁住设备使用权限，更新设备状态：忙碌&lt;br&gt;将任务分配到空闲设备上去运行，&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度：完成&lt;br&gt;释放设备使用权限，更新设备状态：空闲&lt;br&gt;结束&lt;br&gt;&lt;br&gt;&lt;br&gt;问题：&lt;br&gt;？任务列表用什么存放&lt;br&gt;- redis队列&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;？可能存在并发问题，导致同一个设备被分配多个任务；&lt;br&gt;- 在分配任务的地方，把设备使用权限锁住&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;？任务列表如何分配任务到指定设备&lt;br&gt;&lt;/font&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;？需要向界面展示，设备正在执行哪个任务吗？&lt;br&gt;- 要，进度从表内获取就好&lt;br&gt;&lt;br&gt;优点：&lt;br&gt;缺点：" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="698.66" y="4930" width="410" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="ffNSEzcIwv1AeKsIqba8-2" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;网站上如何进行设备管理？&lt;br&gt;&lt;/font&gt;设备来源：&lt;br&gt;启动VM,&lt;br&gt;启动service，&lt;br&gt;开启job: 遍历服务器上的设备（ios,android）&lt;br&gt;向测试平台上报设备信息、状态。&lt;br&gt;&lt;br&gt;？VM关机时&lt;br&gt;- 一般不会出现&lt;br&gt;&lt;br&gt;？服务器挂掉时&lt;br&gt;- 一般不会出现&lt;br&gt;&lt;br&gt;？设备进行os版本更新时&lt;br&gt;- 更新完毕后，job会把设备信息上报&lt;br&gt;&lt;br&gt;？服务器上新增设备的时候&lt;br&gt;- 新增完毕后，job会把设备信息上报&lt;br&gt;&lt;br&gt;？需要UI界面新增一个操作，用来手动触发job，上报设备信息。&lt;br&gt;- 需要&lt;br&gt;&lt;br&gt;？需要上报哪些设备，由谁来决定&lt;br&gt;- 网页上放置“设备新增”按钮，用来新增需要关注的设备，并在每台服务器上安装该设备&lt;br&gt;&lt;br&gt;？设备移除？&lt;br&gt;-&amp;nbsp; 从每台服务器上卸载改设备&lt;br&gt;&lt;br&gt;？真机&lt;br&gt;- 如果真机通过usb已经连接在服务器上，job 识别并把真机信息上报到平台&lt;br&gt;- 如果真机断开usb连接，job将这台服务器没有真机的情况上报上次。&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1280" y="495" width="600" height="505" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-38" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;网站上如何进行设备管理？&lt;br&gt;&lt;/font&gt;设备来源：&lt;br&gt;启动VM,&lt;br&gt;启动service，&lt;br&gt;开启job: 遍历服务器上的设备（ios,android）&lt;br&gt;向测试平台上报设备信息、状态。&lt;br&gt;&lt;br&gt;？VM关机时&lt;br&gt;- 一般不会出现&lt;br&gt;&lt;br&gt;？服务器挂掉时&lt;br&gt;- 一般不会出现&lt;br&gt;&lt;br&gt;？设备进行os版本更新时&lt;br&gt;- 更新完毕后，job会把设备信息上报&lt;br&gt;&lt;br&gt;？服务器上新增设备的时候&lt;br&gt;- 新增完毕后，job会把设备信息上报&lt;br&gt;&lt;br&gt;？需要UI界面新增一个操作，用来手动触发job，上报设备信息。&lt;br&gt;- 需要&lt;br&gt;&lt;br&gt;？需要上报哪些设备，由谁来决定&lt;br&gt;- 网页上放置“设备新增”按钮，用来新增需要关注的设备，并在每台服务器上安装该设备&lt;br&gt;&lt;br&gt;？设备移除？&lt;br&gt;-&amp;nbsp; 从每台服务器上卸载改设备&lt;br&gt;&lt;br&gt;？真机&lt;br&gt;- 如果真机通过usb已经连接在服务器上，job 识别并把真机信息上报到平台&lt;br&gt;- 如果真机断开usb连接，job将这台服务器没有真机的情况上报上次。&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1418.66" y="4105" width="600" height="505" as="geometry" />
         </mxCell>
-        <mxCell id="ffNSEzcIwv1AeKsIqba8-3" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;ios&amp;nbsp;&lt;br&gt;simulator&lt;br&gt;环境&lt;br&gt;&lt;/font&gt;MAC OS&lt;br&gt;XCode&lt;br&gt;XCode command line tool&lt;br&gt;&lt;br&gt;设备新增：&lt;br&gt;设备移除：&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
-          <mxGeometry x="2000" y="495" width="600" height="435" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-39" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;ios&amp;nbsp;&lt;br&gt;simulator&lt;br&gt;环境&lt;br&gt;&lt;/font&gt;MAC OS&lt;br&gt;XCode&lt;br&gt;XCode command line tool&lt;br&gt;&lt;br&gt;设备新增：&lt;br&gt;设备移除：&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2138.66" y="4105" width="600" height="435" as="geometry" />
         </mxCell>
-        <mxCell id="ffNSEzcIwv1AeKsIqba8-4" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;android&amp;nbsp;&lt;br&gt;emulator&lt;br&gt;&lt;/font&gt;设备新增&lt;br&gt;&lt;br&gt;设备移除&amp;nbsp;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
-          <mxGeometry x="2720" y="495" width="600" height="435" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-40" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;android&amp;nbsp;&lt;br&gt;emulator&lt;br&gt;&lt;/font&gt;设备新增&lt;br&gt;&lt;br&gt;设备移除&amp;nbsp;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2858.66" y="4105" width="600" height="435" as="geometry" />
         </mxCell>
-        <mxCell id="ffNSEzcIwv1AeKsIqba8-5" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;总结：&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;需要用到哪些设备由用户决定，在网页上定义&lt;br&gt;设备信息需要包含（设备版本 OS版本 ID 来自哪台服务器（IP））&lt;br&gt;&lt;br&gt;模拟器&lt;br&gt;&lt;br&gt;真机" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1280" y="70" width="500" height="370" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-41" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;总结：&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;需要用到哪些设备由用户决定，在网页上定义&lt;br&gt;设备信息需要包含（设备版本 OS版本 ID 来自哪台服务器（IP））&lt;br&gt;&lt;br&gt;模拟器&lt;br&gt;&lt;br&gt;真机" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1418.66" y="3680" width="500" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="g58QlPJOT-uhk9yPjI06-1" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;任务列表主动推送任务给设备流程&lt;br&gt;&lt;/font&gt;开启一个job: 用来分配测试任务给设备&lt;br&gt;开始&lt;br&gt;扫描各个服务上空闲的设备；&lt;br&gt;获取匹配空闲设备的一个任务；&lt;br&gt;- 无任务，结束；&lt;br&gt;- 有任务，下一步；&lt;br&gt;锁住设备使用权限，更新设备状态：忙碌&lt;br&gt;将任务分配到空闲设备上去运行；&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度：完成&lt;br&gt;释放设备使用权限，更新设备状态：空闲&lt;br&gt;结束&lt;br&gt;&lt;br&gt;&lt;br&gt;问题：&lt;br&gt;？任务列表用什么存放&lt;br&gt;- redis队列&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;？可能存在并发问题，导致同一个设备被分配多个任务；&lt;br&gt;- 在分配任务的地方，把设备使用权限锁住&lt;br&gt;&lt;br&gt;？任务列表如何分配任务到指定设备&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;？需要向界面展示，设备正在执行哪个任务吗？&lt;br&gt;- 要，进度从表内获取就好&lt;br&gt;&lt;br&gt;优点：&lt;br&gt;缺点：" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="1320" width="410" height="480" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-42" value="&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;任务列表主动推送任务给设备流程&lt;br&gt;&lt;/font&gt;开启一个job: 用来分配测试任务给设备&lt;br&gt;开始&lt;br&gt;扫描各个服务上空闲的设备；&lt;br&gt;获取匹配空闲设备的一个任务；&lt;br&gt;- 无任务，结束；&lt;br&gt;- 有任务，下一步；&lt;br&gt;锁住设备使用权限，更新设备状态：忙碌&lt;br&gt;将任务分配到空闲设备上去运行；&lt;br&gt;执行测试任务&lt;br&gt;上报测试进度：完成&lt;br&gt;释放设备使用权限，更新设备状态：空闲&lt;br&gt;结束&lt;br&gt;&lt;br&gt;&lt;br&gt;问题：&lt;br&gt;？任务列表用什么存放&lt;br&gt;- redis队列&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;？可能存在并发问题，导致同一个设备被分配多个任务；&lt;br&gt;- 在分配任务的地方，把设备使用权限锁住&lt;br&gt;&lt;br&gt;？任务列表如何分配任务到指定设备&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;？需要向界面展示，设备正在执行哪个任务吗？&lt;br&gt;- 要，进度从表内获取就好&lt;br&gt;&lt;br&gt;优点：&lt;br&gt;缺点：" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1188.66" y="4930" width="410" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="GwjMITN2IZlLDSrzbvyH-1" value="iPhone 11&amp;nbsp;&lt;br&gt;忙碌" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="190" y="465" width="90" height="30" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-43" value="iPhone 11&amp;nbsp;&lt;br&gt;忙碌" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="328.65999999999997" y="4075" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GwjMITN2IZlLDSrzbvyH-2" value="iPhone 12&lt;br&gt;空闲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="350" y="460" width="90" height="30" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-44" value="iPhone 12&lt;br&gt;空闲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="488.65999999999997" y="4070" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GwjMITN2IZlLDSrzbvyH-3" value="iPhone 11&amp;nbsp;&lt;br&gt;空闲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="20" y="465" width="90" height="30" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-45" value="iPhone 11&amp;nbsp;&lt;br&gt;空闲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="158.66" y="4075" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="swa4fkfEs4S35OMiFNYW-1" value="Device管理 （增删改查）" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="120" y="2440" width="240" height="70" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-46" value="Device管理 （增删改查）" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;shadow=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="258.65999999999997" y="6050" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="swa4fkfEs4S35OMiFNYW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" parent="1" source="LLoJLRrZXi152DSIUoTZ-13" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="tkbUwJTZy012x-cdv4MR-70">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="495" y="2960" as="targetPoint" />
+            <mxPoint x="633.66" y="6570" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="495" y="2960" />
+              <mxPoint x="633.66" y="6570" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="swa4fkfEs4S35OMiFNYW-3" value="test-site" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="2560" width="110" height="50" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-48" value="test-site" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="578.66" y="6170" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="swa4fkfEs4S35OMiFNYW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" parent="1" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1045" y="2960" as="targetPoint" />
-            <mxPoint x="1045" y="2840" as="sourcePoint" />
+            <mxPoint x="1183.66" y="6570" as="targetPoint" />
+            <mxPoint x="1183.66" y="6450" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="swa4fkfEs4S35OMiFNYW-4" value="test-excute-service" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="990" y="2560" width="110" height="50" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-50" value="test-excute-service" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1128.66" y="6170" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="swa4fkfEs4S35OMiFNYW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" parent="1" source="LLoJLRrZXi152DSIUoTZ-11" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="tkbUwJTZy012x-cdv4MR-68">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="195" y="2960" as="targetPoint" />
+            <mxPoint x="333.65999999999997" y="6570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="swa4fkfEs4S35OMiFNYW-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="2560" width="30" height="60" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-52" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="318.65999999999997" y="6170" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="swa4fkfEs4S35OMiFNYW-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="190" y="2670" width="10" height="80" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="328.65999999999997" y="6280" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="swa4fkfEs4S35OMiFNYW-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="swa4fkfEs4S35OMiFNYW-8" target="swa4fkfEs4S35OMiFNYW-10" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="tkbUwJTZy012x-cdv4MR-52" target="tkbUwJTZy012x-cdv4MR-53">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="195" y="2880" as="targetPoint" />
-            <mxPoint x="195" y="2620" as="sourcePoint" />
+            <mxPoint x="333.65999999999997" y="6490" as="targetPoint" />
+            <mxPoint x="333.65999999999997" y="6230" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="swa4fkfEs4S35OMiFNYW-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="490" y="2670" width="10" height="80" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="628.66" y="6280" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="swa4fkfEs4S35OMiFNYW-13" value="新增设备" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-56" value="新增设备" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="2709.5" as="sourcePoint" />
-            <mxPoint x="440" y="2709.5" as="targetPoint" />
+            <mxPoint x="398.65999999999997" y="6319.5" as="sourcePoint" />
+            <mxPoint x="578.66" y="6319.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="swa4fkfEs4S35OMiFNYW-15" value="获取安装设备" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-57" value="获取安装设备" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1020" y="2691" as="sourcePoint" />
-            <mxPoint x="760" y="2691" as="targetPoint" />
+            <mxPoint x="1158.66" y="6301" as="sourcePoint" />
+            <mxPoint x="898.66" y="6301" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="890" y="2690" />
+              <mxPoint x="1028.66" y="6300" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="swa4fkfEs4S35OMiFNYW-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="2670" width="10" height="80" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-58" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1178.66" y="6280" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" parent="1" source="LLoJLRrZXi152DSIUoTZ-15" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="tkbUwJTZy012x-cdv4MR-72">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="2960" as="targetPoint" />
+            <mxPoint x="858.66" y="6570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-2" value="Mongo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="690" y="2560" width="60" height="60" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-60" value="Mongo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="828.66" y="6170" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="715" y="2670" width="10" height="70" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="853.66" y="6280" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="LLoJLRrZXi152DSIUoTZ-2" target="LLoJLRrZXi152DSIUoTZ-3" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="tkbUwJTZy012x-cdv4MR-60" target="tkbUwJTZy012x-cdv4MR-61">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="2880" as="targetPoint" />
-            <mxPoint x="720" y="2620" as="sourcePoint" />
+            <mxPoint x="858.66" y="6490" as="targetPoint" />
+            <mxPoint x="858.66" y="6230" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-5" value="保存设备信息" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-63" value="保存设备信息" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="2709.5" as="sourcePoint" />
-            <mxPoint x="690" y="2709.5" as="targetPoint" />
+            <mxPoint x="648.66" y="6319.5" as="sourcePoint" />
+            <mxPoint x="828.66" y="6319.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="1045" y="2691" width="10" height="40" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-64" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1183.66" y="6301" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-7" value="job：安装设备 （频率：)&lt;br&gt;遍历设备表&lt;br&gt;获取未安装的设备&lt;br&gt;安装设备&lt;br&gt;更新安装结果" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" target="LLoJLRrZXi152DSIUoTZ-6" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-65" value="job：安装设备 （频率：)&lt;br&gt;遍历设备表&lt;br&gt;获取未安装的设备&lt;br&gt;安装设备&lt;br&gt;更新安装结果" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1" target="tkbUwJTZy012x-cdv4MR-64">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1050" y="2671" as="sourcePoint" />
+            <mxPoint x="1188.66" y="6281" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1080" y="2671" />
+              <mxPoint x="1218.66" y="6281" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="swa4fkfEs4S35OMiFNYW-4" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="tkbUwJTZy012x-cdv4MR-50">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1045" y="2840" as="targetPoint" />
-            <mxPoint x="1045" y="2610" as="sourcePoint" />
+            <mxPoint x="1183.66" y="6450" as="targetPoint" />
+            <mxPoint x="1183.66" y="6220" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-10" value="更新安装结果" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-67" value="更新安装结果" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1020" y="2741" as="sourcePoint" />
-            <mxPoint x="760" y="2741" as="targetPoint" />
+            <mxPoint x="1158.66" y="6351" as="sourcePoint" />
+            <mxPoint x="898.66" y="6351" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="190" y="2800" width="10" height="80" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="328.65999999999997" y="6410" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="1" source="swa4fkfEs4S35OMiFNYW-10" target="LLoJLRrZXi152DSIUoTZ-11" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="1" source="tkbUwJTZy012x-cdv4MR-53" target="tkbUwJTZy012x-cdv4MR-68">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="195" y="2960" as="targetPoint" />
-            <mxPoint x="195" y="2750" as="sourcePoint" />
+            <mxPoint x="333.65999999999997" y="6570" as="targetPoint" />
+            <mxPoint x="333.65999999999997" y="6360" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="490" y="2800" width="10" height="80" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-70" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="628.66" y="6410" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="swa4fkfEs4S35OMiFNYW-3" target="LLoJLRrZXi152DSIUoTZ-13" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="tkbUwJTZy012x-cdv4MR-48" target="tkbUwJTZy012x-cdv4MR-70">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="495" y="2960" as="targetPoint" />
-            <mxPoint x="495" y="2610" as="sourcePoint" />
+            <mxPoint x="633.66" y="6570" as="targetPoint" />
+            <mxPoint x="633.66" y="6220" as="sourcePoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="715" y="2800" width="10" height="80" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="853.66" y="6410" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" parent="1" source="LLoJLRrZXi152DSIUoTZ-3" target="LLoJLRrZXi152DSIUoTZ-15" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="1" source="tkbUwJTZy012x-cdv4MR-61" target="tkbUwJTZy012x-cdv4MR-72">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="2960" as="targetPoint" />
-            <mxPoint x="720" y="2740" as="sourcePoint" />
+            <mxPoint x="858.66" y="6570" as="targetPoint" />
+            <mxPoint x="858.66" y="6350" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-17" value="删除设备" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-74" value="删除设备" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="2839.5" as="sourcePoint" />
-            <mxPoint x="440" y="2839.5" as="targetPoint" />
+            <mxPoint x="398.65999999999997" y="6449.5" as="sourcePoint" />
+            <mxPoint x="578.66" y="6449.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LLoJLRrZXi152DSIUoTZ-18" value="删除设备信息" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+        <mxCell id="tkbUwJTZy012x-cdv4MR-75" value="删除设备信息" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="2839.5" as="sourcePoint" />
-            <mxPoint x="700" y="2839.5" as="targetPoint" />
+            <mxPoint x="658.66" y="6449.5" as="sourcePoint" />
+            <mxPoint x="838.66" y="6449.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ApjlGeVI0XBOKmGj5zkD-1" value="iPhone 11&amp;nbsp;&lt;br&gt;忙碌" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="215" y="1350" width="90" height="30" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-76" value="iPhone 11&amp;nbsp;&lt;br&gt;忙碌" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="353.65999999999997" y="4960" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ApjlGeVI0XBOKmGj5zkD-3" value="iPhone 11&amp;nbsp;&lt;br&gt;空闲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="95" y="1350" width="90" height="30" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-77" value="iPhone 11&amp;nbsp;&lt;br&gt;空闲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="233.66" y="4960" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ApjlGeVI0XBOKmGj5zkD-4" value="iPhone 12&lt;br&gt;空闲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="335" y="1350" width="90" height="30" as="geometry" />
+        <mxCell id="tkbUwJTZy012x-cdv4MR-78" value="iPhone 12&lt;br&gt;空闲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="473.65999999999997" y="4960" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
