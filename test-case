@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T10:04:01.885Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="N5XtBAWAinYwMt8CI_0R" version="20.5.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-25T10:08:44.597Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="obyAoU9MEM0ABc9VKpu9" version="20.5.3" type="github" pages="5">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="2593" dy="1456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1992,7 +1992,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Z0FmRwHE0YfOcIqbHH4E-2" value="test-daemon" style="html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="80" y="160" width="110" height="50" as="geometry" />
+          <mxGeometry x="80" y="140" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CZ9zCMuclpoUey-HrTyD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontColor=#000000;" edge="1" parent="1" source="Z0FmRwHE0YfOcIqbHH4E-3">
           <mxGeometry relative="1" as="geometry">
@@ -2000,7 +2000,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Z0FmRwHE0YfOcIqbHH4E-3" value="test-api" style="html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="320" y="160" width="110" height="50" as="geometry" />
+          <mxGeometry x="320" y="140" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CZ9zCMuclpoUey-HrTyD-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="130" y="240" width="10" height="160" as="geometry" />
@@ -2023,7 +2023,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CZ9zCMuclpoUey-HrTyD-5" value="test-device-service" style="html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="560" y="160" width="110" height="50" as="geometry" />
+          <mxGeometry x="560" y="140" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CZ9zCMuclpoUey-HrTyD-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="370" y="310" width="10" height="80" as="geometry" />
