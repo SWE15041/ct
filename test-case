@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T10:01:58.793Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="PWh8-pTZa2AmbxmtSJbA" version="20.6.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-12-01T10:07:15.802Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ODAp0iif5j4UTBnbb-Be" version="20.6.0" type="github" pages="6">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1426" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1026,7 +1026,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QGt55C36ytHJKzUzlD-W" name="DB design">
-    <mxGraphModel dx="1075" dy="-2968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1075" dy="-3004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2790,7 +2790,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="u8aRJaiZNB4Asu1zR413" name="test-daemon">
-    <mxGraphModel dx="1282" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1282" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2996,12 +2996,12 @@
         <mxCell id="wG-sf90CU_CBUC-WpmIi-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="994" y="560" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wG-sf90CU_CBUC-WpmIi-2" value="AppWebService.get(appId)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;exitX=0.163;exitY=0.195;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="wG-sf90CU_CBUC-WpmIi-1" parent="1" source="wG-sf90CU_CBUC-WpmIi-4">
+        <mxCell id="wG-sf90CU_CBUC-WpmIi-2" value="DeviceCollectionWebService.get(id)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;exitX=0.163;exitY=0.195;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="wG-sf90CU_CBUC-WpmIi-1" parent="1" source="wG-sf90CU_CBUC-WpmIi-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1064" y="560" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wG-sf90CU_CBUC-WpmIi-3" value="return app" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;rounded=0;entryX=-0.047;entryY=0.905;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="wG-sf90CU_CBUC-WpmIi-1" parent="1" target="wG-sf90CU_CBUC-WpmIi-4">
+        <mxCell id="wG-sf90CU_CBUC-WpmIi-3" value="return deviceCollection" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;rounded=0;entryX=-0.047;entryY=0.905;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="wG-sf90CU_CBUC-WpmIi-1" parent="1" target="wG-sf90CU_CBUC-WpmIi-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1064" y="617" as="targetPoint" />
           </mxGeometry>
@@ -3314,6 +3314,22 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="3592" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4oZZGCQM55poX6TEXYfP-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="994" y="677" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4oZZGCQM55poX6TEXYfP-2" value="AppWebService.get(appId)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;exitX=0.163;exitY=0.195;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4oZZGCQM55poX6TEXYfP-4" target="4oZZGCQM55poX6TEXYfP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1064" y="677" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oZZGCQM55poX6TEXYfP-3" value="return app" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;rounded=0;entryX=-0.047;entryY=0.905;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4oZZGCQM55poX6TEXYfP-1" target="4oZZGCQM55poX6TEXYfP-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1064" y="734" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oZZGCQM55poX6TEXYfP-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="662" width="10" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
