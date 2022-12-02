@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-02T10:22:24.795Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="9xDiM-gGiaZnw2h8kQBC" version="20.6.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-12-02T10:24:59.018Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sZZfTGP-wIQ0kho8GdWR" version="20.6.0" type="github" pages="6">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1426" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2769,86 +2769,33 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lIwim3pSrUL2Kx-lR7bh" name="device">
-    <mxGraphModel dx="1056" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CZ9zCMuclpoUey-HrTyD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontColor=#000000;" parent="1" source="Z0FmRwHE0YfOcIqbHH4E-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="135" y="510" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z0FmRwHE0YfOcIqbHH4E-2" value="test-daemon" style="html=1;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="80" y="140" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="CZ9zCMuclpoUey-HrTyD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontColor=#000000;" parent="1" source="Z0FmRwHE0YfOcIqbHH4E-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="375.0000000000002" y="530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z0FmRwHE0YfOcIqbHH4E-3" value="test-api" style="html=1;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="320" y="140" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="CZ9zCMuclpoUey-HrTyD-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="130" y="240" width="10" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="CZ9zCMuclpoUey-HrTyD-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="140" y="260" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="CZ9zCMuclpoUey-HrTyD-4" value="job: upload device&lt;br&gt;fetch device by ip from other service&lt;br&gt;fetch device from disk&lt;br&gt;if device exist?&lt;br&gt;- yes : nothing to do&lt;br&gt;- no : upload devices&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;shadow=0;fontColor=#000000;" parent="1" target="CZ9zCMuclpoUey-HrTyD-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="240" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="175" y="240" />
-              <mxPoint x="175" y="260" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CZ9zCMuclpoUey-HrTyD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontColor=#000000;" parent="1" source="CZ9zCMuclpoUey-HrTyD-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="614.9999999999998" y="530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CZ9zCMuclpoUey-HrTyD-5" value="test-device-service" style="html=1;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="560" y="140" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="CZ9zCMuclpoUey-HrTyD-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="370" y="310" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="CZ9zCMuclpoUey-HrTyD-8" value="upload device" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;shadow=0;fontColor=#000000;" parent="1" target="CZ9zCMuclpoUey-HrTyD-7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="310" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CZ9zCMuclpoUey-HrTyD-9" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;shadow=0;fontColor=#000000;" parent="1" source="CZ9zCMuclpoUey-HrTyD-7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="386" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CZ9zCMuclpoUey-HrTyD-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="610" y="310" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="CZ9zCMuclpoUey-HrTyD-12" value="upload device" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;shadow=0;fontColor=#000000;" parent="1" target="CZ9zCMuclpoUey-HrTyD-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="310" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CZ9zCMuclpoUey-HrTyD-13" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;shadow=0;fontColor=#000000;" parent="1" source="CZ9zCMuclpoUey-HrTyD-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="385.9999999999999" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="QSwuxBJY-ROzYOIL76cz-1" value="ios-simulator" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="80" y="560" width="240" height="80" as="geometry" />
+          <mxGeometry x="80" y="80" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QSwuxBJY-ROzYOIL76cz-2" value="&lt;font color=&quot;#ff0000&quot;&gt;获取设备列表命令：&amp;nbsp;xcrun xctrace list devices：&lt;br&gt;&lt;/font&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;模拟器正则：([\w]*[ |_]*[\w]*)( Simulator )(\(\d+\.\d+\))[ ]*(\([\w|-]+\))&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;iPhone_14 Simulator (16.0) (3143DAC6-39F2-410F-AC99-84A37D958CF7)&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; min-height: 15px;&quot; class=&quot;p2&quot;&gt;(device_name)( Simulator ) (os_version) (device_udid)&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;启动设备命令：&lt;span style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; background-color: initial;&quot;&gt;xcrun simctl boot ${&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; background-color: initial;&quot;&gt;device_udid&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;xcrun simctl boot 08157BED-FF55-4FB5-B53C-3EF31597990C&lt;/p&gt;&lt;/div&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;关机：&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;xcrun simctl shutdown&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; ${device_udid}&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;xcrun simctl shutdown 08157BED-FF55-4FB5-B53C-3EF31597990C&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; min-height: 15px;&quot; class=&quot;p2&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;恢复出厂设置:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;xcrun simctl erase ${device_udid}&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;xcrun simctl erase 08157BED-FF55-4FB5-B53C-3EF31597990C&lt;/p&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="80" y="680" width="540" height="340" as="geometry" />
+          <mxGeometry x="80" y="200" width="540" height="340" as="geometry" />
         </mxCell>
         <mxCell id="QSwuxBJY-ROzYOIL76cz-3" value="ios-real-device" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1080" width="240" height="80" as="geometry" />
+          <mxGeometry x="80" y="600" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QSwuxBJY-ROzYOIL76cz-4" value="&lt;font color=&quot;#ff0000&quot;&gt;获取设备列表命令：&amp;nbsp;xcrun xctrace list devices：&lt;br&gt;&lt;/font&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;真机正则：&lt;span style=&quot;background-color: initial;&quot;&gt;([\w]*[ |_]*[\w]*)(\(\d+\.\d+\))[ ]*(\([\w|-]+\))&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;WonderTest (15.5) (00008030-001078460AF8802E)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;(device_name) (os_version) (device_udid)&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1200" width="440" height="270" as="geometry" />
+          <mxGeometry x="80" y="720" width="440" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="QSwuxBJY-ROzYOIL76cz-5" value="android-emulator" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1280" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QSwuxBJY-ROzYOIL76cz-6" value="android-real-device" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1720" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QSwuxBJY-ROzYOIL76cz-7" value="&lt;font color=&quot;#ff0000&quot;&gt;获取设备列表命令：&amp;nbsp;xcrun xctrace list devices：&lt;br&gt;&lt;/font&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;真机正则：&lt;span style=&quot;background-color: initial;&quot;&gt;([\w]*[ |_]*[\w]*)(\(\d+\.\d+\))[ ]*(\([\w|-]+\))&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;WonderTest (15.5) (00008030-001078460AF8802E)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;(device_name) (os_version) (device_udid)&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1400" width="440" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="QSwuxBJY-ROzYOIL76cz-8" value="&lt;font color=&quot;#ff0000&quot;&gt;获取设备列表命令：&amp;nbsp;xcrun xctrace list devices：&lt;br&gt;&lt;/font&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;真机正则：&lt;span style=&quot;background-color: initial;&quot;&gt;([\w]*[ |_]*[\w]*)(\(\d+\.\d+\))[ ]*(\([\w|-]+\))&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;WonderTest (15.5) (00008030-001078460AF8802E)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;(device_name) (os_version) (device_udid)&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1840" width="440" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
