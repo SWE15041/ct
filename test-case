@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-02T08:24:24.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ThWYkZPttABuF4qNMdA-" version="20.6.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-12-02T08:33:04.516Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="YKCO5WHsdTIj54620ysg" version="20.6.0" type="github" pages="6">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1426" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3413,7 +3413,7 @@
         <mxCell id="N-OMW5HjglT4bRMCA1Cb-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="1955" y="400" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="N-OMW5HjglT4bRMCA1Cb-2" value="before test: create appium driver&lt;br&gt;(appium server url &amp;amp; app_path &amp;amp; device_id)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=0.88;exitY=0.023;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="N-OMW5HjglT4bRMCA1Cb-1" parent="1" source="N-OMW5HjglT4bRMCA1Cb-10">
+        <mxCell id="N-OMW5HjglT4bRMCA1Cb-2" value="before test: create appium driver&lt;br&gt;(appium server url &amp;amp; app_path &amp;amp; device)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=0.88;exitY=0.023;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="N-OMW5HjglT4bRMCA1Cb-1" parent="1" source="N-OMW5HjglT4bRMCA1Cb-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1885" y="400" as="sourcePoint" />
           </mxGeometry>
