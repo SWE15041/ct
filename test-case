@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-02T06:06:00.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="K7E_S0H7BWzjNKqvctP3" version="20.6.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-12-02T07:39:51.256Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="yCUdbjwnF_mbf-k7_xt-" version="20.6.0" type="github" pages="6">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1426" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1026,7 +1026,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QGt55C36ytHJKzUzlD-W" name="DB design">
-    <mxGraphModel dx="1075" dy="-3004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1333" dy="-2884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1966,7 +1966,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9UaHhZUlQCmZnc3p-YnL-27" value="方案&lt;br&gt;1 只一台VM进行扫描并上传测试项目即可&lt;br&gt;2 每台都上传，某个分支如果已经存在，则不覆盖" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="6560" width="260" height="120" as="geometry" />
+          <mxGeometry x="20" y="6700" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9UaHhZUlQCmZnc3p-YnL-28" value="test_projects_lifecycles" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="7240" width="200" height="300" as="geometry" />
@@ -2566,7 +2566,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9UaHhZUlQCmZnc3p-YnL-186" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="230" y="5920" width="600" height="330" as="geometry" />
+          <mxGeometry x="255" y="5920" width="600" height="330" as="geometry" />
         </mxCell>
         <mxCell id="9UaHhZUlQCmZnc3p-YnL-187" value="test-case-service" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
           <mxGeometry x="40" y="5860" width="220" height="50" as="geometry" />
@@ -2842,7 +2842,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="u8aRJaiZNB4Asu1zR413" name="test-daemon">
-    <mxGraphModel dx="1282" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1333" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3024,7 +3024,7 @@
             <mxPoint x="1560" y="815" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HAZMauv0Y7i1jmray0GI-68" value="test-executor" style="html=1;" vertex="1" parent="1">
+        <mxCell id="HAZMauv0Y7i1jmray0GI-68" value="test-daemon-service" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="1480" y="285" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HAZMauv0Y7i1jmray0GI-72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
@@ -3401,6 +3401,14 @@
         </mxCell>
         <mxCell id="Pk03Wpm6HKkzlr2g_H42-11" value="start test&lt;br&gt;(appium_port, app_path, device_id)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="340" y="1300" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w-5opzhQ6u9Foj3VSz_j-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w-5opzhQ6u9Foj3VSz_j-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1960" y="815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w-5opzhQ6u9Foj3VSz_j-2" value="test-executor-service" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="285" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
