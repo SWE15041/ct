@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-02T06:03:54.616Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="S6MmlpsbwyJiSwNhTFZ2" version="20.6.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-12-02T06:06:00.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="K7E_S0H7BWzjNKqvctP3" version="20.6.0" type="github" pages="6">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1426" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3200,7 +3200,7 @@
         <mxCell id="8CqKRyxI8SO9Ah8Itzct-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="750" y="2870" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8CqKRyxI8SO9Ah8Itzct-10" value="AppWebService.get()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.284;entryY=0.06;rounded=0;exitX=1.084;exitY=0.034;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="8CqKRyxI8SO9Ah8Itzct-9" parent="1" source="8CqKRyxI8SO9Ah8Itzct-12">
+        <mxCell id="8CqKRyxI8SO9Ah8Itzct-10" value="AppWebAJAXService.get()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.284;entryY=0.06;rounded=0;exitX=1.084;exitY=0.034;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="8CqKRyxI8SO9Ah8Itzct-9" parent="1" source="8CqKRyxI8SO9Ah8Itzct-12">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="680" y="2870" as="sourcePoint" />
           </mxGeometry>
@@ -3306,7 +3306,7 @@
         <mxCell id="za-3Tlq8o5hvujWdUJYY-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="410" y="3580" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="za-3Tlq8o5hvujWdUJYY-43" value="DeviceWebService.add()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;shadow=0;fontColor=#000000;exitX=0.877;exitY=0.536;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="za-3Tlq8o5hvujWdUJYY-42" source="za-3Tlq8o5hvujWdUJYY-37">
+        <mxCell id="za-3Tlq8o5hvujWdUJYY-43" value="DeviceWebAJAXService.add()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;shadow=0;fontColor=#000000;exitX=0.877;exitY=0.536;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="za-3Tlq8o5hvujWdUJYY-42" source="za-3Tlq8o5hvujWdUJYY-37">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="3530" as="sourcePoint" />
           </mxGeometry>
@@ -3332,7 +3332,7 @@
         <mxCell id="za-3Tlq8o5hvujWdUJYY-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="409" y="3526" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="za-3Tlq8o5hvujWdUJYY-50" value="DeviceWebService.list()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;shadow=0;fontColor=#000000;exitX=1.108;exitY=0.741;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="za-3Tlq8o5hvujWdUJYY-49">
+        <mxCell id="za-3Tlq8o5hvujWdUJYY-50" value="DeviceWebAJAXService.list()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;shadow=0;fontColor=#000000;exitX=1.108;exitY=0.741;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="za-3Tlq8o5hvujWdUJYY-49">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180.08000000000015" y="3524.56" as="sourcePoint" />
           </mxGeometry>
@@ -3358,7 +3358,7 @@
         <mxCell id="FAH4-hi1f6_lRffdO_Dm-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="410" y="3642" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FAH4-hi1f6_lRffdO_Dm-2" value="DeviceWebService.delete()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;shadow=0;fontColor=#000000;exitX=0.877;exitY=0.536;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="FAH4-hi1f6_lRffdO_Dm-1">
+        <mxCell id="FAH4-hi1f6_lRffdO_Dm-2" value="DeviceWebAJAXService.delete()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;shadow=0;fontColor=#000000;exitX=0.877;exitY=0.536;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="FAH4-hi1f6_lRffdO_Dm-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="178.7700000000002" y="3639.92" as="sourcePoint" />
           </mxGeometry>
