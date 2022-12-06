@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T09:59:01.948Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="oHtTuetQeEh41gA9i-T0" version="20.6.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-12-06T10:15:42.524Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="J7Faq_PHmuJb_lwiD1n8" version="20.6.0" type="github" pages="6">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
-    <mxGraphModel dx="1666" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1282" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1026,7 +1026,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QGt55C36ytHJKzUzlD-W" name="DB design">
-    <mxGraphModel dx="740" dy="-3176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1041" dy="-3041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2764,7 +2764,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="u8aRJaiZNB4Asu1zR413" name="test-daemon">
-    <mxGraphModel dx="1666" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1149" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3335,22 +3335,25 @@
         <mxCell id="N-OMW5HjglT4bRMCA1Cb-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="1955" y="400" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="N-OMW5HjglT4bRMCA1Cb-2" value="before test: create appium driver&lt;br&gt;(appium server url &amp;amp; app_path &amp;amp; device)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=0.88;exitY=0.023;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="N-OMW5HjglT4bRMCA1Cb-10" target="N-OMW5HjglT4bRMCA1Cb-1" edge="1">
+        <mxCell id="N-OMW5HjglT4bRMCA1Cb-2" value="before test: create appium driver&lt;br&gt;(appium server url &amp;amp; app_path &amp;amp; device)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1885" y="400" as="sourcePoint" />
+            <mxPoint x="1830" y="420" as="sourcePoint" />
+            <mxPoint x="1640" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N-OMW5HjglT4bRMCA1Cb-3" value="return result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=1.04;entryY=0.963;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="N-OMW5HjglT4bRMCA1Cb-1" target="N-OMW5HjglT4bRMCA1Cb-10" edge="1">
+        <mxCell id="N-OMW5HjglT4bRMCA1Cb-3" value="return result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1570" y="476" as="targetPoint" />
+            <mxPoint x="1860" y="450" as="targetPoint" />
+            <mxPoint x="1650" y="450" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="N-OMW5HjglT4bRMCA1Cb-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="1955" y="520" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="N-OMW5HjglT4bRMCA1Cb-5" value="test: run case&lt;br&gt;(sub_task_id &amp;amp; group_name &amp;amp; case_names)&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.04;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="N-OMW5HjglT4bRMCA1Cb-12" target="N-OMW5HjglT4bRMCA1Cb-4" edge="1">
+        <mxCell id="N-OMW5HjglT4bRMCA1Cb-5" value="test: run case&lt;br&gt;(sub_task_id &amp;amp; group_name &amp;amp; case_names)&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.014;exitY=0.032;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="N-OMW5HjglT4bRMCA1Cb-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1885" y="520" as="sourcePoint" />
+            <mxPoint x="1570" y="523" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="N-OMW5HjglT4bRMCA1Cb-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
