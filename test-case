@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T09:30:59.279Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="o6g8QniuzLIFayFv_q3l" version="20.6.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-12-09T03:34:49.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="lkcs0DJFQy0dNnHPyTfB" version="20.6.0" type="github" pages="6">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="912" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1026,7 +1026,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QGt55C36ytHJKzUzlD-W" name="DB design">
-    <mxGraphModel dx="1078" dy="-2993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1515" dy="-2808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2715,7 +2715,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="u8aRJaiZNB4Asu1zR413" name="test-daemon">
-    <mxGraphModel dx="1248" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1754" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3342,6 +3342,15 @@
             <mxPoint x="1560" y="815" as="targetPoint" />
             <mxPoint x="1560" y="600" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Exj91RyBQXQ2JlfHw0sV-1" value="test-api-service" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1001" y="960" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Exj91RyBQXQ2JlfHw0sV-2" value="test-daemon-service" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1377" y="960" width="123" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Exj91RyBQXQ2JlfHw0sV-4" value="test-executor-service" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1727" y="960" width="133" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
