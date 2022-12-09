@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T08:57:36.411Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="wtueP0XRJRAuQ6jhBzV7" version="20.6.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-12-09T09:01:17.760Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="sX-890q_J2hnouXCqVnz" version="20.6.0" type="github" pages="6">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="912" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3385,13 +3385,13 @@
             <mxPoint x="1520" y="1400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Exj91RyBQXQ2JlfHw0sV-12" value="4 pull task by device" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+        <mxCell id="Exj91RyBQXQ2JlfHw0sV-12" value="5 end previous task" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1320" y="1400" as="sourcePoint" />
             <mxPoint x="1160" y="1400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Exj91RyBQXQ2JlfHw0sV-14" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="Exj91RyBQXQ2JlfHw0sV-13" parent="1">
+        <mxCell id="Exj91RyBQXQ2JlfHw0sV-14" value="4" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="Exj91RyBQXQ2JlfHw0sV-13" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1442" y="1370" as="sourcePoint" />
             <Array as="points">
@@ -3406,6 +3406,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1441.5" y="1630" as="targetPoint" />
             <mxPoint x="1441.5" y="1250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-FjIJnuXIWq7WVpC5ulN-1" value="6 pull task by device" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1321" y="1440" as="sourcePoint" />
+            <mxPoint x="1161" y="1440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
