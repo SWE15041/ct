@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T06:22:14.344Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="oytx1197FLUUgfT0CQTV" version="20.6.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-12-13T06:30:23.980Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="LS-1fMP_1W5YuhBGqj5i" version="20.6.2" type="github" pages="6">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1186" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3383,7 +3383,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Exj91RyBQXQ2JlfHw0sV-11" value="3 pull task by device" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+        <mxCell id="Exj91RyBQXQ2JlfHw0sV-11" value="3 pull task by device and branch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1680" y="1400" as="sourcePoint" />
             <mxPoint x="1520" y="1400" as="targetPoint" />
@@ -3430,16 +3430,14 @@
             <mxPoint x="1441.5" y="1250.0000000000002" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MAICatREq4JAiXyoBs1p-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="1445" y="1300" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="MAICatREq4JAiXyoBs1p-3" value="device idle&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=0.875;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="MAICatREq4JAiXyoBs1p-2" parent="1" source="drv0NsUht6yAT_lnfmI8-1">
+        <mxCell id="MAICatREq4JAiXyoBs1p-3" value="device idle&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=0.875;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="drv0NsUht6yAT_lnfmI8-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1450" y="1280" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="1480" y="1281" />
               <mxPoint x="1480" y="1300" />
             </Array>
+            <mxPoint x="1455" y="1300.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
