@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T06:15:47.501Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="fvsNYf4Ks-z4yZNAD0Er" version="20.6.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-12-13T06:19:25.258Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="I92rdQkUrg9K5xGwg-z0" version="20.6.2" type="github" pages="6">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1186" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3376,7 +3376,7 @@
             <mxPoint x="1160" y="1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Exj91RyBQXQ2JlfHw0sV-10" value="2 startup test project&lt;br&gt;(device &amp;amp;&amp;nbsp;test_project_lifecycle_id &amp;amp; appium_url )" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+        <mxCell id="Exj91RyBQXQ2JlfHw0sV-10" value="2 startup test project&lt;br&gt;(device &amp;amp;&amp;nbsp;test_project_lifecycle_id &amp;amp; appium_url )&lt;br&gt;（device: &amp;nbsp;id &amp;amp; os_version &amp;amp; name &amp;amp; platform&amp;nbsp;）" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
           <mxGeometry y="10" width="80" relative="1" as="geometry">
             <mxPoint x="1520" y="1320" as="sourcePoint" />
             <mxPoint x="1680" y="1320" as="targetPoint" />
