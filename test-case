@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-15T08:59:15.677Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="KZJc-WoXQTidamwqCeHw" version="20.6.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-12-15T09:25:58.208Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="7X1gbpSMgC2uwGvtGS7d" version="20.6.2" type="github" pages="7">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1186" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2715,7 +2715,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="u8aRJaiZNB4Asu1zR413" name="test-daemon">
-    <mxGraphModel dx="818" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3547,6 +3547,17 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="390" y="460" as="sourcePoint" />
             <mxPoint x="230" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4SO2zZ2PVRiaoTeoyh6_-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="456" y="533" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4SO2zZ2PVRiaoTeoyh6_-8" value="拆分测试任务成多个task_group" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="4SO2zZ2PVRiaoTeoyh6_-7" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="461" y="513" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="491" y="513" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
