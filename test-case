@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-15T06:21:03.022Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="MqEJ_F_YSzYN-idwQw7g" version="20.6.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-12-15T07:27:02.923Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Qpm7k_q9ljjA8FJfaYkT" version="20.6.2" type="github" pages="7">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1186" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3455,43 +3455,46 @@
         <mxCell id="1" parent="0" />
         <mxCell id="_y7B21LnLyjsrgFfITBu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="_y7B21LnLyjsrgFfITBu-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="135" y="522" as="targetPoint" />
+            <mxPoint x="135" y="642" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_y7B21LnLyjsrgFfITBu-1" value="test-site" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="110" height="50" as="geometry" />
+          <mxGeometry x="80" y="200" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_y7B21LnLyjsrgFfITBu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="NToc7qf4uhksDoJ3wJG1-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="535" y="520" as="targetPoint" />
+            <mxPoint x="535" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_y7B21LnLyjsrgFfITBu-2" value="test-case-service" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="80" width="110" height="50" as="geometry" />
+          <mxGeometry x="480" y="200" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_y7B21LnLyjsrgFfITBu-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="130" y="160" width="10" height="80" as="geometry" />
+          <mxGeometry x="130" y="280" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_y7B21LnLyjsrgFfITBu-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="_y7B21LnLyjsrgFfITBu-1" target="_y7B21LnLyjsrgFfITBu-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="135" y="522" as="targetPoint" />
-            <mxPoint x="135" y="130" as="sourcePoint" />
+            <mxPoint x="135" y="642" as="targetPoint" />
+            <mxPoint x="135" y="250" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NToc7qf4uhksDoJ3wJG1-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="530" y="160" width="10" height="80" as="geometry" />
+          <mxGeometry x="530" y="280" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NToc7qf4uhksDoJ3wJG1-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="_y7B21LnLyjsrgFfITBu-2" target="NToc7qf4uhksDoJ3wJG1-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="535" y="520" as="targetPoint" />
-            <mxPoint x="535" y="130" as="sourcePoint" />
+            <mxPoint x="535" y="640" as="targetPoint" />
+            <mxPoint x="535" y="250" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NToc7qf4uhksDoJ3wJG1-3" value="new task" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="240" y="180" as="sourcePoint" />
-            <mxPoint x="400" y="180" as="targetPoint" />
+            <mxPoint x="240" y="300" as="sourcePoint" />
+            <mxPoint x="400" y="300" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NToc7qf4uhksDoJ3wJG1-4" value="新增测试任务" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
