@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-15T07:29:25.551Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="fikxr80r-6P4whcJ2SsP" version="20.6.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-12-15T08:59:15.677Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="KZJc-WoXQTidamwqCeHw" version="20.6.2" type="github" pages="7">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1186" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3463,11 +3463,11 @@
         </mxCell>
         <mxCell id="_y7B21LnLyjsrgFfITBu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="NToc7qf4uhksDoJ3wJG1-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="535" y="640" as="targetPoint" />
+            <mxPoint x="455" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_y7B21LnLyjsrgFfITBu-2" value="test-case-service" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="200" width="110" height="50" as="geometry" />
+          <mxGeometry x="400" y="200" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_y7B21LnLyjsrgFfITBu-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="130" y="280" width="10" height="80" as="geometry" />
@@ -3479,22 +3479,75 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NToc7qf4uhksDoJ3wJG1-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="530" y="280" width="10" height="80" as="geometry" />
+          <mxGeometry x="450" y="280" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NToc7qf4uhksDoJ3wJG1-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="_y7B21LnLyjsrgFfITBu-2" target="NToc7qf4uhksDoJ3wJG1-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="535" y="640" as="targetPoint" />
-            <mxPoint x="535" y="250" as="sourcePoint" />
+            <mxPoint x="455" y="640" as="targetPoint" />
+            <mxPoint x="455" y="250" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NToc7qf4uhksDoJ3wJG1-3" value="new task" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+        <mxCell id="NToc7qf4uhksDoJ3wJG1-3" value="获取测试项目" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="240" y="300" as="sourcePoint" />
-            <mxPoint x="400" y="300" as="targetPoint" />
+            <mxPoint x="220" y="300" as="sourcePoint" />
+            <mxPoint x="380" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NToc7qf4uhksDoJ3wJG1-4" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;PingFang SC&amp;quot;;&quot; class=&quot;s1&quot;&gt;获取&lt;/span&gt;test-executor&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;PingFang SC&amp;quot;;&quot; class=&quot;s1&quot;&gt;某个分支的代码&lt;/span&gt;&lt;/p&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
           <mxGeometry x="80" y="40" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NToc7qf4uhksDoJ3wJG1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="NToc7qf4uhksDoJ3wJG1-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="765" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NToc7qf4uhksDoJ3wJG1-6" value="test-daemon-service" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="200" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NToc7qf4uhksDoJ3wJG1-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="760" y="280" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NToc7qf4uhksDoJ3wJG1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="NToc7qf4uhksDoJ3wJG1-6" target="NToc7qf4uhksDoJ3wJG1-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="765" y="640" as="targetPoint" />
+            <mxPoint x="765" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NToc7qf4uhksDoJ3wJG1-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="130" y="391" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NToc7qf4uhksDoJ3wJG1-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="450" y="391" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NToc7qf4uhksDoJ3wJG1-11" value="获取测试项目分支" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="220" y="420" as="sourcePoint" />
+            <mxPoint x="380" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NToc7qf4uhksDoJ3wJG1-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="130" y="502" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NToc7qf4uhksDoJ3wJG1-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="450" y="502" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NToc7qf4uhksDoJ3wJG1-17" value="新增测试任务" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="220" y="541.5" as="sourcePoint" />
+            <mxPoint x="380" y="541.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NToc7qf4uhksDoJ3wJG1-18" value="return wonder" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="350" as="sourcePoint" />
+            <mxPoint x="220" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NToc7qf4uhksDoJ3wJG1-19" value="return ( master | develop | xxx )" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="230" y="460" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
