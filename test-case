@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T08:39:03.308Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="jjq8wuoI77OLbuOcZiIo" version="20.7.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-12-19T08:42:04.025Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="XBBFYShZJiiwIWwV44gh" version="20.7.3" type="github" pages="8">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1194" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3484,25 +3484,30 @@
         </mxCell>
         <mxCell id="mrAmpvV6djd8gB_he6---30" value="4 test-executor is lasted?&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="2260" y="1940" as="sourcePoint" />
-            <mxPoint x="2100" y="1940" as="targetPoint" />
+            <mxPoint x="2260" y="2000" as="sourcePoint" />
+            <mxPoint x="2100" y="2000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mrAmpvV6djd8gB_he6---32" value="5 kill old test-executor&lt;br&gt;started new test-executor" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1" target="mrAmpvV6djd8gB_he6---33">
+        <mxCell id="mrAmpvV6djd8gB_he6---32" value="5&amp;nbsp;&lt;br&gt;not lasted:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;kill old test-executor&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;started new test-executor&lt;br&gt;is lasted:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;to step 6" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1" target="mrAmpvV6djd8gB_he6---33">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2022" y="1890" as="sourcePoint" />
+            <mxPoint x="2029" y="1910" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="2055" y="1890.05" />
+              <mxPoint x="2055" y="1910" />
+              <mxPoint x="2055" y="1931" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mrAmpvV6djd8gB_he6---33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="2016.5" y="1910.05" width="22" height="40" as="geometry" />
+          <mxGeometry x="2018" y="1931" width="22" height="69" as="geometry" />
         </mxCell>
         <mxCell id="mrAmpvV6djd8gB_he6---34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="mrAmpvV6djd8gB_he6---38" target="mrAmpvV6djd8gB_he6---33">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2021.5" y="2150" as="targetPoint" />
             <mxPoint x="2021.5" y="1770" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2028" y="1901" />
+              <mxPoint x="2029" y="1901" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mrAmpvV6djd8gB_he6---36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mrAmpvV6djd8gB_he6---37">
@@ -3534,14 +3539,14 @@
         </mxCell>
         <mxCell id="mrAmpvV6djd8gB_he6---41" value="7&lt;br&gt;get app_path by app_version&amp;nbsp;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(251, 251, 251);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%223%20end%20Test%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2280%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%222260%22%20y%3D%221960%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%222100%22%20y%3D%221960%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&amp;nbsp; by&lt;br&gt;&lt;/span&gt;report work status (idle | busy)&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(251, 251, 251);&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="2260" y="1997" as="sourcePoint" />
-            <mxPoint x="2100" y="1997" as="targetPoint" />
+            <mxPoint x="2260" y="2057" as="sourcePoint" />
+            <mxPoint x="2100" y="2057" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mrAmpvV6djd8gB_he6---42" value="6 pull next task" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="2400" y="1890" as="sourcePoint" />
-            <mxPoint x="2630" y="1890" as="targetPoint" />
+            <mxPoint x="2400" y="1940" as="sourcePoint" />
+            <mxPoint x="2630" y="1940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
