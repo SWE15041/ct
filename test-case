@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T08:25:24.535Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="w6oDf01FS2-ujmsIVYAI" version="20.8.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-02-24T03:19:41.445Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="k7lKIxpTS4O13tNmxRg5" version="20.8.20" type="github" pages="8">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
-    <mxGraphModel dx="1194" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3320,7 +3320,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="u8aRJaiZNB4Asu1zR413" name="test-daemon">
-    <mxGraphModel dx="1405" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4050,11 +4050,12 @@
             <mxPoint x="1455" y="1300.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mrAmpvV6djd8gB_he6---22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mrAmpvV6djd8gB_he6---23" edge="1">
+        <mxCell id="FY9npKPfT-8IXaoFpXj1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="FY9npKPfT-8IXaoFpXj1-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1645" y="2150" as="targetPoint" />
+            <mxPoint x="1645" y="1940" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1645" y="2130" />
+              <mxPoint x="1645" y="1870" />
+              <mxPoint x="1645" y="1870" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -4145,6 +4146,19 @@
               <mxPoint x="1995" y="1907" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FY9npKPfT-8IXaoFpXj1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="mrAmpvV6djd8gB_he6---23" target="FY9npKPfT-8IXaoFpXj1-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1645" y="1940" as="targetPoint" />
+            <mxPoint x="1645" y="1770" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1645" y="1820" />
+              <mxPoint x="1645" y="1820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FY9npKPfT-8IXaoFpXj1-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1820" width="10" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
