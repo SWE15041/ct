@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T03:54:07.205Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="aVadzsEz-6WB1YBmZj6D" version="20.8.20" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-02-24T03:55:05.505Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="NHz9aAq7hJPjplOIf0Un" version="20.8.20" type="github" pages="8">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1674" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4083,8 +4083,8 @@
         </mxCell>
         <mxCell id="mrAmpvV6djd8gB_he6---28" value="2 get next test project branch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1900" y="1840" as="sourcePoint" />
-            <mxPoint x="1740" y="1840" as="targetPoint" />
+            <mxPoint x="1900" y="1820" as="sourcePoint" />
+            <mxPoint x="1740" y="1820" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -4161,7 +4161,7 @@
           <mxGeometry x="1640" y="1820" width="10" height="38" as="geometry" />
         </mxCell>
         <mxCell id="FY9npKPfT-8IXaoFpXj1-8" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="1810" width="30" height="30" as="geometry" />
+          <mxGeometry x="1800" y="1800" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FY9npKPfT-8IXaoFpXj1-9" value="2 download test-excutor jar by device_category&lt;br&gt;( request:&amp;nbsp;unUsedPort )&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
