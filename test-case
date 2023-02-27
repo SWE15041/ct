@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T03:11:36.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="hiEK9mV3GsKdLZSckqOk" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-02-27T03:30:48.583Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="LZcYuumKstisMX0Y46-1" version="20.8.23" type="github" pages="8">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1674" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4150,7 +4150,7 @@
         <mxCell id="FY9npKPfT-8IXaoFpXj1-8" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" parent="1" vertex="1">
           <mxGeometry x="1800" y="1770" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FY9npKPfT-8IXaoFpXj1-9" value="2.1 get test-excutor jar by device_category and&amp;nbsp;unUsedPort&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+        <mxCell id="FY9npKPfT-8IXaoFpXj1-9" value="2.1 get test-excutor URL by device_category and&amp;nbsp;unUsedPort&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1892" y="1816" as="sourcePoint" />
             <mxPoint x="1732" y="1816" as="targetPoint" />
@@ -4182,7 +4182,7 @@
         <mxCell id="h49mqj89Pb-yEsNTDmW--7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="1456" y="1854" width="10" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="h49mqj89Pb-yEsNTDmW--13" value="2.2 download text-executor jar by testExecutorProjectPackageId" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+        <mxCell id="h49mqj89Pb-yEsNTDmW--13" value="2.2 download text-executor jar by URL" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1930" y="1879" as="sourcePoint" />
             <mxPoint x="1510" y="1879" as="targetPoint" />
