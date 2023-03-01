@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T09:33:42.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="nXuhPOrbpeuEY7vEpbo8" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-01T09:44:16.011Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="0gxikLG2e566JvoQUCIm" version="20.8.23" type="github" pages="8">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1674" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4077,7 +4077,7 @@
         <mxCell id="mrAmpvV6djd8gB_he6---27" value="test-executor-service" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="2330" y="1720" width="145" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mrAmpvV6djd8gB_he6---28" value="2 get next&amp;nbsp; task group" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+        <mxCell id="mrAmpvV6djd8gB_he6---28" value="2.0 get next&amp;nbsp; task group" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1900" y="1790" as="sourcePoint" />
             <mxPoint x="1740" y="1790" as="targetPoint" />
