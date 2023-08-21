@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-21T08:28:01.234Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="8aVGihpwzRFzZnatgaUL" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-21T09:24:37.649Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Mcd28DniibPtRAQZn4wA" version="21.6.5" type="github">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="1194" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -128,7 +128,7 @@
         <mxCell id="HtehHeEMGHA8bfAg62U7-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="540" y="990" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HtehHeEMGHA8bfAg62U7-33" value="&amp;nbsp;if test_platform ==&amp;nbsp;APP_CENTER&lt;br&gt;then&lt;br&gt;&amp;nbsp;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="HtehHeEMGHA8bfAg62U7-32" parent="1">
+        <mxCell id="HtehHeEMGHA8bfAg62U7-33" value="&amp;nbsp;if test_platform ==&amp;nbsp;APP_CENTER&lt;br&gt;then&lt;br&gt;&amp;nbsp; &amp;nbsp; create device set for device task 【device_set : device_set = 1:1 】&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="HtehHeEMGHA8bfAg62U7-32" parent="1">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="545" y="970" as="sourcePoint" />
             <Array as="points">
