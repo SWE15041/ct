@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-21T07:00:01.643Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="_SxRoIJuAlOwcJ8IFmXF" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-21T07:48:05.395Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="A20mElzjUZFb1PMs1NJg" version="21.6.5" type="github">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="1194" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,6 +75,12 @@
               <mxPoint x="755" y="360" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HtehHeEMGHA8bfAg62U7-16" value="list device" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" vertex="1" parent="1">
+          <mxGeometry x="70" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HtehHeEMGHA8bfAg62U7-17" value="make plan" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
