@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-21T10:04:08.001Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Xv_OgcHiiCsAVJZFGjZx" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-22T06:43:24.821Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="VVlm6tOWiyz6sfdFZDuA" version="21.6.5" type="github">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="1194" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,7 +21,7 @@
           <mxGeometry x="360" y="240" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HtehHeEMGHA8bfAg62U7-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="435" y="320" width="10" height="80" as="geometry" />
+          <mxGeometry x="435" y="320" width="10" height="180" as="geometry" />
         </mxCell>
         <mxCell id="HtehHeEMGHA8bfAg62U7-6" value="list device by platform" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -42,38 +42,47 @@
         </mxCell>
         <mxCell id="HtehHeEMGHA8bfAg62U7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HtehHeEMGHA8bfAg62U7-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="600" as="targetPoint" />
+            <mxPoint x="800" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="600" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="HtehHeEMGHA8bfAg62U7-9" value="appcenter-service" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="640" y="240" width="160" height="40" as="geometry" />
+          <mxGeometry x="720" y="240" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HtehHeEMGHA8bfAg62U7-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="715" y="320" width="10" height="80" as="geometry" />
+          <mxGeometry x="795" y="320" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="HtehHeEMGHA8bfAg62U7-12" value="list device by platform" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="445" y="330" as="sourcePoint" />
-            <mxPoint x="715" y="330" as="targetPoint" />
+            <mxPoint x="490" y="450" as="sourcePoint" />
+            <mxPoint x="760" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="480" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HtehHeEMGHA8bfAg62U7-13" value="return devices" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="HtehHeEMGHA8bfAg62U7-11" parent="1" target="HtehHeEMGHA8bfAg62U7-5">
+        <mxCell id="HtehHeEMGHA8bfAg62U7-13" value="return devices" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="645" y="395" as="targetPoint" />
+            <mxPoint x="445" y="490" as="targetPoint" />
+            <mxPoint x="790" y="490" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="560" y="390" />
+              <mxPoint x="560" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="HtehHeEMGHA8bfAg62U7-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="720" y="350" width="10" height="40" as="geometry" />
+          <mxGeometry x="800" y="350" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HtehHeEMGHA8bfAg62U7-15" value="if test_platform ==&amp;nbsp;WONDER_AUTO_TEST_LAB&lt;br&gt;then&amp;nbsp;&amp;nbsp;&lt;br&gt;return devices form devices table&lt;br&gt;&lt;br&gt;else if test_platform ==&amp;nbsp;APP_CENTER&lt;br&gt;then &lt;br&gt;&amp;nbsp; &amp;nbsp; ios_deivces = call appcenter api&lt;br&gt;&amp;nbsp; &amp;nbsp; list ios device_sets&lt;br&gt;&amp;nbsp; &amp;nbsp; android_devices = call appcenter api&lt;br&gt;&amp;nbsp; &amp;nbsp; list android device_sets&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; devices = ios_devices + android_devices&lt;br&gt;return devices(include device set) 【device: device_set = 1:n】" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="HtehHeEMGHA8bfAg62U7-14" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="725" y="330" as="sourcePoint" />
+        <mxCell id="HtehHeEMGHA8bfAg62U7-15" value="&lt;br&gt;&amp;nbsp; &amp;nbsp; ios_deivces = call appcenter api&lt;br&gt;&amp;nbsp; &amp;nbsp; list ios device_sets&lt;br&gt;&amp;nbsp; &amp;nbsp; android_devices = call appcenter api&lt;br&gt;&amp;nbsp; &amp;nbsp; list android device_sets&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; devices = ios_devices + android_devices&lt;br&gt;return devices(include device set) 【device: device_set = 1:n】" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="HtehHeEMGHA8bfAg62U7-14" parent="1">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="805" y="330" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="755" y="360" />
+              <mxPoint x="835" y="360" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HtehHeEMGHA8bfAg62U7-16" value="list device" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" vertex="1" parent="1">
@@ -154,6 +163,17 @@
         </mxCell>
         <mxCell id="HtehHeEMGHA8bfAg62U7-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="1015" y="1120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HtehHeEMGHA8bfAg62U7-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="440" y="370" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HtehHeEMGHA8bfAg62U7-56" value="if test_platform ==&amp;nbsp;WONDER_AUTO_TEST_LAB&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;then&amp;nbsp;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;return devices form devices table&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;else if test_platform ==&amp;nbsp;APP_CENTER&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;then&lt;br&gt;return devices from app center" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="HtehHeEMGHA8bfAg62U7-55" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="350" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="475" y="380" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
