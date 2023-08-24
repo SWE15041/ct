@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T07:25:22.776Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6z-usSn5U_sTO3G1e5L4" version="21.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-24T07:53:10.153Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="V3HNfmpk-KNTpm-vNCGp" version="21.6.8" type="github" pages="2">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="2171" dy="916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -191,10 +191,56 @@
     </mxGraphModel>
   </diagram>
   <diagram id="by7e8xgBiTchcfkUsFQj" name="test-daemon">
-    <mxGraphModel dx="1194" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eZQlFd-gKHO3wskhtQ-G-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eZQlFd-gKHO3wskhtQ-G-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZQlFd-gKHO3wskhtQ-G-1" value="test-daemon" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="15" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eZQlFd-gKHO3wskhtQ-G-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eZQlFd-gKHO3wskhtQ-G-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZQlFd-gKHO3wskhtQ-G-2" value="test-api" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eZQlFd-gKHO3wskhtQ-G-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eZQlFd-gKHO3wskhtQ-G-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="479.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZQlFd-gKHO3wskhtQ-G-3" value="test-executor" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eZQlFd-gKHO3wskhtQ-G-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="395" y="160" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eZQlFd-gKHO3wskhtQ-G-8" value="ExecutorCaseAJAXWebService.next(device_model)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0016" relative="1" as="geometry">
+            <mxPoint x="100" y="160" as="sourcePoint" />
+            <mxPoint x="395" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="160" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZQlFd-gKHO3wskhtQ-G-9" value="return&amp;nbsp;executor_case" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;entryX=1;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="eZQlFd-gKHO3wskhtQ-G-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="239.1308695652175" as="targetPoint" />
+            <mxPoint x="395" y="239.1308695652175" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZQlFd-gKHO3wskhtQ-G-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="90" y="160" width="10" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
