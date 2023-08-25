@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-25T03:06:09.942Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="_pqBUgAMoOcc9VvMgh3L" version="21.6.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-08-25T03:38:45.522Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="uRbjCVhEypuBHhFjum3i" version="21.6.8" type="github" pages="3">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="1194" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -358,7 +358,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b4enGOG55giZ3nJEVqH5" name="flow">
-    <mxGraphModel dx="1272" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1735" dy="916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -384,13 +384,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rSu7XUpIxd5FarssE1HG-5" value="report testing case" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="160" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rSu7XUpIxd5FarssE1HG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="rSu7XUpIxd5FarssE1HG-6" target="rSu7XUpIxd5FarssE1HG-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rSu7XUpIxd5FarssE1HG-6" value="run case" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="760" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rSu7XUpIxd5FarssE1HG-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rSu7XUpIxd5FarssE1HG-9" target="rSu7XUpIxd5FarssE1HG-20" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -401,7 +401,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rSu7XUpIxd5FarssE1HG-9" value="upload test result" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rSu7XUpIxd5FarssE1HG-12" value="end" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="950" width="120" height="80" as="geometry" />
@@ -430,22 +430,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rSu7XUpIxd5FarssE1HG-26" value="start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="80" width="120" height="80" as="geometry" />
+          <mxGeometry x="920" y="180" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XCllAcr3G2WZyMMh900x-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rSu7XUpIxd5FarssE1HG-27" target="rSu7XUpIxd5FarssE1HG-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rSu7XUpIxd5FarssE1HG-27" value="find device_model from system variable" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="210" width="120" height="40" as="geometry" />
+          <mxGeometry x="840" y="310" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rSu7XUpIxd5FarssE1HG-31" value="end" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="620" width="120" height="80" as="geometry" />
+          <mxGeometry x="920" y="720" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XCllAcr3G2WZyMMh900x-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rSu7XUpIxd5FarssE1HG-34" target="XCllAcr3G2WZyMMh900x-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rSu7XUpIxd5FarssE1HG-34" value="find device_task&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;by device_model &amp;amp; test_platform&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="320" width="280" height="40" as="geometry" />
+          <mxGeometry x="840" y="420" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XCllAcr3G2WZyMMh900x-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XCllAcr3G2WZyMMh900x-1" target="XCllAcr3G2WZyMMh900x-55">
           <mxGeometry relative="1" as="geometry" />
@@ -495,22 +495,54 @@
         <mxCell id="XCllAcr3G2WZyMMh900x-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XCllAcr3G2WZyMMh900x-19" target="XCllAcr3G2WZyMMh900x-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XCllAcr3G2WZyMMh900x-19" value="run case&amp;nbsp;&lt;br&gt;（device_task: cases &amp;amp;app_path）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="420" width="280" height="40" as="geometry" />
+        <mxCell id="XCllAcr3G2WZyMMh900x-19" value="run case one by one&lt;br&gt;（device_task: cases &amp;amp;app_path）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="520" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XCllAcr3G2WZyMMh900x-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XCllAcr3G2WZyMMh900x-49" target="rSu7XUpIxd5FarssE1HG-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="650" y="600" as="targetPoint" />
+            <mxPoint x="970" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XCllAcr3G2WZyMMh900x-49" value="upload test result" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="530" width="120" height="40" as="geometry" />
+          <mxGeometry x="920" y="630" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XCllAcr3G2WZyMMh900x-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XCllAcr3G2WZyMMh900x-55" target="rSu7XUpIxd5FarssE1HG-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XCllAcr3G2WZyMMh900x-55" value="install app" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="160" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XCllAcr3G2WZyMMh900x-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XCllAcr3G2WZyMMh900x-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCllAcr3G2WZyMMh900x-61" value="run executor command:&lt;br&gt;&quot;nohup sh {} executor_lifecycle_id={} http_port={} appium_port={} device_task_id={} device=&#39;{}&#39; pc_id={} app_path={} &amp;gt; {} 2&amp;gt;&amp;amp;1 &amp;amp;&quot;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="414" y="187.5" width="400" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="XCllAcr3G2WZyMMh900x-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XCllAcr3G2WZyMMh900x-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCllAcr3G2WZyMMh900x-63" value="The app center will install the app in the assigned device in advance" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="414" y="350" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XCllAcr3G2WZyMMh900x-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XCllAcr3G2WZyMMh900x-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCllAcr3G2WZyMMh900x-64" value="pull task" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="424" y="580" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XCllAcr3G2WZyMMh900x-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XCllAcr3G2WZyMMh900x-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCllAcr3G2WZyMMh900x-67" value="app center不需要，因为本地测试是同类型设备并行，用来监控测试用例是在哪台设备上执行的。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="424" y="680" width="380" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
