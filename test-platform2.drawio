@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-25T02:43:25.340Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="OxgSzWxJywWkS73LI6yA" version="21.6.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-08-25T02:46:53.444Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="y1FGhOUf6Xcjc_pwFqBp" version="21.6.8" type="github" pages="3">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="1194" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -358,7 +358,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b4enGOG55giZ3nJEVqH5" name="flow">
-    <mxGraphModel dx="1493" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1193" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -371,7 +371,7 @@
         <mxCell id="XCllAcr3G2WZyMMh900x-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rSu7XUpIxd5FarssE1HG-3" target="XCllAcr3G2WZyMMh900x-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rSu7XUpIxd5FarssE1HG-3" value="receive CLI params" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="rSu7XUpIxd5FarssE1HG-3" value="receive CLI params" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="160" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rSu7XUpIxd5FarssE1HG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="rSu7XUpIxd5FarssE1HG-4" target="rSu7XUpIxd5FarssE1HG-5" edge="1">
@@ -451,13 +451,13 @@
         <mxCell id="rSu7XUpIxd5FarssE1HG-31" value="end" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="420" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rSu7XUpIxd5FarssE1HG-34" value="run case one by one&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="rSu7XUpIxd5FarssE1HG-34" value="run case&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XCllAcr3G2WZyMMh900x-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XCllAcr3G2WZyMMh900x-1" target="rSu7XUpIxd5FarssE1HG-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XCllAcr3G2WZyMMh900x-1" value="connect appium&lt;br&gt;&amp;amp;&lt;br&gt;install app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XCllAcr3G2WZyMMh900x-1" value="connect appium&lt;br&gt;&amp;amp;&lt;br&gt;install app" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="160" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XCllAcr3G2WZyMMh900x-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XCllAcr3G2WZyMMh900x-5" target="XCllAcr3G2WZyMMh900x-6">
