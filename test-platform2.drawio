@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T13:12:32.090Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="kRVXKwqBX2Ao7oJ00zYo" version="21.6.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-20T13:29:48.785Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5zFj8lyKYd2bN0dQ-6Ij" version="21.6.9" type="github" pages="5">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
-    <mxGraphModel dx="954" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1193" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -855,6 +855,57 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gqaO5ImZmmwmpDUGadmo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gqaO5ImZmmwmpDUGadmo-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gqaO5ImZmmwmpDUGadmo-1" value="test-api" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gqaO5ImZmmwmpDUGadmo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gqaO5ImZmmwmpDUGadmo-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gqaO5ImZmmwmpDUGadmo-2" value="test-case-service" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gqaO5ImZmmwmpDUGadmo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gqaO5ImZmmwmpDUGadmo-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gqaO5ImZmmwmpDUGadmo-4" value="test-executor" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gqaO5ImZmmwmpDUGadmo-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="410" y="170" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gqaO5ImZmmwmpDUGadmo-10" value="DeviceTaskAJAXWebService.nextForTest()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="gqaO5ImZmmwmpDUGadmo-9" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gqaO5ImZmmwmpDUGadmo-11" value="return device_task" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="gqaO5ImZmmwmpDUGadmo-9" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gqaO5ImZmmwmpDUGadmo-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="690" y="170" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gqaO5ImZmmwmpDUGadmo-13" value="DeviceTaskWebService.nextForTest()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="gqaO5ImZmmwmpDUGadmo-12" parent="1" source="gqaO5ImZmmwmpDUGadmo-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gqaO5ImZmmwmpDUGadmo-14" value="return device_task" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="249" as="targetPoint" />
+            <mxPoint x="690" y="249" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
