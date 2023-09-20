@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T12:36:47.180Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="qdgKzv8Rp8VCOJbHWjoF" version="21.6.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-20T12:52:45.267Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="2g1jRh3JiizTHbmoyrMH" version="21.6.9" type="github" pages="4">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="954" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -545,7 +545,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tq0gjyZ7vJm4Cwzyk7wN" name="make plan ">
-    <mxGraphModel dx="1060" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1272" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -574,7 +574,7 @@
           <mxGeometry x="130" y="845" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PuPxIZnZQiJQgbte7Vua-3" value="make plan for&amp;nbsp;APP_CENTER" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="590" y="30" width="300" height="100" as="geometry" />
+          <mxGeometry x="1050" y="10" width="300" height="100" as="geometry" />
         </mxCell>
         <mxCell id="PuPxIZnZQiJQgbte7Vua-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-5" target="PuPxIZnZQiJQgbte7Vua-7">
           <mxGeometry relative="1" as="geometry" />
@@ -707,6 +707,145 @@
         </mxCell>
         <mxCell id="PuPxIZnZQiJQgbte7Vua-31" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="1370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-47" target="PuPxIZnZQiJQgbte7Vua-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-47" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-48" target="PuPxIZnZQiJQgbte7Vua-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-48" target="PuPxIZnZQiJQgbte7Vua-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-48" value="check request" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-50" target="PuPxIZnZQiJQgbte7Vua-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-53" value="y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PuPxIZnZQiJQgbte7Vua-52">
+          <mxGeometry x="-0.5207" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-50" value="is uat&amp;nbsp;environment?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="275" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-51" target="PuPxIZnZQiJQgbte7Vua-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-51" value="is upgrade test?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="440" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-54" target="PuPxIZnZQiJQgbte7Vua-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-54" value="Only upgrade an older version？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="650" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-60" target="PuPxIZnZQiJQgbte7Vua-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-60" target="PuPxIZnZQiJQgbte7Vua-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-60" value="parse plan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-61" value="init plan to pending" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-63" target="PuPxIZnZQiJQgbte7Vua-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-63" value="init test tuns&lt;br&gt;(ios:android=1:1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-68" target="PuPxIZnZQiJQgbte7Vua-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-68" target="PuPxIZnZQiJQgbte7Vua-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-68" value="async to build &lt;br&gt;test runs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="950" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-72" value="done" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1065" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-74" target="PuPxIZnZQiJQgbte7Vua-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-74" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;download executor source code from GitHub&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="950" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-75" target="PuPxIZnZQiJQgbte7Vua-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-75" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;package executor to JAR file by maven&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1090" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-77" target="PuPxIZnZQiJQgbte7Vua-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-77" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;create device set&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1230" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-81" target="PuPxIZnZQiJQgbte7Vua-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-81" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt; download the latest app from app center&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1370" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-83" target="PuPxIZnZQiJQgbte7Vua-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-83" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;create test run on app center&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1510" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-85" target="PuPxIZnZQiJQgbte7Vua-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-85" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;init hash file list on app center&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1650" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-87" target="PuPxIZnZQiJQgbte7Vua-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-87" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;init hash file on app center&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1790" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-89" target="PuPxIZnZQiJQgbte7Vua-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-89" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;upload app-file &amp;amp; test-file to app center&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1930" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-91" target="PuPxIZnZQiJQgbte7Vua-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-91" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;trigger test on app center&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="2070" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-93" target="PuPxIZnZQiJQgbte7Vua-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-93" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;validate test state on app center&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="2210" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PuPxIZnZQiJQgbte7Vua-96" target="PuPxIZnZQiJQgbte7Vua-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-96" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;modify plan status = ON_APP_CENTER&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="2350" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuPxIZnZQiJQgbte7Vua-98" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="2480" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
