@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T10:54:09.325Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6KB-td023dQrRiYf4Y4R" version="21.6.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-09-21T15:28:21.013Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="l-sFeEgidCsJbpHI03EV" version="21.6.9" type="github" pages="6">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
-    <mxGraphModel dx="954" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -910,24 +910,122 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wgkOVUz9yFeZxGJuNHK3" name="list device">
-    <mxGraphModel dx="954" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1257" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="r3Fg9tRAH2swqNWT7yLl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r3Fg9tRAH2swqNWT7yLl-1" target="r3Fg9tRAH2swqNWT7yLl-2">
+        <mxCell id="r3Fg9tRAH2swqNWT7yLl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="r3Fg9tRAH2swqNWT7yLl-1" target="r3Fg9tRAH2swqNWT7yLl-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r3Fg9tRAH2swqNWT7yLl-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="50" width="120" height="80" as="geometry" />
+        <mxCell id="r3Fg9tRAH2swqNWT7yLl-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="217.5" y="150" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="r3Fg9tRAH2swqNWT7yLl-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r3Fg9tRAH2swqNWT7yLl-2" target="r3Fg9tRAH2swqNWT7yLl-3">
+        <mxCell id="nIQENBOH0POeJipGUg7n-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r3Fg9tRAH2swqNWT7yLl-2" target="nIQENBOH0POeJipGUg7n-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r3Fg9tRAH2swqNWT7yLl-2" value="list device set by ios" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="r3Fg9tRAH2swqNWT7yLl-2" value="list device&amp;nbsp; by&amp;nbsp;aggregate table fields&amp;nbsp;&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;(fields:manufacturer &amp;amp; device_model &amp;amp; os &amp;amp; os_version &amp;amp; height &amp;amp; width &amp;amp; device_type&lt;span style=&quot;background-color: initial;&quot;&gt;)&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="300" width="495" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="r3Fg9tRAH2swqNWT7yLl-3" value="list device by ios" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="nIQENBOH0POeJipGUg7n-3" value="list device for&amp;nbsp;WONDER_AUTO_TEST_LAB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-4" value="list device for&amp;nbsp;APP_CENTER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="40" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-5" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nIQENBOH0POeJipGUg7n-7" target="nIQENBOH0POeJipGUg7n-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="280" />
+              <mxPoint x="1005" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nIQENBOH0POeJipGUg7n-7" target="nIQENBOH0POeJipGUg7n-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="280" />
+              <mxPoint x="1395" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-7" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nIQENBOH0POeJipGUg7n-10" target="nIQENBOH0POeJipGUg7n-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-10" value="list ios device set from app center" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="902.5" y="320" width="205" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nIQENBOH0POeJipGUg7n-12" target="nIQENBOH0POeJipGUg7n-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-12" value="exclude device set, naming:&amp;nbsp; temp_ios_xxx" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="450" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="nIQENBOH0POeJipGUg7n-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1005" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nIQENBOH0POeJipGUg7n-16" target="nIQENBOH0POeJipGUg7n-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-16" value="Assembly device model" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="902.5" y="710" width="205" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-20" value="list device configuration from app center&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(for get height &amp;amp; width of&amp;nbsp;device_model)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="580" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nIQENBOH0POeJipGUg7n-22" target="nIQENBOH0POeJipGUg7n-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-22" value="generate ios device list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="902.5" y="840" width="205" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nIQENBOH0POeJipGUg7n-27" target="nIQENBOH0POeJipGUg7n-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-27" value="list android device set from app center" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1292.5" y="320" width="205" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nIQENBOH0POeJipGUg7n-29" target="nIQENBOH0POeJipGUg7n-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-29" value="exclude device set, naming:&amp;nbsp; temp_android_xxx" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="450" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="nIQENBOH0POeJipGUg7n-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1395" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nIQENBOH0POeJipGUg7n-32" target="nIQENBOH0POeJipGUg7n-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-32" value="Assembly device model" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1292.5" y="710" width="205" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-33" value="list device configuration from app center&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(for get height &amp;amp; width of&amp;nbsp;device_model)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="580" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nIQENBOH0POeJipGUg7n-34" target="nIQENBOH0POeJipGUg7n-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-34" value="generate android device list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1292.5" y="840" width="205" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nIQENBOH0POeJipGUg7n-37" target="nIQENBOH0POeJipGUg7n-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-37" value="device list = ios device list + android device list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1000" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nIQENBOH0POeJipGUg7n-40" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="1089" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
