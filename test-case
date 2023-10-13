@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T07:06:42.524Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="I5mjNuAK5K1IDqLK4Pm4" version="22.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-10-13T02:48:55.244Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="XsBvviORMOvvWcok1EFE" version="22.0.4" type="github" pages="9">
   <diagram id="OavdbY4_6Mf1__EaxLcM" name="survey">
     <mxGraphModel dx="1272" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4636,7 +4636,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XaH7H4M25QVSlB95oLxD" name="Page-9">
-    <mxGraphModel dx="1363" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1363" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4647,7 +4647,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yP8j9D20tBapq_0TmZ3D-4" value="打包&amp;amp;下载app" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yP8j9D20tBapq_0TmZ3D-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yP8j9D20tBapq_0TmZ3D-7" target="yP8j9D20tBapq_0TmZ3D-9">
           <mxGeometry relative="1" as="geometry" />
@@ -4668,7 +4668,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yP8j9D20tBapq_0TmZ3D-24" value="打包&amp;amp;下载app" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yP8j9D20tBapq_0TmZ3D-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yP8j9D20tBapq_0TmZ3D-26" target="yP8j9D20tBapq_0TmZ3D-28">
           <mxGeometry relative="1" as="geometry" />
@@ -4696,6 +4696,18 @@
         </mxCell>
         <mxCell id="yP8j9D20tBapq_0TmZ3D-31" value="回传生成、访问、汇总测试报告&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yP8j9D20tBapq_0TmZ3D-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yP8j9D20tBapq_0TmZ3D-37" target="yP8j9D20tBapq_0TmZ3D-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yP8j9D20tBapq_0TmZ3D-37" value="准备测试数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yP8j9D20tBapq_0TmZ3D-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yP8j9D20tBapq_0TmZ3D-41" target="yP8j9D20tBapq_0TmZ3D-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yP8j9D20tBapq_0TmZ3D-41" value="准备测试数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
