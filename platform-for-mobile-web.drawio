@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T08:59:04.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="SrHJpF-CzPnX3e8QmKug" version="23.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-20T09:05:50.749Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="T9DbmKKMWbxFVAVnFpD7" version="23.1.0" type="github" pages="2">
   <diagram name="app-management" id="FUJ-8ozKHLdd6jEjKS97">
     <mxGraphModel dx="1194" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,16 +16,16 @@
           <mxGeometry x="80" y="40" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cow2f6mMxYqU8ESp9tX6-3" value="search plan" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="370" y="40" width="110.00000000000001" height="80" as="geometry" />
+          <mxGeometry x="940" y="90" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cow2f6mMxYqU8ESp9tX6-4" value="list device task" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="520" y="40" width="110.00000000000001" height="80" as="geometry" />
+          <mxGeometry x="1740" y="100" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cow2f6mMxYqU8ESp9tX6-5" value="list case test result" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="640" y="40" width="110.00000000000001" height="80" as="geometry" />
+          <mxGeometry x="2570" y="100" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cow2f6mMxYqU8ESp9tX6-6" value="API：&lt;br&gt;新增API：make plan&lt;br&gt;request: 新增" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="390" y="160" width="430" height="90" as="geometry" />
+        <mxCell id="cow2f6mMxYqU8ESp9tX6-6" value="API：&lt;br&gt;新增API：make plan&lt;br&gt;request: 新增字段 device_model.broswer&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="430" height="90" as="geometry" />
         </mxCell>
         <mxCell id="cow2f6mMxYqU8ESp9tX6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cow2f6mMxYqU8ESp9tX6-8" target="cow2f6mMxYqU8ESp9tX6-10">
           <mxGeometry relative="1" as="geometry" />
@@ -40,7 +40,7 @@
           <mxGeometry x="110" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cow2f6mMxYqU8ESp9tX6-11" value="make plan for&amp;nbsp;WONDER_AUTO_TEST_LAB" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="30" y="200" width="300" height="100" as="geometry" />
+          <mxGeometry x="360" y="40" width="300" height="100" as="geometry" />
         </mxCell>
         <mxCell id="cow2f6mMxYqU8ESp9tX6-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cow2f6mMxYqU8ESp9tX6-14" target="cow2f6mMxYqU8ESp9tX6-37">
           <mxGeometry relative="1" as="geometry" />
@@ -182,6 +182,15 @@
         </mxCell>
         <mxCell id="cow2f6mMxYqU8ESp9tX6-46" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="1550" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cow2f6mMxYqU8ESp9tX6-48" value="API：&lt;br&gt;更新API： search plan&amp;nbsp;&lt;br&gt;request: 新增字段 type (Mobile Web | Enterprise App)&lt;br&gt;response: 不变（app version 不用展示）&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="940" y="210" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cow2f6mMxYqU8ESp9tX6-49" value="API：&lt;br&gt;更新API： list&amp;nbsp; device task&lt;br&gt;request: -&lt;br&gt;response: 新增字段：broswer, broswer version" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="205" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cow2f6mMxYqU8ESp9tX6-50" value="复用原来的" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2560" y="200" width="430" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
