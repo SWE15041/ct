@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T08:09:02.355Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="B4RaXe4N5hIyIF5dI-C5" version="23.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-20T08:28:49.072Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="XWzW6wMkq26A6LNQvQlQ" version="23.1.0" type="github" pages="2">
   <diagram name="app-management" id="FUJ-8ozKHLdd6jEjKS97">
     <mxGraphModel dx="1194" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,7 +24,7 @@
         <mxCell id="cow2f6mMxYqU8ESp9tX6-5" value="list case test result" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
           <mxGeometry x="640" y="40" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cow2f6mMxYqU8ESp9tX6-6" value="API：&lt;br&gt;make plan: 新增" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="cow2f6mMxYqU8ESp9tX6-6" value="API：&lt;br&gt;make plan: request新增字段：type&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="390" y="160" width="430" height="90" as="geometry" />
         </mxCell>
         <mxCell id="cow2f6mMxYqU8ESp9tX6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cow2f6mMxYqU8ESp9tX6-8" target="cow2f6mMxYqU8ESp9tX6-10">
