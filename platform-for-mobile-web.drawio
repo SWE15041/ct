@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T09:07:18.120Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="mTNCwVnD4PU88rNUnM2o" version="23.1.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-02-20T09:10:58.474Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="wZ29mqX0lw4zobeGAH-Y" version="23.1.0" type="github" pages="3">
   <diagram name="app-management" id="FUJ-8ozKHLdd6jEjKS97">
     <mxGraphModel dx="954" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZkpEumfIvufPx9FctlPH-1" value="new app" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="110.00000000000001" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZkpEumfIvufPx9FctlPH-2" value="更新API，new app：&lt;br&gt;request: 新增type字段（mobile web | enterprise app）用来区分测试类型&lt;br&gt;response: -&lt;br&gt;save: 如果是mobile-web测试，那么app versions有且只有一个值" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="85" y="150" width="355" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
