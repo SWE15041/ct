@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T08:19:18.861Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="mAS6kbgeNA_zvEmMSohq" version="23.1.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-21T08:23:48.925Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="eWMdhwkaVx0zKDCVLKd7" version="23.1.5" type="github" pages="4">
   <diagram id="K_ksUd5giaFxkGbjidVx" name="summary">
     <mxGraphModel dx="954" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -195,13 +195,13 @@
         <mxCell id="L7C5udfl90lNsptYJaqJ-50" value="test-daemon&amp;nbsp;&lt;br&gt;调度中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L7C5udfl90lNsptYJaqJ-51" value="run executor &lt;br&gt;for next task" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="L7C5udfl90lNsptYJaqJ-51" value="run executor&lt;br&gt;for next task" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L7C5udfl90lNsptYJaqJ-53" value="run executor &lt;br&gt;for latest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L7C5udfl90lNsptYJaqJ-55" value="run executor &lt;br&gt;with retry 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="L7C5udfl90lNsptYJaqJ-55" value="run executor &lt;br&gt;如果出现异常那么retry3次" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L7C5udfl90lNsptYJaqJ-57" value="upload device" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
