@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T08:58:19.762Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="I25kJNI-mzsz0Dp1Dmz3" version="23.1.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-21T09:23:39.950Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Gp0rIFhhBGgVggHbflfu" version="23.1.5" type="github" pages="4">
   <diagram id="K_ksUd5giaFxkGbjidVx" name="summary">
-    <mxGraphModel dx="1193" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1735" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -168,54 +168,19 @@
         <mxCell id="L7C5udfl90lNsptYJaqJ-49" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L7C5udfl90lNsptYJaqJ-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L7C5udfl90lNsptYJaqJ-50" target="L7C5udfl90lNsptYJaqJ-51">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="480" y="730" />
-              <mxPoint x="230" y="730" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L7C5udfl90lNsptYJaqJ-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L7C5udfl90lNsptYJaqJ-50" target="L7C5udfl90lNsptYJaqJ-53">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="480" y="730" />
-              <mxPoint x="410" y="730" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L7C5udfl90lNsptYJaqJ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L7C5udfl90lNsptYJaqJ-50" target="L7C5udfl90lNsptYJaqJ-55">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="480" y="730" />
-              <mxPoint x="600" y="730" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L7C5udfl90lNsptYJaqJ-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L7C5udfl90lNsptYJaqJ-50" target="L7C5udfl90lNsptYJaqJ-57">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="480" y="730" />
-              <mxPoint x="780" y="730" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="L7C5udfl90lNsptYJaqJ-50" value="test-daemon&amp;nbsp;&lt;br&gt;调度中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L7C5udfl90lNsptYJaqJ-51" value="执行测试任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="L7C5udfl90lNsptYJaqJ-51" value="启动设备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L7C5udfl90lNsptYJaqJ-53" value="run executor &lt;br&gt;for latest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="L7C5udfl90lNsptYJaqJ-53" value="启动appium server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L7C5udfl90lNsptYJaqJ-55" value="run executor &lt;br&gt;如果出现异常那么retry3次" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="L7C5udfl90lNsptYJaqJ-55" value="下载测试app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L7C5udfl90lNsptYJaqJ-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L7C5udfl90lNsptYJaqJ-57" target="L7C5udfl90lNsptYJaqJ-67">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="L7C5udfl90lNsptYJaqJ-57" value="上传测试设备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="L7C5udfl90lNsptYJaqJ-57" value="下载测试执行器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L7C5udfl90lNsptYJaqJ-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L7C5udfl90lNsptYJaqJ-59" target="L7C5udfl90lNsptYJaqJ-61">
@@ -239,16 +204,40 @@
           <mxGeometry x="2560" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L7C5udfl90lNsptYJaqJ-67" value="Android虚拟机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="940" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L7C5udfl90lNsptYJaqJ-69" value="Android真机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="940" width="120" height="60" as="geometry" />
+          <mxGeometry x="1080" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L7C5udfl90lNsptYJaqJ-70" value="iOS虚拟机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="940" width="120" height="60" as="geometry" />
+          <mxGeometry x="1230" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L7C5udfl90lNsptYJaqJ-71" value="iOS真机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="940" width="120" height="60" as="geometry" />
+          <mxGeometry x="1370" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L7C5udfl90lNsptYJaqJ-72" value="关闭测试执行器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L7C5udfl90lNsptYJaqJ-74" value="启动测试执行器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L7C5udfl90lNsptYJaqJ-75" value="关闭appium server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L7C5udfl90lNsptYJaqJ-76" value="关闭 web dirver agent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L7C5udfl90lNsptYJaqJ-77" value="关闭设备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L7C5udfl90lNsptYJaqJ-78" value="启动测试执行器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L7C5udfl90lNsptYJaqJ-79" value="启动新的测试执行器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L7C5udfl90lNsptYJaqJ-80" value="异常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="690" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
