@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T10:50:38.197Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="TS4O969c3EYYFEy_od5k" version="23.1.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-21T10:51:27.881Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="JhZJf_q8I5j9nmL5vDR7" version="23.1.5" type="github" pages="5">
   <diagram id="K_ksUd5giaFxkGbjidVx" name="summary">
     <mxGraphModel dx="1272" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -194,7 +194,7 @@
         <mxCell id="L7C5udfl90lNsptYJaqJ-53" value="启动appium server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L7C5udfl90lNsptYJaqJ-55" value="下载测试app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="L7C5udfl90lNsptYJaqJ-55" value="下载测试app" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="300" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L7C5udfl90lNsptYJaqJ-57" value="下载测试执行器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -334,7 +334,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fBLoieB-jrISuJ2ubTqA-6" value="根据本地空闲&lt;br&gt;且可用的设备&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;获取的pending任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fBLoieB-jrISuJ2ubTqA-6" value="根据本地空闲&lt;br&gt;且可用的设备&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;获取的pending任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="440" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fBLoieB-jrISuJ2ubTqA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fBLoieB-jrISuJ2ubTqA-8" target="L7C5udfl90lNsptYJaqJ-51">
