@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T10:56:54.273Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="PSoBe9YFOt4EswYRN75C" version="23.1.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-21T11:00:46.502Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="DDIXDB0Ff4-GWqbqSvh0" version="23.1.5" type="github" pages="5">
   <diagram id="K_ksUd5giaFxkGbjidVx" name="summary">
     <mxGraphModel dx="1735" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -324,7 +324,7 @@
           <mxGeometry x="40" y="1520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fBLoieB-jrISuJ2ubTqA-5" value="问题" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1760" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="1840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fBLoieB-jrISuJ2ubTqA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fBLoieB-jrISuJ2ubTqA-6" target="L7C5udfl90lNsptYJaqJ-51">
           <mxGeometry relative="1" as="geometry">
@@ -356,6 +356,15 @@
         </mxCell>
         <mxCell id="fBLoieB-jrISuJ2ubTqA-23" value="启动XXX driver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="300" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fBLoieB-jrISuJ2ubTqA-24" value="提升mobile-web回归测试的执行速率" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fBLoieB-jrISuJ2ubTqA-25" value="提升自动化程度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fBLoieB-jrISuJ2ubTqA-26" value="提升设备资源的利用率" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
