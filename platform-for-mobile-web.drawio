@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T08:01:54.808Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="upsXtLwTRus066Tu1qMj" version="23.1.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-22T08:02:22.216Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="KbOXsjow7kNBoO84K-3p" version="23.1.5" type="github" pages="5">
   <diagram id="K_ksUd5giaFxkGbjidVx" name="summary">
     <mxGraphModel dx="1735" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -603,7 +603,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nei2ydBao-y_Ydn2H6sh-3" value="task: &lt;br&gt;使用空闲&amp;amp;可用的设备从云端拉取的任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="1320" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x-vJ5uPM52vJljeSblkj-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nei2ydBao-y_Ydn2H6sh-4" target="x-vJ5uPM52vJljeSblkj-5">
           <mxGeometry relative="1" as="geometry" />
@@ -627,7 +627,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nei2ydBao-y_Ydn2H6sh-17" value="next device task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="1320" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nei2ydBao-y_Ydn2H6sh-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nei2ydBao-y_Ydn2H6sh-21" target="nei2ydBao-y_Ydn2H6sh-22">
           <mxGeometry relative="1" as="geometry" />
@@ -668,7 +668,7 @@
           <mxGeometry x="579" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x-vJ5uPM52vJljeSblkj-20" value="occupy device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="1320" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x-vJ5uPM52vJljeSblkj-22" value="startup appium server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="579" y="1140" width="120" height="60" as="geometry" />
