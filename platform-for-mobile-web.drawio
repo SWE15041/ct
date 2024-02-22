@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T05:47:57.583Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="KRptDR39m9InKaTAmoDp" version="23.1.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-22T06:27:10.710Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="cuZiKMWK3qNMGZicvoR7" version="23.1.5" type="github" pages="5">
   <diagram id="K_ksUd5giaFxkGbjidVx" name="summary">
     <mxGraphModel dx="1735" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -578,7 +578,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pcO8dnsRkIQ0p-vK_YzZ" name="test-daemon">
-    <mxGraphModel dx="954" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1735" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -596,14 +596,23 @@
         <mxCell id="nei2ydBao-y_Ydn2H6sh-1" value="task: &lt;br&gt;运行过executor更新，需要使用最新执行器测试的任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="280" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nei2ydBao-y_Ydn2H6sh-2" target="x-vJ5uPM52vJljeSblkj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nei2ydBao-y_Ydn2H6sh-2" value="task:&amp;nbsp;&lt;br&gt;启动或运行过程出现异常不超过3次的任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nei2ydBao-y_Ydn2H6sh-3" target="x-vJ5uPM52vJljeSblkj-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nei2ydBao-y_Ydn2H6sh-3" value="task: &lt;br&gt;使用空闲&amp;amp;可用的设备从云端拉取的任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nei2ydBao-y_Ydn2H6sh-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="x-vJ5uPM52vJljeSblkj-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nei2ydBao-y_Ydn2H6sh-4" target="x-vJ5uPM52vJljeSblkj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nei2ydBao-y_Ydn2H6sh-4" value="release device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nei2ydBao-y_Ydn2H6sh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nei2ydBao-y_Ydn2H6sh-12" target="nei2ydBao-y_Ydn2H6sh-1">
           <mxGeometry relative="1" as="geometry" />
@@ -626,11 +635,72 @@
         <mxCell id="nei2ydBao-y_Ydn2H6sh-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nei2ydBao-y_Ydn2H6sh-21" target="nei2ydBao-y_Ydn2H6sh-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-15" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nei2ydBao-y_Ydn2H6sh-23">
+          <mxGeometry x="-0.2833" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nei2ydBao-y_Ydn2H6sh-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nei2ydBao-y_Ydn2H6sh-21" value="task &lt;br&gt;has done?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="400" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nei2ydBao-y_Ydn2H6sh-22" target="x-vJ5uPM52vJljeSblkj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nei2ydBao-y_Ydn2H6sh-22" value="release device" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x-vJ5uPM52vJljeSblkj-3" target="nei2ydBao-y_Ydn2H6sh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-3" value="task&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;has done?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x-vJ5uPM52vJljeSblkj-5" target="x-vJ5uPM52vJljeSblkj-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-5" value="bulk enable device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-8" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-16" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x-vJ5uPM52vJljeSblkj-19" target="x-vJ5uPM52vJljeSblkj-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-19" value="startup device" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-20" value="occupy device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x-vJ5uPM52vJljeSblkj-22" target="x-vJ5uPM52vJljeSblkj-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-22" value="startup appium server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x-vJ5uPM52vJljeSblkj-24" target="x-vJ5uPM52vJljeSblkj-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-24" value="download latest app by version" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x-vJ5uPM52vJljeSblkj-26" target="x-vJ5uPM52vJljeSblkj-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-26" value="download latest executor by version" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x-vJ5uPM52vJljeSblkj-28" value="startup executor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
