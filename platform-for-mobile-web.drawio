@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-23T10:13:05.907Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="t-muw7cizbuVadNR_HFw" version="23.1.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-23T10:17:35.982Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="SJUX_VWJbup0-s3Ww-tz" version="23.1.5" type="github" pages="5">
   <diagram id="K_ksUd5giaFxkGbjidVx" name="summary">
     <mxGraphModel dx="1735" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1205,7 +1205,7 @@
             <mxPoint x="3430" y="1239.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8wqzi4bSvvctgxnWvJw5-37" value="download latest app by version" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8wqzi4bSvvctgxnWvJw5-37" value="download latest app by version" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="3159" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8wqzi4bSvvctgxnWvJw5-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wqzi4bSvvctgxnWvJw5-40" target="8wqzi4bSvvctgxnWvJw5-44">
@@ -1568,7 +1568,7 @@
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-415" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-416" target="m9uwDeXXTEiKlPOJ6o6U-433">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-416" value="poll task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-416" value="poll task" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="5495" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-417" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-418" target="m9uwDeXXTEiKlPOJ6o6U-435">
@@ -1748,7 +1748,7 @@
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-461" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-462" target="m9uwDeXXTEiKlPOJ6o6U-464">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-462" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;find &lt;br&gt;idle and enable&lt;br&gt;device list&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-462" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="5754" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-463" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-464" target="m9uwDeXXTEiKlPOJ6o6U-468">
