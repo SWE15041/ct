@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-23T10:17:35.982Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="SJUX_VWJbup0-s3Ww-tz" version="23.1.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-23T10:40:00.110Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="soZR5z-W-x9pIH0K08pp" version="23.1.5" type="github" pages="5">
   <diagram id="K_ksUd5giaFxkGbjidVx" name="summary">
     <mxGraphModel dx="1735" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1734,8 +1734,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-458" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-460" target="m9uwDeXXTEiKlPOJ6o6U-462">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-458" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-460" target="m9uwDeXXTEiKlPOJ6o6U-546">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5814" y="450" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-459" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m9uwDeXXTEiKlPOJ6o6U-458">
           <mxGeometry x="-0.3231" relative="1" as="geometry">
@@ -1745,18 +1747,6 @@
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-460" value="&lt;pre style=&quot;border-color: var(--border-color); background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;device number&lt;br style=&quot;border-color: var(--border-color);&quot;&gt; has been &lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;reached u&lt;/font&gt;pper limit?&lt;/pre&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5699" y="210" width="230" height="153" as="geometry" />
         </mxCell>
-        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-461" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-462" target="m9uwDeXXTEiKlPOJ6o6U-464">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-462" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="5754" y="450" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-463" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-464" target="m9uwDeXXTEiKlPOJ6o6U-468">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-464" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;peek task by &lt;br&gt;devices and app&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5754" y="572" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-465" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-468" target="m9uwDeXXTEiKlPOJ6o6U-469">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1765,14 +1755,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-467" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-468" target="m9uwDeXXTEiKlPOJ6o6U-527">
+        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-556" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-468" target="m9uwDeXXTEiKlPOJ6o6U-555">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-468" value="has &lt;br&gt;next task?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5774" y="672" width="80" height="80" as="geometry" />
+        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-468" value="has &lt;br&gt;next task?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="5774" y="552" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-469" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6096" y="672" width="120" height="80" as="geometry" />
+          <mxGeometry x="6115" y="552" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-470" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-474" target="m9uwDeXXTEiKlPOJ6o6U-476">
           <mxGeometry relative="1" as="geometry" />
@@ -1990,17 +1980,19 @@
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-531" value="用来执行下一个任务的所有同类型的设备" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="6025" y="800.5" width="120" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-532" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-533" target="m9uwDeXXTEiKlPOJ6o6U-464">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-532" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-533">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6340" y="420" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-533" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="5914" y="552" width="50" height="100" as="geometry" />
+          <mxGeometry x="6380" y="390" width="50" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-534" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-535" target="m9uwDeXXTEiKlPOJ6o6U-533">
+        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-551" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-535" target="m9uwDeXXTEiKlPOJ6o6U-533">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-535" value="&lt;span style=&quot;white-space: pre;&quot;&gt;获取到最早一个等待执行的任务&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="6015" y="587" width="190" height="30" as="geometry" />
+          <mxGeometry x="6505" y="430" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-536" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-537" target="m9uwDeXXTEiKlPOJ6o6U-490">
           <mxGeometry relative="1" as="geometry" />
@@ -2028,6 +2020,18 @@
         </mxCell>
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-544" value="启动或运行过程出现异常不超过3次的任务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5495" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-552" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-546" target="m9uwDeXXTEiKlPOJ6o6U-468">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-546" value="list task&amp;nbsp;&lt;br&gt;(pending | testing)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="5754" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-557" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-555" target="m9uwDeXXTEiKlPOJ6o6U-527">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-555" value="find&amp;nbsp; idle and enable device by task" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="5754" y="680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
