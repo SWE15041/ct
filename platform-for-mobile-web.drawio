@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T11:58:44.138Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="e5d7OesNgJXOREiLJ0FA" version="23.1.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-26T11:59:58.235Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="-YNfVfS5U1MZq9Sz4jQo" version="23.1.6" type="github" pages="5">
   <diagram id="K_ksUd5giaFxkGbjidVx" name="summary">
     <mxGraphModel dx="1193" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,13 +211,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="L7C5udfl90lNsptYJaqJ-59" value="report" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="L7C5udfl90lNsptYJaqJ-59" value="report" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="1" vertex="1">
           <mxGeometry x="2400" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L7C5udfl90lNsptYJaqJ-61" value="UI" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="L7C5udfl90lNsptYJaqJ-61" value="UI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="1" vertex="1">
           <mxGeometry x="2400" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L7C5udfl90lNsptYJaqJ-63" value="allure" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="L7C5udfl90lNsptYJaqJ-63" value="allure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="1" vertex="1">
           <mxGeometry x="2560" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L7C5udfl90lNsptYJaqJ-67" value="Android虚拟机" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -514,6 +514,9 @@
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-47" value="&lt;strike&gt;没有浏览器镜像可以安装，&lt;font color=&quot;#ff3333&quot;&gt;只有系统镜像自带的安装版本&lt;/font&gt;&lt;/strike&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="2550" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8UxY6-mt2_7mBJn1K7t3-1" value="？？？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
