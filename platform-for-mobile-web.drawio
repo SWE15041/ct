@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T05:58:35.048Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="OALhCuSYbsq3Mwwvm9q6" version="23.1.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-26T06:02:52.979Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="KdghXzrNdLyHnSZpNhpQ" version="23.1.6" type="github" pages="5">
   <diagram id="K_ksUd5giaFxkGbjidVx" name="summary">
     <mxGraphModel dx="954" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1794,7 +1794,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-474" value="&lt;pre style=&quot;border-color: var(--border-color); background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;device number&lt;br/&gt; has been &lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;reached u&lt;/font&gt;pper limit?&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5834" y="1096.5900000000001" width="300" height="86.82" as="geometry" />
+          <mxGeometry x="5834" y="1060.0000000000002" width="300" height="86.82" as="geometry" />
         </mxCell>
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-475" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-476" target="m9uwDeXXTEiKlPOJ6o6U-441" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1804,17 +1804,18 @@
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-476" value="occupy device&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5924" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-477" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#e51400;strokeColor=#B20000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-478" target="dPBMKO-ioHwNcTlLR7jR-12" edge="1">
+        <mxCell id="m9uwDeXXTEiKlPOJ6o6U-477" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#e51400;strokeColor=#B20000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-478" target="dPBMKO-ioHwNcTlLR7jR-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5625" y="1020" as="sourcePoint" />
             <mxPoint x="5924" y="811.9999999999998" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="5800" y="812" />
+              <mxPoint x="5800" y="870" />
+              <mxPoint x="5984" y="870" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-478" value="next device&amp;nbsp;&lt;br&gt;with same model" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5740" y="1020" width="120" height="60" as="geometry" />
+          <mxGeometry x="5740" y="920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-479" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-483" target="m9uwDeXXTEiKlPOJ6o6U-485" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2005,7 +2006,7 @@
           <mxGeometry x="7125" y="1439" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-540" value="end" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="6266" y="1100" width="120" height="80" as="geometry" />
+          <mxGeometry x="6285" y="1063.41" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="m9uwDeXXTEiKlPOJ6o6U-541" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m9uwDeXXTEiKlPOJ6o6U-542" target="m9uwDeXXTEiKlPOJ6o6U-411" edge="1">
           <mxGeometry relative="1" as="geometry" />
