@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T10:45:54.183Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="UjLkdAtDRK61QbOThh9X" version="23.1.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-26T10:47:33.996Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="S7npP9kZNAdGovw5lIKP" version="23.1.6" type="github" pages="5">
   <diagram id="K_ksUd5giaFxkGbjidVx" name="summary">
     <mxGraphModel dx="954" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -578,12 +578,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pcO8dnsRkIQ0p-vK_YzZ" name="test-daemon">
-    <mxGraphModel dx="1590" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3180" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dPBMKO-ioHwNcTlLR7jR-125" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="7250" y="2039" width="1470" height="1450" as="geometry" />
+          <mxGeometry x="7250" y="2060" width="1310" height="1429" as="geometry" />
         </mxCell>
         <mxCell id="dPBMKO-ioHwNcTlLR7jR-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dPBMKO-ioHwNcTlLR7jR-110" target="dPBMKO-ioHwNcTlLR7jR-112">
           <mxGeometry relative="1" as="geometry">
@@ -2219,13 +2219,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dPBMKO-ioHwNcTlLR7jR-134" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="8700" y="2725" width="50" height="100" as="geometry" />
+          <mxGeometry x="8660" y="2725" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="dPBMKO-ioHwNcTlLR7jR-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dPBMKO-ioHwNcTlLR7jR-138" target="dPBMKO-ioHwNcTlLR7jR-134">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dPBMKO-ioHwNcTlLR7jR-138" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;异常处理流程，&lt;br&gt;如果是设备故障，设备直接禁用;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;如果是其他异常，那么会进行retry，&lt;br&gt;如果retry次数超过3次或者没有整个平台没有同类型的设备可用，任务结束，状态设置为failed&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="8780" y="2745" width="280" height="60" as="geometry" />
+          <mxGeometry x="8740" y="2745" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
