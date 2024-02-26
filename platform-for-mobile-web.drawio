@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T11:42:05.862Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="fl_ouFdiGQVrztdmaBpT" version="23.1.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-26T11:58:44.138Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="e5d7OesNgJXOREiLJ0FA" version="23.1.6" type="github" pages="5">
   <diagram id="K_ksUd5giaFxkGbjidVx" name="summary">
-    <mxGraphModel dx="1060" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1193" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -340,7 +340,7 @@
         <mxCell id="fBLoieB-jrISuJ2ubTqA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fBLoieB-jrISuJ2ubTqA-8" target="L7C5udfl90lNsptYJaqJ-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fBLoieB-jrISuJ2ubTqA-8" value="因为异常retry的任务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="fBLoieB-jrISuJ2ubTqA-8" value="因异常retry的任务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fBLoieB-jrISuJ2ubTqA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fBLoieB-jrISuJ2ubTqA-9" target="L7C5udfl90lNsptYJaqJ-51" edge="1">
@@ -351,10 +351,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fBLoieB-jrISuJ2ubTqA-9" value="执行器更新的任务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="fBLoieB-jrISuJ2ubTqA-9" value="因执行器更新的任务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fBLoieB-jrISuJ2ubTqA-23" value="启动XXX driver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="fBLoieB-jrISuJ2ubTqA-23" value="&lt;strike&gt;启动XXX driver&lt;/strike&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="300" y="920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fBLoieB-jrISuJ2ubTqA-24" value="提升mobile-web回归测试的执行速率" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -366,8 +366,25 @@
         <mxCell id="fBLoieB-jrISuJ2ubTqA-26" value="提升设备资源&lt;br&gt;的利用率" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="1760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fBLoieB-jrISuJ2ubTqA-27" value="缺少浏览器安装包的下载源？" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="2080" width="190" height="60" as="geometry" />
+        <mxCell id="TeOEW0NMtggNOLkPW4rG-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fBLoieB-jrISuJ2ubTqA-27" target="TeOEW0NMtggNOLkPW4rG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeOEW0NMtggNOLkPW4rG-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fBLoieB-jrISuJ2ubTqA-27" target="TeOEW0NMtggNOLkPW4rG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeOEW0NMtggNOLkPW4rG-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fBLoieB-jrISuJ2ubTqA-27" target="TeOEW0NMtggNOLkPW4rG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeOEW0NMtggNOLkPW4rG-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fBLoieB-jrISuJ2ubTqA-27" target="TeOEW0NMtggNOLkPW4rG-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="2030" />
+              <mxPoint x="410" y="2260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBLoieB-jrISuJ2ubTqA-27" value="缺少手机浏览器安装包的下载源？" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="2000" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fBLoieB-jrISuJ2ubTqA-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="1320" width="120" height="60" as="geometry" />
@@ -377,18 +394,21 @@
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="TeOEW0NMtggNOLkPW4rG-39">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="2410" as="sourcePoint" />
+            <mxPoint x="630" y="2440" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="640" y="2411" />
-              <mxPoint x="640" y="2470" />
+              <mxPoint x="690" y="2441" />
+              <mxPoint x="690" y="2500" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-4" value="Android 虚拟机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="2380" width="190" height="60" as="geometry" />
+          <mxGeometry x="460" y="2410" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TeOEW0NMtggNOLkPW4rG-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TeOEW0NMtggNOLkPW4rG-5" target="TeOEW0NMtggNOLkPW4rG-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-5" value="Android 真机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="2520" width="190" height="60" as="geometry" />
+          <mxGeometry x="460" y="2550" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TeOEW0NMtggNOLkPW4rG-7" target="TeOEW0NMtggNOLkPW4rG-13">
           <mxGeometry relative="1" as="geometry" />
@@ -400,13 +420,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-7" value="iOS 虚拟机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="1970" width="190" height="60" as="geometry" />
+          <mxGeometry x="460" y="2000" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TeOEW0NMtggNOLkPW4rG-9" value="Safari &lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;; font-size: 13px; background-color: initial;&quot;&gt;是作为系统应用程序而不是普通的第三方应用程序安装的，没有镜像可以安装&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 13px; text-align: start; background-color: initial; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;s1&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="1870" width="190" height="60" as="geometry" />
+        <mxCell id="TeOEW0NMtggNOLkPW4rG-9" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Safari &lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;PingFang SC&amp;quot;; font-size: 13px;&quot;&gt;是作为系统应用程序而不是普通的第三方应用程序安装的，没有镜像可以安装，&lt;font color=&quot;#ff3333&quot;&gt;只能用系统自带的&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1900" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TeOEW0NMtggNOLkPW4rG-11" value="&lt;div style=&quot;text-align: left;&quot;&gt;Safari的版本和设备的操作系统版本是&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.SF NS&amp;quot;;&quot; class=&quot;s1&quot;&gt;1V1&lt;/span&gt;的，无法通过命令行获取&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="1940" width="190" height="60" as="geometry" />
+        <mxCell id="TeOEW0NMtggNOLkPW4rG-11" value="&lt;div style=&quot;text-align: left;&quot;&gt;Safari的版本和设备的操作系统版本是1V1的，无法通过命令行获取，&lt;font color=&quot;#ff3333&quot;&gt;只能取系统的版本作为浏览器的版本&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1970" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeOEW0NMtggNOLkPW4rG-13" target="TeOEW0NMtggNOLkPW4rG-9">
           <mxGeometry relative="1" as="geometry" />
@@ -415,19 +435,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-13" value="safari" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1920" width="190" height="60" as="geometry" />
+          <mxGeometry x="730" y="1950" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeOEW0NMtggNOLkPW4rG-17" target="TeOEW0NMtggNOLkPW4rG-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-17" value="chrome" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="2010" width="190" height="60" as="geometry" />
+          <mxGeometry x="730" y="2040" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeOEW0NMtggNOLkPW4rG-7" target="TeOEW0NMtggNOLkPW4rG-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TeOEW0NMtggNOLkPW4rG-22" value="Chrome无法安装到&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.SF NS&amp;quot;;&quot; class=&quot;s1&quot;&gt;ios&lt;/span&gt;虚拟机，市面上没有安装包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="2010" width="190" height="60" as="geometry" />
+        <mxCell id="TeOEW0NMtggNOLkPW4rG-22" value="Chrome无法安装到&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.SF NS&amp;quot;;&quot; class=&quot;s1&quot;&gt;ios&lt;/span&gt;虚拟机，市面上&lt;font color=&quot;#ff3333&quot;&gt;没有安装包&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="2040" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TeOEW0NMtggNOLkPW4rG-27" target="TeOEW0NMtggNOLkPW4rG-32">
           <mxGeometry relative="1" as="geometry" />
@@ -439,13 +459,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-27" value="iOS 真机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="2200" width="190" height="60" as="geometry" />
+          <mxGeometry x="450" y="2230" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TeOEW0NMtggNOLkPW4rG-28" value="Safari &lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;; font-size: 13px; text-align: start; background-color: initial;&quot;&gt;是作为系统应用程序而不是普通的第三方应用程序安装的，&lt;/span&gt;没有镜像可以安装&amp;nbsp;&lt;span style=&quot;font-size: 13px; text-align: start; background-color: initial; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;s1&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="2100" width="190" height="60" as="geometry" />
+        <mxCell id="TeOEW0NMtggNOLkPW4rG-28" value="Safari &lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;; font-size: 13px; text-align: start; background-color: initial;&quot;&gt;是作为系统应用程序而不是普通的第三方应用程序安装的，&lt;/span&gt;没有镜像可以安装，&lt;font color=&quot;#ff3333&quot;&gt;只能通过app store下载安装&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="2130" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TeOEW0NMtggNOLkPW4rG-29" value="&lt;div style=&quot;text-align: left;&quot;&gt;Safari的版本和设备的操作系统版本是&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.SF NS&amp;quot;;&quot; class=&quot;s1&quot;&gt;1V1&lt;/span&gt;的，无法通过命令行获取&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="2170" width="190" height="60" as="geometry" />
+        <mxCell id="TeOEW0NMtggNOLkPW4rG-29" value="&lt;div style=&quot;text-align: left;&quot;&gt;Safari的版本和设备的操作系统版本是&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.SF NS&amp;quot;;&quot; class=&quot;s1&quot;&gt;1V1&lt;/span&gt;的，无法通过命令行获取，&lt;font color=&quot;#ff3333&quot;&gt;只能取系统的版本作为浏览器的版本&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="2200" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeOEW0NMtggNOLkPW4rG-32" target="TeOEW0NMtggNOLkPW4rG-28">
           <mxGeometry relative="1" as="geometry" />
@@ -454,31 +474,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-32" value="safari" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="2150" width="190" height="60" as="geometry" />
+          <mxGeometry x="720" y="2180" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeOEW0NMtggNOLkPW4rG-34" target="TeOEW0NMtggNOLkPW4rG-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-34" value="chrome" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="2240" width="190" height="60" as="geometry" />
+          <mxGeometry x="720" y="2270" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeOEW0NMtggNOLkPW4rG-27" target="TeOEW0NMtggNOLkPW4rG-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TeOEW0NMtggNOLkPW4rG-36" value="没有镜像可以安装" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="2240" width="190" height="60" as="geometry" />
+        <mxCell id="TeOEW0NMtggNOLkPW4rG-36" value="没有浏览器镜像可以安装，&lt;font color=&quot;#ff3333&quot;&gt;只能通过app store下载&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="2270" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TeOEW0NMtggNOLkPW4rG-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TeOEW0NMtggNOLkPW4rG-37" target="TeOEW0NMtggNOLkPW4rG-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-37" value="Chrome" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="2338" width="190" height="60" as="geometry" />
+          <mxGeometry x="730" y="2368" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TeOEW0NMtggNOLkPW4rG-39" target="TeOEW0NMtggNOLkPW4rG-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-39" value="虚拟机镜像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="2440" width="190" height="60" as="geometry" />
+          <mxGeometry x="730" y="2470" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TeOEW0NMtggNOLkPW4rG-41" value="所谓的安桌虚拟机，除了Google原生的那些&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.SF NS&amp;quot;;&quot; class=&quot;s1&quot;&gt;pixel&lt;/span&gt;等型号，只有&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.SF NS&amp;quot;;&quot; class=&quot;s1&quot;&gt;Samsung&lt;/span&gt;能找得到虚拟机镜像，而且只是套个皮肤而已，所以安装虚拟机是有限制的" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="2440" width="410" height="60" as="geometry" />
+          <mxGeometry x="1000" y="2470" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TeOEW0NMtggNOLkPW4rG-43" value="&lt;strike&gt;没有浏览器镜像可以安装，&lt;font color=&quot;#ff3333&quot;&gt;只有系统镜像自带的安装版本&lt;/font&gt;&lt;/strike&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="2368" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TeOEW0NMtggNOLkPW4rG-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TeOEW0NMtggNOLkPW4rG-45" target="TeOEW0NMtggNOLkPW4rG-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeOEW0NMtggNOLkPW4rG-45" value="Android 真机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="2550" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TeOEW0NMtggNOLkPW4rG-47" value="&lt;strike&gt;没有浏览器镜像可以安装，&lt;font color=&quot;#ff3333&quot;&gt;只有系统镜像自带的安装版本&lt;/font&gt;&lt;/strike&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="2550" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -686,7 +721,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pcO8dnsRkIQ0p-vK_YzZ" name="test-daemon">
-    <mxGraphModel dx="1908" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2385" dy="1288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
