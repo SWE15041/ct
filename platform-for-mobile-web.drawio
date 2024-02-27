@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T03:59:43.461Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="1Wfz-TAwLJub3iUvAPk6" version="23.1.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-27T05:47:17.272Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="mhlVQcagEsHaAGSVed4h" version="23.1.6" type="github" pages="5">
   <diagram id="K_ksUd5giaFxkGbjidVx" name="summary">
     <mxGraphModel dx="1363" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -571,7 +571,7 @@
           <mxGeometry x="2570" y="100" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cow2f6mMxYqU8ESp9tX6-6" value="API：&lt;br&gt;新增API：make plan&lt;br&gt;request: 新增字段 device_model.broswer&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="80" y="180" width="430" height="90" as="geometry" />
+          <mxGeometry x="80" y="150" width="430" height="90" as="geometry" />
         </mxCell>
         <mxCell id="cow2f6mMxYqU8ESp9tX6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cow2f6mMxYqU8ESp9tX6-8" target="cow2f6mMxYqU8ESp9tX6-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
