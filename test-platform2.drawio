@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T12:52:38.227Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Ojs4Ej9mHgglwgSWUXFr" version="24.0.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-04-11T13:13:31.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="N98qdG92KhWpjdqVhlE4" version="24.0.5" type="github" pages="10">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1118,7 +1118,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CNYidVgCwnZO6xE9Uqnl" name="test-case-service">
-    <mxGraphModel dx="1193" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3816" dy="2076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1731,6 +1731,169 @@
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-27" value="for ios: create a test run&lt;br&gt;for android:&amp;nbsp; create a test run" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
           <mxGeometry x="910" y="1811" width="170" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GTSpmeynTBNsfk7qQkgP" name="test-device-service">
+    <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-2" target="X9XA7vDFbbSvPwdp7joo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-2" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-4" target="X9XA7vDFbbSvPwdp7joo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-4" value="list device&amp;nbsp; by&amp;nbsp;aggregate table fields&amp;nbsp;&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;(fields:manufacturer &amp;amp; device_model &amp;amp; os &amp;amp; os_version &amp;amp; height &amp;amp; width &amp;amp; device_type&lt;span style=&quot;background-color: initial;&quot;&gt;)&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="495" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-5" value="list device model for app regression test (mac mini)" style="rounded=0;whiteSpace=wrap;html=1;shape=note;strokeWidth=2;fontSize=14;size=20;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-6" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-9" target="X9XA7vDFbbSvPwdp7joo-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="280" />
+              <mxPoint x="1005" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-9" target="X9XA7vDFbbSvPwdp7joo-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="280" />
+              <mxPoint x="1395" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-9" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-11" target="X9XA7vDFbbSvPwdp7joo-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-11" value="list ios device set from app center" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="902.5" y="320" width="205" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-13" target="X9XA7vDFbbSvPwdp7joo-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-13" value="exclude device set, naming:&amp;nbsp; temp_ios_xxx" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="450" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="X9XA7vDFbbSvPwdp7joo-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1005" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-16" target="X9XA7vDFbbSvPwdp7joo-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-16" value="Assembly device model" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="902.5" y="710" width="205" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-17" value="list device configuration from app center&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(for get height &amp;amp; width of&amp;nbsp;device_model)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="580" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-19" target="X9XA7vDFbbSvPwdp7joo-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-19" value="generate ios device list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="902.5" y="840" width="205" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-21" target="X9XA7vDFbbSvPwdp7joo-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-21" value="list android device set from app center" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1292.5" y="320" width="205" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-23" target="X9XA7vDFbbSvPwdp7joo-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-23" value="exclude device set, naming:&amp;nbsp; temp_android_xxx" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="450" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="X9XA7vDFbbSvPwdp7joo-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1395" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-26" target="X9XA7vDFbbSvPwdp7joo-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-26" value="Assembly device model" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1292.5" y="710" width="205" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-27" value="list device configuration from app center&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(for get height &amp;amp; width of&amp;nbsp;device_model)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="580" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-29" target="X9XA7vDFbbSvPwdp7joo-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-29" value="generate android device list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1292.5" y="840" width="205" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-31" target="X9XA7vDFbbSvPwdp7joo-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-31" value="device list = ios device list + android device list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1000" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-32" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="1089" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-33" value="list device model for app regression test (app center)" style="rounded=0;whiteSpace=wrap;html=1;shape=note;strokeWidth=2;fontSize=14;size=20;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="880" y="40" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-34" value="list device model for mobile web test (mac mini)" style="rounded=0;whiteSpace=wrap;html=1;shape=note;strokeWidth=2;fontSize=14;size=20;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="40" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-36" target="X9XA7vDFbbSvPwdp7joo-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-36" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1877.5" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-38" target="X9XA7vDFbbSvPwdp7joo-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-38" value="list device&amp;nbsp; by&amp;nbsp;aggregate table fields&amp;nbsp;&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;(fields:manufacturer &amp;amp; device_model &amp;amp; os &amp;amp; os_version &amp;amp; height &amp;amp; width &amp;amp; device_type &amp;amp; &lt;/font&gt;&lt;font color=&quot;#6600cc&quot;&gt;browser&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 102, 102); background-color: initial;&quot;&gt;)&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1667.5" y="380" width="540" height="54.55" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-39" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1877.5" y="470" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-40" value="mongo DB&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;predefined_device_models&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="2275.82" y="305.78" width="152.25" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-38" target="X9XA7vDFbbSvPwdp7joo-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-43" target="X9XA7vDFbbSvPwdp7joo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-43" value="mongo DB:&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;devices&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="620" y="270" width="82.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-45" target="X9XA7vDFbbSvPwdp7joo-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-45" value="db migration: init devices" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="139.99999999999997" width="143.88" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-46" value="The device comes from mac mini, which is detected and uploaded through the test-daemon client&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="566.75" y="120" width="189" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X9XA7vDFbbSvPwdp7joo-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X9XA7vDFbbSvPwdp7joo-46" target="X9XA7vDFbbSvPwdp7joo-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
