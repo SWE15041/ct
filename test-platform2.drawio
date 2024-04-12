@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T03:18:26.498Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="voQFPd87MBpwo3wJQOfD" version="24.0.5" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-04-12T03:52:07.432Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="KE1IKtVz1kJnrak7iNUP" version="24.0.5" type="github" pages="11">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1647,90 +1647,108 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K62O862OPnKz_J2L9fG7" name="appcenter-service">
-    <mxGraphModel dx="127" dy="-650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="641" dy="-371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="e3p3wqlVjcEbsHI2W6Va-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e3p3wqlVjcEbsHI2W6Va-2" target="e3p3wqlVjcEbsHI2W6Va-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e3p3wqlVjcEbsHI2W6Va-2" value="async to build test runs&lt;br&gt;（kafka topic: create-test-run-request )" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="867" y="1539.25" width="210" height="43.5" as="geometry" />
-        </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="e3p3wqlVjcEbsHI2W6Va-4" target="e3p3wqlVjcEbsHI2W6Va-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e3p3wqlVjcEbsHI2W6Va-4" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;download executor source code from GitHub&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="1531" width="380" height="60" as="geometry" />
+        <mxCell id="e3p3wqlVjcEbsHI2W6Va-4" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-size: 9.8pt; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;package executor to JAR file by maven&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1581" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="e3p3wqlVjcEbsHI2W6Va-6" target="e3p3wqlVjcEbsHI2W6Va-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e3p3wqlVjcEbsHI2W6Va-6" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;package executor to JAR file by maven&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="1671" width="380" height="60" as="geometry" />
+        <mxCell id="e3p3wqlVjcEbsHI2W6Va-6" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;download executor source code from GitHub&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1721" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="e3p3wqlVjcEbsHI2W6Va-8" target="e3p3wqlVjcEbsHI2W6Va-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-8" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;create device set&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="1811" width="380" height="60" as="geometry" />
+          <mxGeometry x="1170" y="1861" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="e3p3wqlVjcEbsHI2W6Va-10" target="e3p3wqlVjcEbsHI2W6Va-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-10" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#080808&quot;&gt;get download url of latest app from app center&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;(apk or ipa)&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="1951" width="380" height="60" as="geometry" />
+          <mxGeometry x="1170" y="2001" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="e3p3wqlVjcEbsHI2W6Va-12" target="e3p3wqlVjcEbsHI2W6Va-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-12" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9.8pt; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt; download the latest app from app center&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="2091" width="380" height="60" as="geometry" />
+          <mxGeometry x="1170" y="2141" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="e3p3wqlVjcEbsHI2W6Va-14" target="e3p3wqlVjcEbsHI2W6Va-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-14" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9.8pt; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font color=&quot;#080808&quot;&gt;create test run on app center&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;(for wonder-ios-uat &amp;amp; wonder-android-uat)&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="2231" width="380" height="60" as="geometry" />
+          <mxGeometry x="1170" y="2281" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="e3p3wqlVjcEbsHI2W6Va-16" target="e3p3wqlVjcEbsHI2W6Va-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-16" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9.8pt; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;init hash file list on app center&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="2371" width="380" height="60" as="geometry" />
+          <mxGeometry x="1170" y="2421" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="e3p3wqlVjcEbsHI2W6Va-18" target="e3p3wqlVjcEbsHI2W6Va-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-18" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;upload app-file &amp;amp; test-file to app center&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="2511" width="380" height="60" as="geometry" />
+          <mxGeometry x="1170" y="2561" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="e3p3wqlVjcEbsHI2W6Va-20" target="e3p3wqlVjcEbsHI2W6Va-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-20" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;trigger test on app center&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="2651" width="380" height="60" as="geometry" />
+          <mxGeometry x="1170" y="2701" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="e3p3wqlVjcEbsHI2W6Va-22" target="e3p3wqlVjcEbsHI2W6Va-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-22" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;validate test state on app center&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="2791" width="380" height="60" as="geometry" />
+          <mxGeometry x="1170" y="2841" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e3p3wqlVjcEbsHI2W6Va-24" target="e3p3wqlVjcEbsHI2W6Va-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e3p3wqlVjcEbsHI2W6Va-24" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;modify plan: test_runs&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="2931" width="380" height="60" as="geometry" />
+        <mxCell id="e3p3wqlVjcEbsHI2W6Va-24" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;modify test run status to RUNNING&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2981" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-25" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="3061" width="120" height="80" as="geometry" />
+          <mxGeometry x="1300" y="3111" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-26" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="1811" width="50" height="1039" as="geometry" />
+          <mxGeometry x="1100" y="1861" width="50" height="1039" as="geometry" />
         </mxCell>
         <mxCell id="e3p3wqlVjcEbsHI2W6Va-27" value="for ios: create a test run&lt;br&gt;for android:&amp;nbsp; create a test run" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
-          <mxGeometry x="910" y="1811" width="170" height="90" as="geometry" />
+          <mxGeometry x="910" y="1861" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XNSMiPrJFi4Qjhdb5wFz-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XNSMiPrJFi4Qjhdb5wFz-1" target="XNSMiPrJFi4Qjhdb5wFz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XNSMiPrJFi4Qjhdb5wFz-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XNSMiPrJFi4Qjhdb5wFz-1" target="e3p3wqlVjcEbsHI2W6Va-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XNSMiPrJFi4Qjhdb5wFz-1" value="if plan.status= CANCELED" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="1440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XNSMiPrJFi4Qjhdb5wFz-2" value="end" style="whiteSpace=wrap;html=1;shape=ellipse;perimeter=ellipsePerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XNSMiPrJFi4Qjhdb5wFz-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XNSMiPrJFi4Qjhdb5wFz-4" target="XNSMiPrJFi4Qjhdb5wFz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XNSMiPrJFi4Qjhdb5wFz-4" value="fetch earliest TestRun&lt;br&gt;(status: PENDING)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XNSMiPrJFi4Qjhdb5wFz-8" value="start test run" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1200" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XNSMiPrJFi4Qjhdb5wFz-9" value="finish test run" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="1200" width="300" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
