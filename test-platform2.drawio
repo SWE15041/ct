@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T09:07:30.680Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ecs3uQcvhVRXdo90YO4U" version="24.0.5" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-04-12T09:23:45.263Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="VKkcYkvBVPzpTqk5tL2-" version="24.0.5" type="github" pages="11">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1993,7 +1993,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5XPhNK8faxAe72Hqf-R6" name="test-daemon">
-    <mxGraphModel dx="-4008" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-3599" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2636,14 +2636,11 @@
         <mxCell id="tXltMSd_Be0NupSvhkVf-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tXltMSd_Be0NupSvhkVf-1" target="tXltMSd_Be0NupSvhkVf-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tXltMSd_Be0NupSvhkVf-1" value="deviceIds = list device id by commnd;&lt;br&gt;&lt;div&gt;command:&amp;nbsp;idevice_id -l&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tXltMSd_Be0NupSvhkVf-1" value="find ios real devices" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="9170" y="280" width="460" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tXltMSd_Be0NupSvhkVf-2" value="upload device" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
           <mxGeometry x="9160" y="40" width="280" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="tXltMSd_Be0NupSvhkVf-5" value="find ios real devices" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="9340" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YTaHxj1PaivcKnXwDBEG-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tXltMSd_Be0NupSvhkVf-6" target="YTaHxj1PaivcKnXwDBEG-1">
           <mxGeometry relative="1" as="geometry" />
@@ -2654,23 +2651,56 @@
         <mxCell id="YTaHxj1PaivcKnXwDBEG-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tXltMSd_Be0NupSvhkVf-8" target="YTaHxj1PaivcKnXwDBEG-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tXltMSd_Be0NupSvhkVf-8" value="get device name by command;&lt;br&gt;&lt;div&gt;command:&amp;nbsp;ideviceinfo -u {} -k ProductType&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tXltMSd_Be0NupSvhkVf-8" value="get modelIdentifier by deviceId with command;&lt;br&gt;&lt;div&gt;command:&amp;nbsp;ideviceinfo -u {} -k ProductType&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="9170" y="700" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTaHxj1PaivcKnXwDBEG-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YTaHxj1PaivcKnXwDBEG-1" target="tXltMSd_Be0NupSvhkVf-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YTaHxj1PaivcKnXwDBEG-1" value="has next deviceId?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="9360" y="550" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YTaHxj1PaivcKnXwDBEG-3" value="deviceId = next deviceId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8980" y="600" width="170" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="YTaHxj1PaivcKnXwDBEG-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YTaHxj1PaivcKnXwDBEG-4" target="YTaHxj1PaivcKnXwDBEG-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YTaHxj1PaivcKnXwDBEG-4" value="get device model by command;&lt;div&gt;command:&amp;nbsp;ideviceinfo -u {} -k ProductType&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YTaHxj1PaivcKnXwDBEG-4" value="find device name by modelIdentifier&amp;nbsp;&amp;nbsp;from ios_device_technical_specifications.xlsx&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="9170" y="840" width="460" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YTaHxj1PaivcKnXwDBEG-6" value="get os version by command;&lt;div&gt;command:&amp;nbsp;ideviceinfo -u {} -k ProductVersion&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YTaHxj1PaivcKnXwDBEG-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YTaHxj1PaivcKnXwDBEG-6" target="YTaHxj1PaivcKnXwDBEG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTaHxj1PaivcKnXwDBEG-6" value="find device model by modelIdentifier&amp;nbsp;&amp;nbsp;from ios_device_technical_specifications.xlsx&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="9170" y="980" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTaHxj1PaivcKnXwDBEG-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YTaHxj1PaivcKnXwDBEG-11" target="YTaHxj1PaivcKnXwDBEG-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTaHxj1PaivcKnXwDBEG-11" value="get os version by deviceId with command;&lt;br&gt;&lt;div&gt;command:&amp;nbsp;ideviceinfo -u {} -k ProductVersion&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9170" y="1120" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTaHxj1PaivcKnXwDBEG-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YTaHxj1PaivcKnXwDBEG-13" target="YTaHxj1PaivcKnXwDBEG-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTaHxj1PaivcKnXwDBEG-13" value="find height by modelIdentifier&amp;nbsp;&amp;nbsp;from ios_device_technical_specifications.xlsx&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9170" y="1260" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTaHxj1PaivcKnXwDBEG-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YTaHxj1PaivcKnXwDBEG-15" target="YTaHxj1PaivcKnXwDBEG-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTaHxj1PaivcKnXwDBEG-15" value="find width by modelIdentifier&amp;nbsp;&amp;nbsp;from ios_device_technical_specifications.xlsx&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9170" y="1400" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTaHxj1PaivcKnXwDBEG-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YTaHxj1PaivcKnXwDBEG-17" target="YTaHxj1PaivcKnXwDBEG-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTaHxj1PaivcKnXwDBEG-17" value="manufacturer = Apple" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9170" y="1540" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTaHxj1PaivcKnXwDBEG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YTaHxj1PaivcKnXwDBEG-19" target="YTaHxj1PaivcKnXwDBEG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTaHxj1PaivcKnXwDBEG-19" value="deviceId = next deviceId" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8910" y="500" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
