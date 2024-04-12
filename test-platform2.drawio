@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T07:07:10.076Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="EhNs-hXW6G_PXat74rMo" version="24.0.5" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-04-12T07:07:23.203Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="zKbjLUYVSkZaLwZpWzpM" version="24.0.5" type="github" pages="11">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1993,7 +1993,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5XPhNK8faxAe72Hqf-R6" name="test-daemon">
-    <mxGraphModel dx="-192" dy="2595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-2236" dy="1483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2330,7 +2330,7 @@
         <mxCell id="X2q0bIR7XTlNEXe0vQWf-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X2q0bIR7XTlNEXe0vQWf-106" target="X2q0bIR7XTlNEXe0vQWf-107">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X2q0bIR7XTlNEXe0vQWf-106" value="queue:&lt;br&gt;retry task" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="X2q0bIR7XTlNEXe0vQWf-106" value="queue:&lt;br&gt;retry task" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
           <mxGeometry x="7396" y="3281" width="65" height="91" as="geometry" />
         </mxCell>
         <mxCell id="X2q0bIR7XTlNEXe0vQWf-107" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
