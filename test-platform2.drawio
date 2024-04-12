@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T07:08:05.925Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="9DLtRkA53_dN6VERbBbt" version="24.0.5" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-04-12T08:55:50.009Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="RarqzEy_GzI0Zf0wfYB2" version="24.0.5" type="github" pages="11">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1830,7 +1830,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GTSpmeynTBNsfk7qQkgP" name="test-device-service">
-    <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1590" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1993,7 +1993,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5XPhNK8faxAe72Hqf-R6" name="test-daemon">
-    <mxGraphModel dx="-3372" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-3690" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2632,6 +2632,12 @@
         </mxCell>
         <mxCell id="Hw9u2V4nRR_JkMLx81JL-1" value="task = next task" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="6270" y="2810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXltMSd_Be0NupSvhkVf-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9250" y="237.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXltMSd_Be0NupSvhkVf-2" value="upload device" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="9160" y="40" width="280" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
