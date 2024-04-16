@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T12:13:16.930Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="idF2VbkM-D4KizsTADGg" version="24.2.5" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-04-16T12:31:28.039Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="7Cj0kSEe7-Ufrej8V1v6" version="24.2.5" type="github" pages="12">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1118,7 +1118,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CNYidVgCwnZO6xE9Uqnl" name="test-case-service">
-    <mxGraphModel dx="1468" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1363" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1644,17 +1644,17 @@
           <mxGeometry x="1857.3300000000002" y="1580" width="252.61" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-1" value="list case" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1920" width="456" height="80" as="geometry" />
+          <mxGeometry x="34.5" y="1790" width="456" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XO1_8Q1x7X5JgKvqxZhR-5" target="XO1_8Q1x7X5JgKvqxZhR-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-5" value="app_name=?&lt;div&gt;app_version=?&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="202.5" y="2130" width="120" height="60" as="geometry" />
+          <mxGeometry x="202.5" y="2420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XO1_8Q1x7X5JgKvqxZhR-25" target="XO1_8Q1x7X5JgKvqxZhR-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="267.5" y="2450" as="sourcePoint" />
+            <mxPoint x="267.5" y="2740" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-9" value="branch=app_version" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XO1_8Q1x7X5JgKvqxZhR-8">
@@ -1666,7 +1666,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-7" value="get&amp;nbsp;commitRevisionNumber by branch&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="2510" width="265" height="60" as="geometry" />
+          <mxGeometry x="130" y="2800" width="265" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XO1_8Q1x7X5JgKvqxZhR-12" target="XO1_8Q1x7X5JgKvqxZhR-28">
           <mxGeometry relative="1" as="geometry" />
@@ -1685,13 +1685,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-12" value="check test-executor&amp;nbsp;&lt;div&gt;has been download?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="185" y="2650" width="155" height="160" as="geometry" />
+          <mxGeometry x="185" y="2940" width="155" height="160" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XO1_8Q1x7X5JgKvqxZhR-22" target="XO1_8Q1x7X5JgKvqxZhR-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-22" value="build jar with command;&lt;div&gt;command:&amp;nbsp;chmod +x {}/gradlew &amp;amp;&amp;amp; ./gradlew jar -p {} --parallel&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="77.5" y="3220" width="370" height="82.22" as="geometry" />
+          <mxGeometry x="77.5" y="3510" width="370" height="82.22" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XO1_8Q1x7X5JgKvqxZhR-24" target="XO1_8Q1x7X5JgKvqxZhR-39">
           <mxGeometry relative="1" as="geometry" />
@@ -1710,16 +1710,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-24" value="archive.zip has been decompressed?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="2652" width="155" height="155" as="geometry" />
+          <mxGeometry x="420" y="2942" width="155" height="155" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-25" value="does&amp;nbsp;&lt;div&gt;test-executor branch&amp;nbsp;&lt;/div&gt;&lt;div&gt;exist?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="185" y="2280" width="155" height="155" as="geometry" />
+          <mxGeometry x="185" y="2570" width="155" height="155" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XO1_8Q1x7X5JgKvqxZhR-27" target="XO1_8Q1x7X5JgKvqxZhR-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-27" value="decompress&amp;nbsp;archive.zip" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="77.5" y="3070" width="370" height="82.22" as="geometry" />
+          <mxGeometry x="77.5" y="3360" width="370" height="82.22" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XO1_8Q1x7X5JgKvqxZhR-28" target="XO1_8Q1x7X5JgKvqxZhR-27">
           <mxGeometry relative="1" as="geometry" />
@@ -1730,28 +1730,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-28" value="download test-executor form github" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="77.5" y="2900" width="370" height="82.22" as="geometry" />
+          <mxGeometry x="77.5" y="3190" width="370" height="82.22" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XO1_8Q1x7X5JgKvqxZhR-29" target="XO1_8Q1x7X5JgKvqxZhR-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-29" value="convert *.class to test-case object through bytecode parsing&lt;br&gt;(dependeny ---&amp;gt; implementation &#39;org.ow2.asm:asm:9.2&#39;)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="77.5" y="3382.22" width="370" height="82.22" as="geometry" />
+          <mxGeometry x="77.5" y="3672.22" width="370" height="82.22" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XO1_8Q1x7X5JgKvqxZhR-31" target="XO1_8Q1x7X5JgKvqxZhR-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-31" value="exclude ignore case" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="77.5" y="3544.4399999999996" width="370" height="82.22" as="geometry" />
+          <mxGeometry x="77.5" y="3834.4399999999996" width="370" height="82.22" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XO1_8Q1x7X5JgKvqxZhR-33" target="XO1_8Q1x7X5JgKvqxZhR-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-33" value="filter by request condition" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="77.5" y="3706.6599999999994" width="370" height="82.22" as="geometry" />
+          <mxGeometry x="77.5" y="3996.6599999999994" width="370" height="82.22" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-35" value="testCases" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="202.5" y="3850" width="120" height="60" as="geometry" />
+          <mxGeometry x="202.5" y="4140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XO1_8Q1x7X5JgKvqxZhR-39" target="XO1_8Q1x7X5JgKvqxZhR-22">
           <mxGeometry relative="1" as="geometry" />
@@ -1763,10 +1763,10 @@
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XO1_8Q1x7X5JgKvqxZhR-39" target="XO1_8Q1x7X5JgKvqxZhR-29">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="980" y="3745" as="targetPoint" />
+            <mxPoint x="980" y="4035" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="920" y="2729" />
-              <mxPoint x="920" y="3423" />
+              <mxPoint x="920" y="3019" />
+              <mxPoint x="920" y="3713" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1776,7 +1776,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XO1_8Q1x7X5JgKvqxZhR-39" value="jar has been build?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="2652" width="155" height="155" as="geometry" />
+          <mxGeometry x="690" y="2942" width="155" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="XO1_8Q1x7X5JgKvqxZhR-59" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 16px;&quot;&gt;workspace&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;Directory Structure&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;test-case-workspace&amp;nbsp;&lt;div&gt;&lt;div&gt;└── {&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;commitRevisionNumber&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ├── archive.zip&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; └── {repo}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ├── build&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;└── {case project name}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── libs&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── {case project.jar}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;Demo&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;test-case-workspace&amp;nbsp;&lt;div&gt;&lt;div&gt;└── b22b03f7e20c8350cfc05a8c52de0dbfdfa41f58&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ├── archive.zip&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; └── consumer-web-test-executor&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ├── build&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;└── consumer-web-test-interface&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── libs&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── com.wonder.consumer-web-test-interface-1.0.0.jar&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="35.75" y="2040" width="730" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="XO1_8Q1x7X5JgKvqxZhR-60" value="&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;dependencies&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; implementation(&quot;com.wonder:common-test-executor-framework:${commonTestExecutorFrameworkVersion}&quot;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; exclude group: &quot;core.framework&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; exclude group: &quot;org.slf4j&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; implementation &#39;org.ow2.asm:asm:9.2&#39;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="34.5" y="1880" width="732.5" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -3216,6 +3222,14 @@
         <mxCell id="L9eQOxdSy8eDeH6xdLLX-22" value="device" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="9580" y="70" width="80" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bLxZZJKPcgoXtUDfpEGV" name="test-report">
+    <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
