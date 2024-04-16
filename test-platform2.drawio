@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T12:31:28.039Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="7Cj0kSEe7-Ufrej8V1v6" version="24.2.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-04-16T13:51:06.547Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="9ec0NDC01jyuqSvsYvrH" version="24.2.5" type="github" pages="12">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3226,10 +3226,339 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bLxZZJKPcgoXtUDfpEGV" name="test-report">
-    <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2120" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-50" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-2" target="hoE-pQ15VuKpGTNqZ_fO-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="760" as="targetPoint" />
+            <mxPoint x="1010" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-39" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-23" target="hoE-pQ15VuKpGTNqZ_fO-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="770" as="targetPoint" />
+            <mxPoint x="730" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-1" value="test-site" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-2" value="test-report-site" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-3" value="test-case-service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1600" y="993.3333333333334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-4" value="test-api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1880.5" y="1016.6666666666666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-5" value="test-executor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1820.5" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="455" y="200" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-14" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="hoE-pQ15VuKpGTNqZ_fO-13" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="205" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="175" y="200" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-18" value="" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="hoE-pQ15VuKpGTNqZ_fO-17" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="205" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-23" value="kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="700" y="80" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="725" y="200" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-26" value="publish message&lt;br&gt;kafka topic:&amp;nbsp;bulk-generate-test-session" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" target="hoE-pQ15VuKpGTNqZ_fO-25" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="205" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-28" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;make plan&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="178" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-30" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;make plan&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="105" y="178" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-33" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="760" as="targetPoint" />
+            <mxPoint x="1010" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1005" y="320" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-35" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1015" y="360" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-36" value="init test session" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="hoE-pQ15VuKpGTNqZ_fO-35" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-37" value="subscribe&lt;br&gt;kafka topic:&amp;nbsp;bulk-generate-test-session" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="930" y="360" as="sourcePoint" />
+            <mxPoint x="850" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-40" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="725" y="320" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1876" y="450" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-47" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-4" target="hoE-pQ15VuKpGTNqZ_fO-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1600" y="993.3333333333334" as="targetPoint" />
+            <mxPoint x="1600" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-48" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1595" y="450" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-49" value="report case test result" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1800" y="480" as="sourcePoint" />
+            <mxPoint x="1720" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1006" y="450" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-52" value="azure storage" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="250" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-53" value="storage allure report&lt;br&gt;path =&amp;nbsp; allure_report/{deviceTaskId}/{caseName} zip" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1490" y="490" as="sourcePoint" />
+            <mxPoint x="1410" y="490" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-57" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-52" target="hoE-pQ15VuKpGTNqZ_fO-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="850" as="targetPoint" />
+            <mxPoint x="1260" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-58" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1255" y="460" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-59" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-51" target="hoE-pQ15VuKpGTNqZ_fO-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="760" as="targetPoint" />
+            <mxPoint x="1010" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-60" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1006" y="600" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-61" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-48" target="hoE-pQ15VuKpGTNqZ_fO-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1600" y="993.3333333333334" as="targetPoint" />
+            <mxPoint x="1600" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-62" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1596" y="600" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-63" value="save allure report to mongo DB" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1530" y="640" as="sourcePoint" />
+            <mxPoint x="1080" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-66" value="Mongo&lt;br&gt;DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="810" y="600" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-67" value="save" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="980" y="650" as="sourcePoint" />
+            <mxPoint x="900" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-81" value="test_session_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-78" target="hoE-pQ15VuKpGTNqZ_fO-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="1120" />
+              <mxPoint x="250" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-78" value="test_session_id=?" style="rounded=0;whiteSpace=wrap;html=1;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-79" value="API:&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; white-space: pre;&quot;&gt;AllureReportAJAXWebService.&lt;/span&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre;&quot;&gt;generate()&lt;/span&gt;&lt;br/&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre;&quot;&gt;web path: &lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="920" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-80" target="hoE-pQ15VuKpGTNqZ_fO-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-89" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hoE-pQ15VuKpGTNqZ_fO-85">
+          <mxGeometry x="-0.4963" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-80" target="hoE-pQ15VuKpGTNqZ_fO-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-113" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hoE-pQ15VuKpGTNqZ_fO-90">
+          <mxGeometry x="-0.8488" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-80" value="allure report archived?" style="rounded=0;whiteSpace=wrap;html=1;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-84" target="hoE-pQ15VuKpGTNqZ_fO-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-88" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;{testSessionId}.zip&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hoE-pQ15VuKpGTNqZ_fO-87">
+          <mxGeometry x="-0.0881" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-84" value="download archived report from azure storage;&lt;br&gt;&lt;div&gt;path =&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="1310" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-86" target="hoE-pQ15VuKpGTNqZ_fO-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-86" value="decompress {testSessionId}.zip" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="1450" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-91" target="hoE-pQ15VuKpGTNqZ_fO-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-94" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;allureReports&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hoE-pQ15VuKpGTNqZ_fO-93">
+          <mxGeometry x="-0.0881" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-91" value="find&amp;nbsp;allureReports by testSessionId" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1310" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-92" target="hoE-pQ15VuKpGTNqZ_fO-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-92" value="bulk download allure report file;&lt;br&gt;&lt;div&gt;allure_report : test_case = 1:1&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1450" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-95" target="hoE-pQ15VuKpGTNqZ_fO-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-95" value="batch decompress allure report file （json）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1590" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-97" target="hoE-pQ15VuKpGTNqZ_fO-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-97" value="generate allure report with commnad;&lt;div&gt;command =&amp;nbsp;allure generate --clean {allureResultsDir} -o {allureReportsDir}&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1730" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-99" target="hoE-pQ15VuKpGTNqZ_fO-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="2010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-99" value="&lt;div&gt;Replace static resource files;&lt;br&gt;file: {classPath}/allure/index.html&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1870" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-103" target="hoE-pQ15VuKpGTNqZ_fO-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-120" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hoE-pQ15VuKpGTNqZ_fO-108">
+          <mxGeometry x="-0.3167" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-103" target="hoE-pQ15VuKpGTNqZ_fO-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-119" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hoE-pQ15VuKpGTNqZ_fO-118">
+          <mxGeometry x="-0.9119" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-103" value="test session&lt;br&gt;&amp;nbsp;has finished?" style="rounded=0;whiteSpace=wrap;html=1;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-107" target="hoE-pQ15VuKpGTNqZ_fO-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-112" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;{testSessionId}.zip&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hoE-pQ15VuKpGTNqZ_fO-110">
+          <mxGeometry x="-0.0762" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-107" value="compress allure report (web project)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2070" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hoE-pQ15VuKpGTNqZ_fO-109" target="hoE-pQ15VuKpGTNqZ_fO-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-109" value="upload archived allureReport;&lt;div&gt;az path = allure_report_html/{testSessionId}.zip&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2210" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-114" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-116" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-121" value="init test session &amp;amp; report case test result" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="36" y="10" width="344" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-123" value="generate allure report web project" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="70" y="800" width="274" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
