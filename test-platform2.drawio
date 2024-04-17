@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T07:46:07.171Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="87XUssf7osKcmMRIrqe_" version="24.2.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-04-17T07:47:21.261Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="42L9p2BHiTwdHShp80Ki" version="24.2.5" type="github" pages="12">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3226,7 +3226,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bLxZZJKPcgoXtUDfpEGV" name="test-report">
-    <mxGraphModel dx="2653" dy="1229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1706" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3576,7 +3576,7 @@
         <mxCell id="hoE-pQ15VuKpGTNqZ_fO-129" value="&lt;br&gt;test-report-site-frontend&lt;div&gt;&lt;div&gt;├── static&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── allure&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── app.js&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── styles.css&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1341" y="1620" width="409" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-1" value="Note" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-1" value="generate UI difference report" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
           <mxGeometry x="75" y="2760" width="455" height="80" as="geometry" />
         </mxCell>
       </root>
