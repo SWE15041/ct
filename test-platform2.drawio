@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T14:02:13.291Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="e8l-cNqE-PItU3Zh8Lu_" version="24.2.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-04-17T03:51:50.341Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="xc-zzw7GtcCEZ294875Y" version="24.2.5" type="github" pages="12">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3226,7 +3226,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bLxZZJKPcgoXtUDfpEGV" name="test-report">
-    <mxGraphModel dx="2385" dy="1298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1272" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3569,6 +3569,12 @@
               <mxPoint x="1046" y="650" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-128" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;workspace&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;test-report-workspace&lt;br&gt;&lt;/div&gt;&lt;div&gt;├── allure-reports&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── data&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── attachments&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── test-cases&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── export&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── history&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── plugins&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── behaviors&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── jira&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── junit&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── packages&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── screen-diff&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── trx&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── xctest&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── xray&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── xunit-xml&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;└── widgets&lt;/div&gt;&lt;div&gt;├── allure-results&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;└── Pixel_4_XL_API_31_Emu&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── CheckOrderRelatedEmailImpl&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── checkOrderCancelEmail&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── checkOrderConfirmEmail&lt;/div&gt;&lt;div&gt;└── compress&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ├── checkoutPageTest.zip&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; └── checkoutPageTest2.zip&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="660" y="930" width="1120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-129" value="&lt;br&gt;test-report-site-frontend&lt;div&gt;&lt;div&gt;├── static&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── allure&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── app.js&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── styles.css&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1341" y="1620" width="409" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
