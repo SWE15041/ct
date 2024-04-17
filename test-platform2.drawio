@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T09:03:32.993Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="7nltueDIAUP41GPpCw_p" version="24.2.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-04-17T09:07:33.314Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="cXkmieD06jWaab8UIQDL" version="24.2.5" type="github" pages="12">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3680,10 +3680,13 @@
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-31" target="BIXX4PsCCjZafZ8Pq9M1-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-31" value="&lt;div&gt;mismatchDegree&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-31" target="BIXX4PsCCjZafZ8Pq9M1-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-31" value="&lt;div&gt;upload image to azure storage&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="105" y="4470" width="500" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-34" value="compare testScreenshot and standardScreenshot" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-34" value="save UIDiffReport&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="105" y="4590" width="500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-37" value="test screenshot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -3716,6 +3719,15 @@
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-49" value="path&lt;br&gt;&lt;br&gt;&lt;div&gt;ui_diff_report/{testSessionId}/{case_name}_{page_name}_diff_result.png&lt;div&gt;ui_diff_report/{testSessionId}/{case_name}_{page_name}_standard_screenshot.png&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ui_diff_report/{testSessionId}/{case_name}_{page_name}_test_screenshot.png&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;demo&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ui_diff_report/e1bffe2835ef40c7bcc2b6d25fd765ba/checkDeliveryOrderPostPurchase_delivery_order_status_delivered_diff_result.png&lt;br&gt;ui_diff_report/e1bffe2835ef40c7bcc2b6d25fd765ba/checkDeliveryOrderPostPurchase_delivery_order_status_delivered_standard_screenshot.png&lt;br&gt;ui_diff_report/e1bffe2835ef40c7bcc2b6d25fd765ba/checkDeliveryOrderPostPurchase_delivery_order_status_delivered_test_screenshot.png&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1770" y="3830" width="830" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-50" value="azure storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="810" y="4460" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-52" value="mongo DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="810" y="4580" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-34" target="BIXX4PsCCjZafZ8Pq9M1-52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
