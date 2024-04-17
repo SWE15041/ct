@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T10:19:13.199Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ZxNot8Fak1f6QIX97AT6" version="24.2.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-04-17T10:30:17.667Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ib1ki3qAUkPw7-7-iuXi" version="24.2.5" type="github" pages="12">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3226,7 +3226,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bLxZZJKPcgoXtUDfpEGV" name="test-report">
-    <mxGraphModel dx="1193" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3816" dy="2212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3567,17 +3567,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-128" value="&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;API:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AllureReportAJAXWebService.&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre; text-align: center; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; background-color: initial;&quot;&gt;generate()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;text-align: center;&quot; face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre;&quot;&gt;allure report web path: &lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 13.0667px; white-space: pre;&quot;&gt;/allure-report/{testSessionId}/allure-reports/index.html&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;workspace&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;test-report-workspace&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;├── allure&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;└── e1bffe2835ef40c7bcc2b6d25fd765ba&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── allure-reports&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── app.js&lt;/font&gt;&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── data&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── export&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── favicon.ico&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── history&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── categories-trend.json&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── duration-trend.json&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── history-trend.json&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── history.json&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── retry-trend.json&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── index.html&lt;/font&gt;&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── plugins&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── styles.css&lt;/font&gt;&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── widgets&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── allure-results&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── compress&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── e1bffe2835ef40c7bcc2b6d25fd765ba.zip&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1341" y="1160" width="1120" height="400" as="geometry" />
+        <mxCell id="hoE-pQ15VuKpGTNqZ_fO-128" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;test-report-site-frontend:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;text-align: center;&quot; face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre;&quot;&gt;allureReportPath: &lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre;&quot;&gt;/allure-report/{testSessionId}/allure-reports/index.html&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre;&quot;&gt;&amp;lt;iframe key={temp} scrolling=&quot;yes&quot; title=&quot;report&quot; width=&quot;100%&quot; height=&quot;1000&quot; frameBorder=&quot;0&quot; src={&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre;&quot;&gt;allureReportPath&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre;&quot;&gt;} /&amp;gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;div style=&quot;font-family: Helvetica;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;API:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AllureReportAJAXWebService.&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre; text-align: center; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; background-color: initial;&quot;&gt;generate()&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;workspace&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;test-report-workspace&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;├── allure&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;└── e1bffe2835ef40c7bcc2b6d25fd765ba&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── allure-reports&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── app.js&lt;/font&gt;&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── data&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── export&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── favicon.ico&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── history&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── categories-trend.json&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── duration-trend.json&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── history-trend.json&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── history.json&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── retry-trend.json&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── index.html&lt;/font&gt;&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── plugins&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── styles.css&lt;/font&gt;&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── widgets&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── allure-results&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── compress&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── e1bffe2835ef40c7bcc2b6d25fd765ba.zip&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="1341" y="1120" width="1120" height="460" as="geometry" />
         </mxCell>
         <mxCell id="hoE-pQ15VuKpGTNqZ_fO-129" value="&lt;br&gt;test-report-site-frontend&lt;div&gt;&lt;div&gt;├── static&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── allure&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── app.js&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── styles.css&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1341" y="1620" width="409" height="160" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-1" value="generate UI difference report" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="75" y="2760" width="455" height="80" as="geometry" />
+          <mxGeometry x="344" y="2690" width="455" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-2" target="BIXX4PsCCjZafZ8Pq9M1-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-2" value="testSessionId=?&lt;div&gt;caseName=?&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="2910" width="120" height="60" as="geometry" />
+          <mxGeometry x="533" y="2840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-3" target="BIXX4PsCCjZafZ8Pq9M1-4">
           <mxGeometry relative="1" as="geometry" />
@@ -3591,7 +3594,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-3" value="get&amp;nbsp;standardScreenshot by testSessionId and caseName&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="75" y="3040" width="500" height="60" as="geometry" />
+          <mxGeometry x="345" y="2970" width="500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-4" target="BIXX4PsCCjZafZ8Pq9M1-7">
           <mxGeometry relative="1" as="geometry" />
@@ -3602,47 +3605,61 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-4" value="get&amp;nbsp;allureReport by testSessionId and caseName&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="75" y="3180" width="500" height="60" as="geometry" />
+          <mxGeometry x="345" y="3110" width="500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-7" target="BIXX4PsCCjZafZ8Pq9M1-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-7" value="&lt;div style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;white-space:pre;&quot;&gt;download allureReport(case.zip)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="75" y="3320" width="500" height="60" as="geometry" />
+          <mxGeometry x="345" y="3250" width="500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-10" target="BIXX4PsCCjZafZ8Pq9M1-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-10" value="batch decompress allureReports;&lt;div&gt;location: {user.dir}/test-report-workspace/ui/{&lt;span style=&quot;background-color: initial;&quot;&gt;testSessionId&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}/decompress&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="75" y="3460" width="500" height="60" as="geometry" />
+          <mxGeometry x="345" y="3390" width="500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-55" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-12" target="BIXX4PsCCjZafZ8Pq9M1-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-12" value="get&amp;nbsp;standardScreenshots by testSessionId and caseName&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="75" y="3600" width="500" height="60" as="geometry" />
+          <mxGeometry x="345" y="3530" width="500" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-15" target="BIXX4PsCCjZafZ8Pq9M1-12">
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-15" target="BIXX4PsCCjZafZ8Pq9M1-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="920" y="3615" />
+              <mxPoint x="210" y="3690" />
+              <mxPoint x="596" y="3690" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-15" value="standardScreenshot = next standardScreenshot" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="3740" width="500" height="60" as="geometry" />
+          <mxGeometry x="57" y="3740" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-57" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-17" target="BIXX4PsCCjZafZ8Pq9M1-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-64" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BIXX4PsCCjZafZ8Pq9M1-57">
+          <mxGeometry x="-0.1232" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-17" target="BIXX4PsCCjZafZ8Pq9M1-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-65" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BIXX4PsCCjZafZ8Pq9M1-62">
+          <mxGeometry x="-0.4304" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-17" value="has standardScreenshot?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="239" y="3710" width="155" height="120" as="geometry" />
+          <mxGeometry x="519" y="3710" width="155" height="120" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-21" target="BIXX4PsCCjZafZ8Pq9M1-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-21" value="find&amp;nbsp;deviceStandardScreenshot&amp;nbsp;&lt;div&gt;by caseName and&amp;nbsp;standardScreenshotName and deviceName&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="71" y="3890" width="500" height="60" as="geometry" />
+          <mxGeometry x="351" y="3890" width="500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-22" target="BIXX4PsCCjZafZ8Pq9M1-24">
           <mxGeometry relative="1" as="geometry" />
@@ -3656,7 +3673,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-22" value="download&amp;nbsp;deviceStandardScreenshot;&lt;div&gt;standardScreenshotLocalPath:&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;{user.dir}/test-report-workspace/ui&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/{testSessionId}/{&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;standardScreenshotFilename&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="71" y="4030" width="501" height="60" as="geometry" />
+          <mxGeometry x="351" y="4030" width="501" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-24" target="BIXX4PsCCjZafZ8Pq9M1-26">
           <mxGeometry relative="1" as="geometry" />
@@ -3667,7 +3684,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-24" value="find&amp;nbsp;testScreenshot from allure report decompress dir;&lt;br&gt;testScreenshotLocalPath = {user.dir}/test-report-workspace/ui/{testSessionId}/decompress/{standardScreenshotName}.png" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="71" y="4170" width="500" height="60" as="geometry" />
+          <mxGeometry x="351" y="4170" width="500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-26" target="BIXX4PsCCjZafZ8Pq9M1-31">
           <mxGeometry relative="1" as="geometry" />
@@ -3678,7 +3695,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-26" value="compare testScreenshot to standardScreenshot;&amp;nbsp;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;diffResultLocalPath =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;{user.dir}/test-report-workspace/ui/{testSessionId}/{caseName}_{standardScreenshotName}_diff_result.png;&lt;br&gt;&lt;/span&gt;mismatchDegree = xxx.xx&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="71" y="4310" width="500" height="80" as="geometry" />
+          <mxGeometry x="351" y="4310" width="500" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-31" target="BIXX4PsCCjZafZ8Pq9M1-34">
           <mxGeometry relative="1" as="geometry" />
@@ -3687,53 +3704,41 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-31" value="&lt;div&gt;upload image to azure storage&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="71" y="4470" width="500" height="60" as="geometry" />
+          <mxGeometry x="351" y="4470" width="500" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-34" value="save UIDiffReport&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="71" y="4590" width="500" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-37" value="test screenshot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="4070" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-38" value="standard screenshot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="956" y="4210" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-43" value="download&amp;nbsp;deviceStandardScreenshot;&lt;div&gt;standardScreenshotLocalPath:&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;{user.dir}/test-report-workspace/ui&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/{testSessionId}/{&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;standardScreenshotFilename&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1095" y="4390" width="501" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-44" value="compare" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="4140" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-45" value="diffResult image" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1341" y="4200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-46" value="mismatchDegree" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1341" y="4062" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-47" value="azure storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1654" y="3870" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-37" target="BIXX4PsCCjZafZ8Pq9M1-47">
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-59" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-34" target="BIXX4PsCCjZafZ8Pq9M1-15">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1010" y="3910" />
+              <mxPoint x="207" y="4620" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-34" value="save UIDiffReport&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="351" y="4590" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-47" value="azure storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1934" y="3870" width="60" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-49" value="path&lt;br&gt;&lt;br&gt;&lt;div&gt;ui_diff_report/{testSessionId}/{case_name}_{page_name}_diff_result.png&lt;div&gt;ui_diff_report/{testSessionId}/{case_name}_{page_name}_standard_screenshot.png&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ui_diff_report/{testSessionId}/{case_name}_{page_name}_test_screenshot.png&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;demo&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ui_diff_report/e1bffe2835ef40c7bcc2b6d25fd765ba/checkDeliveryOrderPostPurchase_delivery_order_status_delivered_diff_result.png&lt;br&gt;ui_diff_report/e1bffe2835ef40c7bcc2b6d25fd765ba/checkDeliveryOrderPostPurchase_delivery_order_status_delivered_standard_screenshot.png&lt;br&gt;ui_diff_report/e1bffe2835ef40c7bcc2b6d25fd765ba/checkDeliveryOrderPostPurchase_delivery_order_status_delivered_test_screenshot.png&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1770" y="3830" width="830" height="220" as="geometry" />
+          <mxGeometry x="1320" y="4390" width="830" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-50" target="BIXX4PsCCjZafZ8Pq9M1-49">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-50" value="azure storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="776" y="4460" width="60" height="80" as="geometry" />
+          <mxGeometry x="1056" y="4460" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-52" value="mongo DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="776" y="4580" width="60" height="80" as="geometry" />
+          <mxGeometry x="1056" y="4580" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-34" target="BIXX4PsCCjZafZ8Pq9M1-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-54" value="&lt;div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;workspace&lt;/font&gt;&lt;/b&gt;&lt;br&gt;test-report-workspace&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;└── ui&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; └── {testSessionId}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ├── compress&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;└── {allureReport.zip}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ├── decompress&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;└── {groupName}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── {caseName}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── {screenshot.png}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ├── {caseName}_{screenshotName}_diff_result.png&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; └── caseName}_{screenshotName}_standard_screenshot.png&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;demo&lt;/font&gt;&lt;br&gt;test-report-workspace&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;└── ui&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; └── e1bffe2835ef40c7bcc2b6d25fd765ba&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ├── compress&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;└── visitorHomePageScreenshot.zip&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ├── decompress&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;└── VisitorHomePageScreenshotImpl&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── visitorHomePageScreenshot&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── visitor_home_page_top.png&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ├── visitorHomePageScreenshot_visitor_home_page_top_diff_result.png&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; └── visitorHomePageScreenshot_visitor_home_page_top_standard_screenshot.png&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1631" y="4230" width="830" height="400" as="geometry" />
+          <mxGeometry x="1320" y="3900" width="830" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-61" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="3730" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
