@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T08:31:06.366Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="GcI58X6toD3H0pqm7mnQ" version="24.2.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-04-17T08:47:34.293Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="t-Az8jBla33q-vIKDLny" version="24.2.5" type="github" pages="12">
   <diagram id="Yf5h-WjNpbWa4NE3nOc_" name="app center">
     <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3226,7 +3226,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bLxZZJKPcgoXtUDfpEGV" name="test-report">
-    <mxGraphModel dx="1706" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1837" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3669,7 +3669,7 @@
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BIXX4PsCCjZafZ8Pq9M1-26" target="BIXX4PsCCjZafZ8Pq9M1-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-33" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;mismatchDegree&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BIXX4PsCCjZafZ8Pq9M1-32">
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-33" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;mismatchDegree&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;diffResultLocalPath&lt;/span&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BIXX4PsCCjZafZ8Pq9M1-32">
           <mxGeometry x="-0.25" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -3681,10 +3681,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-31" value="&lt;div&gt;mismatchDegree&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="105" y="4450" width="500" height="60" as="geometry" />
+          <mxGeometry x="105" y="4470" width="500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BIXX4PsCCjZafZ8Pq9M1-34" value="compare testScreenshot and standardScreenshot" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="105" y="4590" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-37" value="test screenshot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="4070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-38" value="standard screenshot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="956" y="4210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-43" value="download&amp;nbsp;deviceStandardScreenshot;&lt;div&gt;standardScreenshotLocalPath:&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;{user.dir}/test-report-workspace/ui&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/{testSessionId}/{&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;standardScreenshotFilename&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="4240" width="501" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-44" value="compare" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="4140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-45" value="diffResult image" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1341" y="4200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BIXX4PsCCjZafZ8Pq9M1-46" value="mismatchDegree" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1341" y="4062" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
